@@ -1,8 +1,14 @@
 :root {
     --main: #ffffff;
+    --main-2: #f7f7f7;
+    --main-3: #e7e7e7;
     --secondary: #102230;
-    --complementary: #801010;
-    --hiden: #4f5f6f;
+    --secondary2: #203240;
+    --complementary: #b90d0d;
+}
+
+::selection {
+    background-color: #fcb3bf;
 }
 
 * {
@@ -14,14 +20,25 @@
     transition: all 0.3s ease-in-out;
 }
 
-::selection {
-    background-color: #fcb3bf;
+body {
+    height: 100svh;
+    background-color: var(--main);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1.5em;
+    max-width: 1280px;
+}
+
+.complementary {
+    color: var(--complementary);
 }
 
 header {
     width: 100%;
     height: 6rem;
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +46,8 @@ header {
 }
 
 .logo {
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: 700;
     position: absolute;
     left: 2rem;
 }
@@ -47,7 +65,7 @@ nav {
 .nav {
     font-family: 'Bebas Neue', sans-serif;
     font-size: larger;
-    padding: 0 .5rem;
+    padding: 0 .75em;
 }
 
 nav:has(.nav:hover) > .nav {
@@ -59,6 +77,40 @@ nav:has(.nav:hover) > .nav {
     color: var(--complementary);
 }
 
+.header-space {
+    height: 4rem;
+}
+
+section.white {
+    background-color: var(--main);
+    padding: 2em 0;
+}
+
+section.gray {
+    background-color: var(--main-2);
+    padding: 2em 0;
+}
+
 footer {
     width: 100%;
+    background-color: var(--main-2);
+}
+
+.sponsor {
+    padding: 64px 0;
+    columns: 3 300px;
+    gap: 1em;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 0;
+    border-top: solid 1px var(--main-3);
+}
+
+.copyright div {
+    font-size: .94rem;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui", Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
 }

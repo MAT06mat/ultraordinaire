@@ -17,11 +17,12 @@
     font-family: sans-serif;
     color: var(--secondary);
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    transition-property: color, opacity;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
 }
 
 body {
-    height: 100svh;
     background-color: var(--main);
 }
 
@@ -52,7 +53,7 @@ header {
   }
 
 header.showed {
-    animation: .2s ease-in show;
+    animation: .3s ease show;
     position: fixed;
     top: 0px;
     height: 4em;
@@ -78,7 +79,9 @@ nav {
 
 .nav {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: larger;
+    font-stretch: extra-condensed;
+    font-weight: 800;
+    font-size: 21px;
     padding: 0 .75em;
 }
 

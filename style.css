@@ -53,7 +53,7 @@ header {
 
 header.showed {
     animation: .2s ease-in show;
-    position: fixed !important;
+    position: fixed;
     top: 0px;
     height: 4em;
     background-color: var(--main);

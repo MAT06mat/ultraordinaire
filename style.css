@@ -5,6 +5,7 @@
     --secondary: #102230;
     --secondary2: #203240;
     --complementary: #b90d0d;
+    --complementary-2: #fff9f9;
 }
 
 ::selection {
@@ -18,7 +19,7 @@
     color: var(--secondary);
     text-decoration: none;
     transition-property: color, opacity;
-    transition-duration: .2s;
+    transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
 
@@ -36,6 +37,8 @@ body {
     color: var(--complementary);
 }
 
+/* --------------- HEADER --------------- */
+
 header {
     width: 100%;
     height: 7em;
@@ -48,12 +51,19 @@ header {
 }
 
 @keyframes show {
-    from { top: -20px; opacity: 0;}
-    to   { top: 0px; opacity: 1;}
-  }
+    from {
+        top: -20px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
 
 header.showed {
-    animation: .3s ease show;
+    animation: 0.3s ease show;
     position: fixed;
     top: 0px;
     height: 4em;
@@ -68,35 +78,88 @@ header.showed {
 }
 
 .logo:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
-nav {
+
+.nav-links {
     display: flex;
-    justify-content: space-between;
     cursor: pointer;
 }
 
-.nav {
-    font-family: 'Bebas Neue', sans-serif;
+.nav-links li {
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav-links .drop-menu {
+    position: absolute;
+    background: var(--main);
+    border-radius: 5px;
+    width: min-content;
+    line-height: 3em;
+    top: 4em;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0.5em 0;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-links li:hover .drop-menu {
+    transition: all 0.3s ease;
+    top: 5.6em;
+    opacity: 1;
+    visibility: visible;
+}
+
+header.showed .nav-links li:hover .drop-menu {
+    top: 3.5em;
+}
+
+.drop-menu li {
+    width: 100%;
+    padding: 0;
+}
+
+.drop-menu li a {
+    padding: 0 1.5em;
+    display: block;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 0px;
+    width: max-content;
+}
+
+.drop-menu li:hover {
+    transition: all 0.2s;
+    background-color: var(--complementary-2);
+}
+
+nav:has(li:hover> a) > ul > li > a{
+    opacity: 0.6;
+}
+
+nav li>a {
+    font-family: "Bebas Neue", sans-serif;
     font-stretch: extra-condensed;
     font-weight: 800;
     font-size: 21px;
-    padding: 0 .75em;
+    padding: 1em 1.25em;
 }
 
-nav:has(.nav:hover) > .nav {
-    opacity: .6;
-}
-
-.nav:hover {
+nav li:hover > a {
     opacity: 1 !important;
+}
+
+nav li > a:hover {
     color: var(--complementary);
 }
 
 .header-space {
     height: 5em;
 }
+
+/* --------------- SECTIONS --------------- */
 
 section.white {
     background-color: var(--main);
@@ -107,6 +170,8 @@ section.gray {
     background-color: var(--main-2);
     padding: 2em 0;
 }
+
+/* --------------- FOOTER --------------- */
 
 footer {
     width: 100%;
@@ -120,7 +185,7 @@ footer {
     text-align: center;
 }
 
-.copyright{
+.copyright {
     display: flex;
     justify-content: space-between;
     padding: 1.5em 0;
@@ -128,6 +193,7 @@ footer {
 }
 
 .copyright div {
-    font-size: .94em;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui", Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    font-size: 0.94em;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui", Helvetica,
+        Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
 }

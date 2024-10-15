@@ -8,15 +8,16 @@
     --secondary: #102230;
     --secondary2: #203240;
     --complementary: #b90d0d;
-    --complementary-2: #fff9f9;
+    --complementary-2: #ffcfd7;
+    --complementary-3: #fff9f9;
 }
 
 ::selection {
-    background-color: #ffcfd7;
+    background-color: var(--complementary-2);
 }
 
 ::-moz-selection {
-    background-color: #ffcfd7;
+    background-color: var(--complementary-2);
 }
 
 * {

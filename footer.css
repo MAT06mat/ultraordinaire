@@ -1,0 +1,26 @@
+/* --------------- FOOTER --------------- */
+
+footer {
+    width: 100%;
+    background-color: var(--main-2);
+}
+
+.sponsor {
+    padding: 64px 0;
+    columns: 3 300px;
+    gap: 1em;
+    text-align: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 0;
+    border-top: solid 1px var(--main-3);
+}
+
+.copyright div {
+    font-size: 0.94em;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui", Helvetica,
+        Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}

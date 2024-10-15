@@ -73,10 +73,6 @@ nav li > a:hover {
     list-style: none;
 }
 
-.nav-links li:active {
-    background-color: transparent;
-}
-
 .nav-links .drop-menu {
     position: absolute;
     background: var(--main);

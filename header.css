@@ -147,7 +147,7 @@ nav .btn {
 }
 
 nav .btn.close-btn {
-    margin-left: 1.5em;
+    margin-left: 9.8px;
     margin-top: .75em;
 }
 
@@ -171,7 +171,7 @@ nav .btn.close-btn {
     }
 
     nav {
-        margin: 0 2em;
+        margin: 0 2em 0 9.8px;
     }
 
     nav .btn {
@@ -182,10 +182,12 @@ nav .btn.close-btn {
         align-content: center;
         background-color: var(--main-2);
         border-radius: 1.4em;
+        stroke: var(--secondary);
     }
     
     nav .btn:hover {
         background-color: var(--main-3);
+        stroke: var(--complementary);
     }
 
     nav .btn svg {
@@ -205,7 +207,7 @@ nav .btn.close-btn {
         display: block;
         background-color: var(--main);
         padding: 0;
-        overflow-y: None;
+        overflow-y: auto;
         box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
         transition: all 0.3s ease;
     }
@@ -267,5 +269,24 @@ nav .btn.close-btn {
 
     .header-space {
         height: 3em;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    nav {
+        margin: 0 1em 0 9.8px;
+    }
+
+    .logo {
+        font-size: x-large;
+    }
+    
+    nav .btn.close-btn {
+        margin-left: 9.8px;
+        margin-top: .25em;
+    }
+    
+    .nav-links>li {
+        margin-top: .25em;
     }
 }

@@ -47,7 +47,7 @@ nav {
     opacity: 0.8;
 }
 
-nav:has(li:hover> a) > ul > li > a{
+nav:has(li:hover> a)>ul>li>a {
     opacity: 0.6;
 }
 
@@ -59,11 +59,11 @@ nav li>a {
     padding: 1em 1.25em;
 }
 
-nav li:hover > a {
+nav li:hover>a {
     opacity: 1 !important;
 }
 
-nav li > a:hover {
+nav li>a:hover {
     color: var(--complementary);
 }
 
@@ -131,6 +131,141 @@ header.showed .nav-links li:hover .drop-menu {
     min-width: 8em;
 }
 
+.nav-links .mobile-item {
+    display: none;
+}
+
+nav input {
+    display: none;
+}
+
+nav .btn {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .btn.close-btn {
+    margin-left: 1.5em;
+    margin-top: .75em;
+}
+
 .header-space {
     height: 5em;
+}
+
+@media screen and (max-width: 970px) {
+    @keyframes show {
+        from {
+            top: -20px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    }
+
+    header {
+        height: 5em;
+    }
+
+    nav {
+        margin: 0 2em;
+    }
+
+    nav .btn {
+        display: block;
+        width: 2.8em;
+        height: 2.8em;
+        display: flex;
+        align-content: center;
+        background-color: var(--main-2);
+        border-radius: 1.4em;
+    }
+    
+    nav .btn:hover {
+        background-color: var(--main-3);
+    }
+
+    nav .btn svg {
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    nav .nav-links {
+        position: fixed;
+        height: 100vh;
+        width: calc(100% - 3em);
+        max-width: 30em;
+        top: 0;
+        left: -100%;
+        display: block;
+        background-color: var(--main);
+        padding: 0;
+        overflow-y: None;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
+        transition: all 0.3s ease;
+    }
+
+    #menu-btn:checked~.nav-links {
+        left: 0%;
+    }
+
+    :checked~.btn.menu-btn {
+        display: none;
+    }
+
+    #close-btn:checked~.btn.menu-btn {
+        display: block;
+    }
+
+    .nav-links>li {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0;
+        background-color: var(--complementary-3);
+    }
+
+    .nav-links>li>a {
+        border-left: solid .15em var(--complementary);
+        padding: .75em;
+        display: block;
+        font-size: 1.2em;
+        color: var(--complementary);
+    }
+
+    .nav-links .drop-menu {
+        position: static;
+        opacity: 1;
+        top: 65px;
+        visibility: visible;
+        padding: 0;
+        width: 100% !important;
+        overflow: hidden;
+        box-shadow: none;
+        transition: all 0.3s ease;
+    }
+
+    .drop-menu li {
+        margin: 0;
+        padding: .5em 0;
+    }
+
+    .drop-menu li a {
+        border-radius: 5px;
+        font-size: 18px;
+        width: max-content;
+        max-width: None;
+    }
+
+    nav:has(li:hover> a)>ul>li>a {
+        opacity: 1;
+    }
+
+    .header-space {
+        height: 3em;
+    }
 }

@@ -199,7 +199,7 @@ nav .btn.close-btn {
 
     nav .nav-links {
         position: fixed;
-        height: 100vh;
+        height: 100svh;
         width: calc(100% - 3em);
         max-width: 30em;
         top: 0;

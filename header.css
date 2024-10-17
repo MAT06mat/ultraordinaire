@@ -199,7 +199,7 @@ nav .btn.close-btn {
 
     nav .nav-links {
         position: fixed;
-        height: 100svh;
+        height: 100%;
         width: calc(100% - 3em);
         max-width: 30em;
         top: 0;
@@ -210,18 +210,12 @@ nav .btn.close-btn {
         overflow-y: auto;
         box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
         transition: all 0.3s ease;
+        opacity: 0;
     }
 
     #menu-btn:checked~.nav-links {
         left: 0%;
-    }
-
-    :checked~.btn.menu-btn {
-        display: none;
-    }
-
-    #close-btn:checked~.btn.menu-btn {
-        display: block;
+        opacity: 1;
     }
 
     .nav-links>li {
@@ -258,7 +252,7 @@ nav .btn.close-btn {
 
     .drop-menu li a {
         border-radius: 5px;
-        font-size: 18px;
+        font-size: 1.1em;
         width: max-content;
         max-width: None;
     }
@@ -288,5 +282,18 @@ nav .btn.close-btn {
     
     .nav-links>li {
         margin-top: .25em;
+    }
+
+    .nav-links>li>a {
+        font-size: 1em;
+    }
+
+    .drop-menu li {
+        padding: .3em 0;
+    }
+
+    .drop-menu li a {
+        font-size: .9em;
+        line-height: 1.2em;
     }
 }

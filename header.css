@@ -140,7 +140,6 @@ nav input {
 }
 
 nav .btn {
-    color: #fff;
     font-size: 20px;
     cursor: pointer;
     display: none;
@@ -160,7 +159,7 @@ nav .btn.close-btn {
         from {
             top: -20px;
         }
-    
+
         to {
             top: 0px;
         }
@@ -182,11 +181,13 @@ nav .btn.close-btn {
         align-content: center;
         background-color: var(--main-2);
         border-radius: 1.4em;
-        stroke: var(--secondary);
     }
-    
+
     nav .btn:hover {
         background-color: var(--main-3);
+    }
+
+    nav .btn:hover path {
         stroke: var(--complementary);
     }
 
@@ -274,12 +275,12 @@ nav .btn.close-btn {
     .logo {
         font-size: x-large;
     }
-    
+
     nav .btn.close-btn {
         margin-left: 9.8px;
         margin-top: .25em;
     }
-    
+
     .nav-links>li {
         margin-top: .25em;
     }

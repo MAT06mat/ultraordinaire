@@ -46,6 +46,11 @@ body {
     color: var(--complementary);
 }
 
+path {
+    stroke: var(--secondary);
+    stroke-width: 6;
+    stroke-linecap: round;
+}
 
 /* --------------- SECTIONS --------------- */
 

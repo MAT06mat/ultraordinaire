@@ -1,13 +1,13 @@
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Section from "./components/Section";
 
 function App() {
     return (
         <>
             <Header />
-            <section className="gray">
-                <div className="header-space"></div>
+            <Section color="gray" isFirst>
                 <div className="container">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quidem officia quasi cumque laborum velit obcaecati quo
@@ -140,8 +140,8 @@ function App() {
                     reiciendis nobis deserunt quaerat velit magnam quam numquam
                     molestiae, facere iste sequi doloremque. Harum, dolore?
                 </div>
-            </section>
-            <section className="white">
+            </Section>
+            <Section>
                 <div className="container">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Vitae quam maxime inventore doloribus quod architecto non
@@ -248,7 +248,7 @@ function App() {
                     pariatur distinctio obcaecati corporis odit. Ad, quis
                     expedita.
                 </div>
-            </section>
+            </Section>
             <Footer />
         </>
     );

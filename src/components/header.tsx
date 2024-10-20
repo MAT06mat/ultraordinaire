@@ -1,3 +1,4 @@
+import "../assets/css/header.css";
 import { useState } from "react";
 
 function Header() {

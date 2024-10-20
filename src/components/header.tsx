@@ -1,5 +1,6 @@
 import "../assets/css/header.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
     const body = document.querySelector("body");
@@ -27,9 +28,9 @@ function Header() {
                         <path d="M3 20L37 20" />
                     </svg>
                 </label>
-                <a href="#a" className="logo">
+                <Link to={"/"} className="logo">
                     <span className="complementary">ULTRA</span>ORDINAIRE
-                </a>
+                </Link>
                 <input type="radio" name="slider" id="close-btn" />
                 <input type="radio" name="slider" id="menu-btn" />
                 <ul className="nav-links">

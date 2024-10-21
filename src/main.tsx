@@ -10,6 +10,10 @@ const router = createBrowserRouter([
         element: <App />,
         errorElement: <ErrorPage />,
     },
+    {
+        path: "404",
+        element: <ErrorPage />,
+    },
 ]);
 
 createRoot(document.getElementById("root")!).render(

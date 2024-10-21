@@ -47,6 +47,15 @@ nav {
     opacity: 0.8;
 }
 
+.background-button {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100lvh;
+    width: 100lvw;
+}
+
 nav:has(li:hover> a)>ul>li>a {
     opacity: 0.6;
 }
@@ -173,12 +182,15 @@ header~* {
         border-radius: 0 0 1em 1em;
     }
 
+    nav:has(.nav-links.open) .background-button {
+        display: block;
+    }
+
     nav {
         margin: 0 2em 0 9.8px;
     }
 
     nav .btn {
-        display: block;
         width: 2.8em;
         height: 2.8em;
         display: flex;
@@ -216,9 +228,10 @@ header~* {
         box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
         transition: all 0.3s ease;
         opacity: 0;
+        cursor: auto;
     }
 
-    #menu-btn:checked~.nav-links {
+    nav .nav-links.open {
         left: 0%;
         opacity: 1;
     }
@@ -266,8 +279,8 @@ header~* {
         opacity: 1;
     }
 
-    .header-space {
-        height: 3em;
+    header~* {
+        padding-top: 5em !important;
     }
 }
 

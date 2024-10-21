@@ -28,7 +28,7 @@ function Header() {
                         <path d="M3 20L37 20" />
                     </svg>
                 </label>
-                <Link to={"/"} className="logo">
+                <Link to="" className="logo">
                     <span className="complementary">ULTRA</span>ORDINAIRE
                 </Link>
                 <input type="radio" name="slider" id="close-btn" />
@@ -44,59 +44,67 @@ function Header() {
                         </svg>
                     </label>
                     <li>
-                        <a href="#">CONFERENCES</a>
+                        <Link to="conferences">CONFERENCES</Link>
                         <ul className="drop-menu">
                             <li>
-                                <a href="#link2">MENTAL</a>
+                                <Link to="conferences/mental">MENTAL</Link>
                             </li>
                             <li>
-                                <a href="#link3">PHYSIQUE</a>
+                                <Link to="conferences/physique">PHYSIQUE</Link>
                             </li>
                             <li>
-                                <a href="#link4">ENTOURAGE</a>
+                                <Link to="conferences/entourage">
+                                    ENTOURAGE
+                                </Link>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">RESEAU</a>
+                        <Link to="reseau">RESEAU</Link>
                         <ul className="drop-menu">
                             <li>
-                                <a href="#link2">SECTEURS D'INTERVENTION</a>
+                                <Link to="reseau/secteurs-d-intervention">
+                                    SECTEURS D'INTERVENTION
+                                </Link>
                             </li>
                             <li>
-                                <a href="#link3">
+                                <Link to="reseau/coordination-des-interventions">
                                     COORDINATION DES INTERVENTIONS
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#link4">
+                                <Link to="reseau/optimisation-des-conditions-d-interventions">
                                     OPTIMISATION DES CONDITIONS D'INTERVENTION
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#link1">ASSOCIATIONS</a>
+                        <Link to="associations">ASSOCIATIONS</Link>
                         <ul className="drop-menu last">
                             <li>
-                                <a href="#link2">MISSIONS</a>
+                                <Link to="associations/missions">MISSIONS</Link>
                             </li>
                             <li>
-                                <a href="#link3">
+                                <Link to="associations/projets-sportifs-solidaires-et-de-cohesion">
                                     PROJETS SPORTIFS SOLIDAIRES ET DE COHESION
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#link4">PROJETS INNOVANTS</a>
+                                <Link to="associations/projets-innovants">
+                                    ROJETS INNOVANTS
+                                </Link>
                             </li>
                             <li>
-                                <a href="#link5">CREATION COURSE SOLIDAIRE</a>
+                                <Link to="associations/creation-course-solidaire">
+                                    CREATION COURSE SOLIDAIRE
+                                </Link>
                             </li>
                             <li>
-                                <a href="#link6">
+                                <Link to="associations/handicap-et-dependance">
                                     MISE EN LUMIERE DU HANDICAP ET DE LA
                                     DEPENDANCE
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </li>

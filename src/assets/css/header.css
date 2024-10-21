@@ -150,8 +150,8 @@ nav .btn.close-btn {
     margin-top: .75em;
 }
 
-.header-space {
-    height: 5em;
+header~* {
+    padding-top: 7em !important;
 }
 
 @media screen and (max-width: 970px) {

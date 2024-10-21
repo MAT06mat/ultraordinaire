@@ -3,7 +3,7 @@ import Section from "../components/Section";
 function Home() {
     return (
         <>
-            <Section color="gray" isFirst>
+            <Section color="gray">
                 <div className="container">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quidem officia quasi cumque laborum velit obcaecati quo

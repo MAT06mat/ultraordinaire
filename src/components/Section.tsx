@@ -1,16 +1,10 @@
 interface Props {
     children: JSX.Element;
     color?: "white" | "gray";
-    isFirst?: boolean;
 }
 
-function Section({ children, color = "white", isFirst = false }: Props) {
-    return (
-        <section className={color}>
-            {isFirst && <div className="header-space"></div>}
-            {children}
-        </section>
-    );
+function Section({ children, color = "white" }: Props) {
+    return <section className={color}>{children}</section>;
 }
 
 export default Section;

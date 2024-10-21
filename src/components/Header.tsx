@@ -92,7 +92,7 @@ function Header() {
                             </li>
                             <li>
                                 <Link to="associations/projets-innovants">
-                                    ROJETS INNOVANTS
+                                    PROJETS INNOVANTS
                                 </Link>
                             </li>
                             <li>

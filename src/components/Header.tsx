@@ -20,18 +20,18 @@ function Header() {
 
     const [menuState, setMenuState] = useState(false);
 
-    function openMenu() {
+    function handleOpen() {
         setMenuState(true);
     }
 
-    function closeMenu() {
+    function handleClose() {
         setMenuState(false);
     }
 
     return (
         <header className={showed ? "showed" : ""} id="header">
             <nav>
-                <div className="btn menu-btn" onClick={openMenu}>
+                <div className="btn menu-btn" onClick={handleOpen}>
                     <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3 6L37 6" />
                         <path d="M3 34L37 34" />
@@ -41,9 +41,9 @@ function Header() {
                 <Link to="" className="logo">
                     <span className="complementary">ULTRA</span>ORDINAIRE
                 </Link>
-                <div className="background-button" onClick={closeMenu}></div>
+                <div className="background-button" onClick={handleClose}></div>
                 <ul className={menuState ? "nav-links open" : "nav-links"}>
-                    <div className="btn close-btn" onClick={closeMenu}>
+                    <div className="btn close-btn" onClick={handleClose}>
                         <svg
                             viewBox="0 0 40 40"
                             xmlns="http://www.w3.org/2000/svg"
@@ -53,14 +53,14 @@ function Header() {
                         </svg>
                     </div>
                     <li>
-                        <Link to="conferences" onClick={closeMenu}>
+                        <Link to="conferences" onClick={handleClose}>
                             CONFERENCES
                         </Link>
                         <ul className="drop-menu">
                             <li>
                                 <Link
                                     to="conferences/mental"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     MENTAL
                                 </Link>
@@ -68,7 +68,7 @@ function Header() {
                             <li>
                                 <Link
                                     to="conferences/physique"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     PHYSIQUE
                                 </Link>
@@ -76,7 +76,7 @@ function Header() {
                             <li>
                                 <Link
                                     to="conferences/entourage"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     ENTOURAGE
                                 </Link>
@@ -84,14 +84,14 @@ function Header() {
                         </ul>
                     </li>
                     <li>
-                        <Link to="reseau" onClick={closeMenu}>
+                        <Link to="reseau" onClick={handleClose}>
                             RESEAU
                         </Link>
                         <ul className="drop-menu">
                             <li>
                                 <Link
                                     to="reseau/secteurs-d-intervention"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     SECTEURS D'INTERVENTION
                                 </Link>
@@ -99,7 +99,7 @@ function Header() {
                             <li>
                                 <Link
                                     to="reseau/coordination-des-interventions"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     COORDINATION DES INTERVENTIONS
                                 </Link>
@@ -107,7 +107,7 @@ function Header() {
                             <li>
                                 <Link
                                     to="reseau/optimisation-des-conditions-d-interventions"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     OPTIMISATION DES CONDITIONS D'INTERVENTION
                                 </Link>
@@ -115,14 +115,14 @@ function Header() {
                         </ul>
                     </li>
                     <li>
-                        <Link to="associations" onClick={closeMenu}>
+                        <Link to="associations" onClick={handleClose}>
                             ASSOCIATIONS
                         </Link>
                         <ul className="drop-menu last">
                             <li>
                                 <Link
                                     to="associations/missions"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     MISSIONS
                                 </Link>
@@ -130,7 +130,7 @@ function Header() {
                             <li>
                                 <Link
                                     to="associations/projets-sportifs-solidaires-et-de-cohesion"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     PROJETS SPORTIFS SOLIDAIRES ET DE COHESION
                                 </Link>
@@ -138,7 +138,7 @@ function Header() {
                             <li>
                                 <Link
                                     to="associations/projets-innovants"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     PROJETS INNOVANTS
                                 </Link>
@@ -146,7 +146,7 @@ function Header() {
                             <li>
                                 <Link
                                     to="associations/creation-course-solidaire"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     CREATION COURSE SOLIDAIRE
                                 </Link>
@@ -154,7 +154,7 @@ function Header() {
                             <li>
                                 <Link
                                     to="associations/handicap-et-dependance"
-                                    onClick={closeMenu}
+                                    onClick={handleClose}
                                 >
                                     MISE EN LUMIERE DU HANDICAP ET DE LA
                                     DEPENDANCE

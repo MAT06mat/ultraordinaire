@@ -194,6 +194,7 @@ header~* {
         width: 2.8em;
         height: 2.8em;
         display: flex;
+        position: relative;
         align-content: center;
         background-color: var(--main-2);
         border-radius: 1.4em;
@@ -205,6 +206,29 @@ header~* {
 
     nav .btn:hover path {
         stroke: var(--complementary);
+    }
+
+    .btn:after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 1.4em;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.5s;
+        box-shadow: 0 0 10px 40px var(--complementary-2);
+    }
+
+    .btn:active:after {
+        box-shadow: 0 0 0 0 var(--complementary-2);
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 1;
+        transition: 0s;
     }
 
     nav .btn svg {

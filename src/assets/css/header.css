@@ -52,7 +52,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100svh;
+    height: 100lvh;
     width: 100svw;
 }
 
@@ -216,7 +216,7 @@ header~* {
 
     nav .nav-links {
         position: fixed;
-        height: 100svh;
+        height: 100lvh;
         width: calc(100% - 3em);
         max-width: 30em;
         top: 0;

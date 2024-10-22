@@ -1,22 +1,22 @@
 import "../assets/css/header.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
-    const body = document.querySelector("body");
-    const html = document.querySelector("html");
     const [showed, setShowed] = useState(false);
 
-    if (body && html)
-        body.onscroll = function () {
-            let header = document.getElementById("header");
-            if (!header) return;
-            if (html.scrollTop > header.offsetHeight * 2) {
-                setShowed(true);
-            } else {
-                setShowed(false);
-            }
-        };
+    useEffect(() => {
+        let root = document.getElementById("root");
+        let header = document.getElementById("header");
+        if (root && header)
+            root.onscroll = function () {
+                if (root.scrollTop > header.offsetHeight * 2) {
+                    setShowed(true);
+                } else {
+                    setShowed(false);
+                }
+            };
+    });
 
     const [menuState, setMenuState] = useState(false);
 

@@ -33,6 +33,12 @@ body {
   background-color: var(--main);
 }
 
+#root {
+  position: relative;
+  height: 100svh;
+  overflow: auto;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 1.5em;

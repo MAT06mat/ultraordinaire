@@ -286,7 +286,7 @@ header~* {
 
 @media screen and (max-width: 470px) {
     nav {
-        margin: 0 1em 0 9.8px;
+        margin: 0 1.5em 0 9.8px;
     }
 
     .logo {

@@ -4,8 +4,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     text-align: center;
+    line-height: 2.5em;
 }
 
 .link {

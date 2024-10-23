@@ -1,16 +1,24 @@
+import { Helmet } from "react-helmet-async";
 import "../assets/css/error-page.css";
 import { Link } from "react-router-dom";
 
 export default function ErrorPage() {
     return (
-        <div id="error-page">
-            <div>
-                <h1>Oops!</h1>
-                <p>Sorry, an unexpected error has occurred.</p>
+        <>
+            <Helmet>
+                <title>Oups...</title>
+                <meta name="description" content="Page d'erreur" />
+                <link rel="canonical" href="/404" />
+            </Helmet>
+            <div id="error-page">
+                <div>
+                    <h1>Oups!</h1>
+                    <p>Désolé, une erreur inattendue s'est produite...</p>
+                </div>
+                <Link className="link" to={"/"}>
+                    Accueil
+                </Link>
             </div>
-            <Link className="link" to={"/"}>
-                Go to home
-            </Link>
-        </div>
+        </>
     );
 }

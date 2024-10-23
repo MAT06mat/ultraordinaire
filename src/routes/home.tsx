@@ -1,8 +1,17 @@
+import { Helmet } from "react-helmet-async";
 import Section from "../components/Section";
 
 function Home() {
     return (
         <>
+            <Helmet>
+                <title>Ultraordinaire</title>
+                <meta
+                    name="description"
+                    content="Page d'accueil de Julien Coindet de son site web ultraordinaire.fr"
+                />
+                <link rel="canonical" href="" />
+            </Helmet>
             <Section color="gray">
                 <div className="container">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

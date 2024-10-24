@@ -44,6 +44,27 @@ body {
   color: var(--complementary);
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-3);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--main-4);
+
+    path {
+      stroke: var(--complementary);
+    }
+  }
+
+  svg {
+    width: 50%;
+    height: 50%;
+  }
+}
+
 path {
   stroke: var(--secondary);
   stroke-width: 4;

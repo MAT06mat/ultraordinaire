@@ -15,7 +15,7 @@ function TextDropList({ list }: Props) {
     }
 
     return (
-        <>
+        <div className="text-drop-list">
             {list.map((element, index) => {
                 return (
                     <TextDrop
@@ -29,7 +29,7 @@ function TextDropList({ list }: Props) {
                     />
                 );
             })}
-        </>
+        </div>
     );
 }
 

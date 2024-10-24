@@ -1,73 +1,64 @@
-.text-drop {
-    .title {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 0.25em 0 1em;
-        margin: .25em 0;
-        background-color: var(--main-3);
-        border-radius: .5em;
-        height: 3.5em;
+.text-drop-list {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
 
-        .btn {
-            align-items: center;
-            height: 3em;
-            width: 3em;
-            border-radius: 1.5em;
-
-            &.open {
-                display: flex;
-            }
-
-            &.close {
-                display: none;
-            }
-
-            &:hover {
-                background-color: var(--main-4);
-
-                path {
-                    stroke: var(--complementary);
-                }
-            }
-
-            svg {
-                display: block;
-                margin: 0 auto;
-                height: 40%;
-                width: 40%;
-            }
-        }
-    }
-
-    .text-wrapper {
-        display: grid;
-        grid-template-rows: 0fr;
-        transition: all .5s ease;
-        padding: 0 1em;
-
-        .text {
-            overflow-y: hidden;
-        }
-    }
-
-    &.active {
-        .text-wrapper {
-            grid-template-rows: 1fr;
-            padding: 1em;
-        }
-
+    .text-drop {
         .title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 0.25em 0 1em;
+            background-color: var(--main-3);
+            border-radius: .5em;
+            height: 3.5em;
+            cursor: pointer;
+
             .btn {
-                &.open {
+                height: 3em;
+                width: 3em;
+                border-radius: 1.5em;
+
+                &.close {
                     display: none;
                 }
 
-                &.close {
-                    display: flex;
+                svg {
+                    width: 40%;
+                    height: 40%;
                 }
             }
+        }
 
+        .text-wrapper {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: all .5s ease;
+            padding: 0 1em;
+
+            .text {
+                overflow-y: hidden;
+            }
+        }
+
+        &.active {
+            .text-wrapper {
+                grid-template-rows: 1fr;
+                padding: 1em;
+            }
+
+            .title {
+                .btn {
+                    &.open {
+                        display: none;
+                    }
+
+                    &.close {
+                        display: flex;
+                    }
+                }
+
+            }
         }
     }
 }

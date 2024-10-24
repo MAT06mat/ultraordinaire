@@ -1,3 +1,5 @@
+import "../assets/css/section.scss";
+
 interface Props {
     children: JSX.Element | string;
     color?: "main" | "main-2" | "secondary" | "secondary-2";

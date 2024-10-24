@@ -1,0 +1,17 @@
+section {
+    padding: 2em 0;
+
+    &.secondary .container {
+        color: var(--main);
+    }
+
+    &.secondary-2 .container {
+        color: var(--main);
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1.5em;
+    max-width: 1280px;
+}

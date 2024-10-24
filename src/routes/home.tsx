@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Section from "../components/Section";
+import TextDropList from "../components/TextDropList";
 
 function Home() {
     return (
@@ -12,7 +13,7 @@ function Home() {
                 />
                 <link rel="canonical" href="" />
             </Helmet>
-            <Section color="main-2">
+            <Section color="main-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
                 officia quasi cumque laborum velit obcaecati quo exercitationem
                 facilis quisquam ad. Eveniet quo quis delectus vero quos rerum
@@ -136,103 +137,46 @@ function Home() {
                 doloremque. Harum, dolore?
             </Section>
             <Section>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-                quam maxime inventore doloribus quod architecto non repudiandae
-                praesentium, minus, nesciunt quo officia! At nulla architecto
-                harum deleniti veniam ad reprehenderit totam provident molestiae
-                corrupti rem corporis placeat obcaecati est omnis, delectus
-                quasi doloremque sint nam temporibus suscipit voluptatem id.
-                Atque, hic saepe? Facilis, error. Commodi quisquam ad error,
-                consequuntur molestiae iusto delectus magnam et illum cum porro
-                quo animi ea dolorem consequatur quis exercitationem ducimus
-                possimus similique doloremque! Doloremque eius, iste maxime
-                vitae hic tempora qui officia culpa nemo commodi vero recusandae
-                natus aperiam iure excepturi ratione quae temporibus consectetur
-                ullam, saepe cupiditate exercitationem. Voluptate labore
-                veritatis quidem consequuntur aliquam beatae eligendi ipsa ullam
-                eum at quod quam ipsum, consectetur, molestiae impedit omnis
-                corporis. Est iusto adipisci veritatis quasi distinctio in
-                consectetur totam ea quod dolor non rem eos dolorem aperiam
-                magni, cum veniam atque necessitatibus explicabo! Nisi obcaecati
-                eaque tempora culpa aperiam id quasi odit, dolore laborum.
-                Cupiditate maxime dolorum eum ut quos est. Delectus esse id
-                ipsam aut nisi molestias ut aperiam quisquam vel, qui quas,
-                earum obcaecati commodi consequuntur, accusantium omnis
-                consectetur. Eaque amet dicta quidem laborum dolores vero unde
-                velit voluptatum earum optio? Adipisci quasi exercitationem
-                perferendis reprehenderit, nobis placeat, eveniet dolore
-                blanditiis, itaque ea quod laudantium facere. Error at
-                blanditiis nemo, quia sed quasi similique quod corrupti, ex
-                aperiam exercitationem! Qui dignissimos maxime reiciendis modi,
-                in minima, dolores, optio voluptas vitae suscipit harum sed ut
-                numquam tempore iste totam voluptatum corporis autem ipsam!
-                Maiores non accusantium hic cupiditate! Quod tenetur at quidem
-                rem illum corporis nihil harum vitae vel itaque non mollitia
-                facere dolores nostrum illo, velit eum? Quibusdam rerum sapiente
-                voluptatum libero expedita molestias qui, aliquid a earum beatae
-                natus eveniet nostrum laboriosam sint? Accusantium inventore eos
-                quo esse, veniam culpa quas. Doloribus consequatur eos
-                aspernatur illo qui veritatis fuga necessitatibus hic non, ea
-                rerum assumenda repellat in ullam labore eum, natus ut quia
-                quidem ipsa quae. Reprehenderit nostrum vero saepe, beatae
-                magnam, vel iure voluptatibus amet facilis ullam quam ut at! Ea
-                quis quod temporibus numquam debitis nostrum esse, ut cum eos
-                ducimus dolor eius aperiam labore quaerat minus sit perspiciatis
-                eaque dicta in maiores aliquam doloribus necessitatibus
-                repellat! Officiis eius exercitationem blanditiis corporis velit
-                dignissimos tenetur magni adipisci nostrum. Ipsam cum, tenetur
-                dolores magni blanditiis iure officia illo debitis voluptates?
-                Accusantium exercitationem quisquam sed sequi sit! Non pariatur
-                natus commodi quas eveniet, dolores maxime nisi impedit vero
-                odio numquam sit dignissimos officia quidem a vitae id,
-                consequuntur omnis culpa asperiores nulla, perferendis aliquid
-                quam nihil! A asperiores ullam inventore non nesciunt modi totam
-                reiciendis reprehenderit quidem quo commodi animi, officiis est
-                eaque quia eum impedit ipsa ad saepe neque. Quam minus officiis
-                dolore labore, ipsum qui autem nulla quae quis incidunt maiores
-                harum. Ipsa, ut cupiditate tempore sequi ratione illum est saepe
-                rem delectus, nulla autem alias pariatur culpa harum deleniti
-                tenetur beatae nostrum voluptatibus repudiandae, sunt labore
-                reiciendis. Beatae minus vel eum incidunt saepe hic, sit
-                deleniti odio. Vitae amet iure consequuntur obcaecati a rerum
-                neque voluptates itaque quisquam recusandae architecto at
-                reiciendis sit saepe, eos perferendis repudiandae hic dolore
-                voluptatibus assumenda sint, fuga magnam. Labore laborum
-                consequatur facere quos ex magni saepe a molestias blanditiis
-                eaque. Corporis, deserunt incidunt? Fugit, voluptates dolore?
-                Iure iste, eligendi quasi animi totam sit nemo ut odio
-                praesentium eaque deserunt, sint corrupti laboriosam? Magni,
-                pariatur sunt molestiae sit unde eius earum dignissimos delectus
-                ducimus aperiam distinctio quis nobis itaque ipsum asperiores
-                temporibus, reiciendis quos. Tenetur, consequatur vero doloribus
-                asperiores totam, repudiandae illum voluptates ipsum eius
-                ratione expedita eveniet id facere, placeat voluptatibus. Nihil
-                dolorum laudantium atque eveniet velit ducimus commodi laborum,
-                laboriosam odit maiores accusamus placeat consectetur non cum
-                iste eum! Beatae at dolorem debitis? Atque excepturi ex dicta
-                consequuntur neque necessitatibus in officia maxime quod, velit
-                quo blanditiis labore consequatur dolor eum vero. Iste corrupti
-                deleniti sint id eveniet dignissimos tenetur quod exercitationem
-                cumque illum culpa explicabo consectetur aut, laboriosam
-                molestiae delectus numquam hic dicta vel labore quibusdam earum?
-                Tempore expedita vitae distinctio nihil quisquam error laborum,
-                modi autem? Possimus delectus quae dolore omnis enim dignissimos
-                placeat rem, corrupti, veritatis laboriosam ullam vitae vel
-                repellendus accusantium commodi. Reprehenderit, perspiciatis
-                veniam ipsum eum corrupti perferendis maiores ratione voluptate
-                molestiae odio rem et accusamus, est blanditiis quae inventore,
-                earum velit quos ab ipsa praesentium. Consectetur molestias
-                voluptatum dolores recusandae corporis. Deserunt placeat facere
-                recusandae sint unde, ipsa aut eos ullam, voluptatibus
-                repellendus asperiores eum magnam nemo cum dolor delectus
-                repellat. Voluptatum et eum id nobis nisi doloribus, possimus
-                harum cupiditate error soluta, repudiandae velit cum, quas
-                molestiae necessitatibus temporibus mollitia delectus
-                perferendis? Dolorem velit nemo repellat voluptatum! Sapiente
-                illum sit error provident ullam, voluptatibus accusantium ea
-                sequi veniam quia iure est, saepe consequuntur quos, soluta
-                reiciendis dolore autem pariatur distinctio obcaecati corporis
-                odit. Ad, quis expedita.
+                <TextDropList
+                    list={[
+                        {
+                            title: "Petit paragraphe",
+                            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                        },
+                        {
+                            title: "Moyen paragraphe",
+                            text: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit explicabo, suscipit ut dolores aperiam ducimus.
+                Porro pariatur provident ipsam voluptates temporibus! Numquam
+                laboriosam veritatis repellendus laborum officiis error qui
+                cupiditate aperiam ea voluptatum assumenda magnam eaque veniam,
+                eum dolore quia quisquam unde nobis, nisi voluptatibus alias.
+                Repudiandae adipisci ducimus esse deleniti perspiciatis quaerat
+                voluptatibus. Recusandae porro quia dolores, nobis tempore nisi
+                veniam maiores cum corporis.`,
+                        },
+                        {
+                            title: "Très long paragraphe",
+                            text: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit explicabo, suscipit ut dolores aperiam ducimus.
+                Porro pariatur provident ipsam voluptates temporibus! Numquam
+                laboriosam veritatis repellendus laborum officiis error qui
+                cupiditate aperiam ea voluptatum assumenda magnam eaque veniam,
+                eum dolore quia quisquam unde nobis, nisi voluptatibus alias.
+                Repudiandae adipisci ducimus esse deleniti perspiciatis quaerat
+                voluptatibus. Recusandae porro quia dolores, nobis tempore nisi
+                veniam maiores cum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit explicabo, suscipit ut dolores aperiam ducimus.
+                Porro pariatur provident ipsam voluptates temporibus! Numquam
+                laboriosam veritatis repellendus laborum officiis error qui
+                cupiditate aperiam ea voluptatum assumenda magnam eaque veniam,
+                eum dolore quia quisquam unde nobis, nisi voluptatibus alias.
+                Repudiandae adipisci ducimus esse deleniti perspiciatis quaerat
+                voluptatibus. Recusandae porro quia dolores, nobis tempore nisi
+                veniam maiores cum corporis.`,
+                        },
+                    ]}
+                />
             </Section>
             <Section color="secondary">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -261,7 +205,7 @@ function Home() {
                 placeat. Est, expedita dicta excepturi sed eum magnam
                 consequatur iste?
             </Section>
-            <Section color="main-2">
+            <Section color="main-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad
                 modi perspiciatis, error enim earum, distinctio accusantium
                 alias praesentium unde nam at blanditiis sunt suscipit vero

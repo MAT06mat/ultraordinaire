@@ -1,11 +1,12 @@
+import { ReactNode } from "react";
 import "../assets/css/section.scss";
 
 interface Props {
-    children?: JSX.Element | string;
-    color?: "main" | "main-2" | "secondary" | "secondary-2";
+    children?: ReactNode;
+    color?: "main" | "main-2" | "main-3" | "secondary" | "secondary-2";
 }
 
-function Section({ children = "", color = "main" }: Props) {
+function Section({ children = "", color = "main-2" }: Props) {
     return (
         <section
             className={color}

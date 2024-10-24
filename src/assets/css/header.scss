@@ -199,11 +199,11 @@ header {
                 display: flex;
                 position: relative;
                 align-content: center;
-                background-color: var(--main-2);
+                background-color: var(--main-3);
                 border-radius: 1.4em;
 
                 &:hover {
-                    background-color: var(--main-3);
+                    background-color: var(--main-4);
 
                     path {
                         stroke: var(--complementary);

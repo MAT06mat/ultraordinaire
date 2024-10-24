@@ -7,12 +7,12 @@
     gap: 30px;
     text-align: center;
     line-height: 2.5em;
-}
 
-.link {
-    text-decoration: underline;
-}
+    .link {
+        text-decoration: underline;
 
-.link:hover {
-    color: var(--complementary);
+        &:hover {
+            color: var(--complementary);
+        }
+    }
 }

@@ -1,72 +1,72 @@
 :root {
-  --main: #ffffff;
-  --main-2: #fbfbfb;
-  --main-3: #f7f7f7;
-  --main-4: #e7e7e7;
-  --secondary: #102230;
-  --secondary-2: #203240;
-  --complementary: #b90d0d;
-  --complementary-2: #ffcfd7;
-  --complementary-3: #fff9f9;
+    --main: #ffffff;
+    --main-2: #fbfbfb;
+    --main-3: #f7f7f7;
+    --main-4: #e7e7e7;
+    --secondary: #102230;
+    --secondary-2: #203240;
+    --complementary: #b90d0d;
+    --complementary-2: #ffcfd7;
+    --complementary-3: #fff9f9;
 }
 
 ::selection {
-  background-color: var(--complementary-2);
+    background-color: var(--complementary-2);
 }
 
 ::-moz-selection {
-  background-color: var(--complementary-2);
+    background-color: var(--complementary-2);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  color: var(--secondary);
-  text-decoration: none;
-  transition-property: color, opacity;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: var(--secondary);
+    text-decoration: none;
+    transition-property: color, opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  background-color: var(--main);
+    background-color: var(--main);
 }
 
 #root {
-  position: relative;
-  height: 100svh;
-  overflow: auto;
+    position: relative;
+    height: 100svh;
+    overflow: auto;
 }
 
 .complementary {
-  color: var(--complementary);
+    color: var(--complementary);
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--main-3);
-  cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-3);
+    cursor: pointer;
 
-  &:hover {
-    background-color: var(--main-4);
+    &:hover {
+        background-color: var(--main-4);
 
-    path {
-      stroke: var(--complementary);
+        path {
+            stroke: var(--complementary);
+        }
     }
-  }
 
-  svg {
-    width: 50%;
-    height: 50%;
-  }
+    svg {
+        width: 50%;
+        height: 50%;
+    }
 }
 
 path {
-  stroke: var(--secondary);
-  stroke-width: 4;
-  stroke-linecap: round;
+    stroke: var(--secondary);
+    stroke-width: 4;
+    stroke-linecap: round;
 }

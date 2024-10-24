@@ -6,8 +6,8 @@ function Header() {
     const [showed, setShowed] = useState(false);
 
     useEffect(() => {
-        let root = document.getElementById("root");
-        let header = document.getElementById("header");
+        const root = document.getElementById("root");
+        const header = document.getElementById("header");
         if (root && header)
             root.onscroll = function () {
                 if (root.scrollTop > header.offsetHeight * 2) {
@@ -53,39 +53,47 @@ function Header() {
                         </svg>
                     </div>
                     <li>
-                        <Link to="conferences" onClick={handleClose}>
-                            CONFERENCES
+                        <Link to="aventures" onClick={handleClose}>
+                            AVENTURES
                         </Link>
                         <ul className="drop-menu">
                             <li>
                                 <Link
-                                    to="conferences/mental"
+                                    to="aventures/temoignages"
                                     onClick={handleClose}
                                 >
-                                    MENTAL
+                                    TÉMOIGNAGES
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    to="conferences/physique"
+                                    to="aventures/ultra-trail"
                                     onClick={handleClose}
                                 >
-                                    PHYSIQUE
+                                    ULTRA TRAIL
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    to="conferences/entourage"
+                                    to="aventures/capital-sante"
                                     onClick={handleClose}
                                 >
-                                    ENTOURAGE
+                                    CAPITAL SANTÉ
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="aventures/dynamique-collective"
+                                    onClick={handleClose}
+                                >
+                                    DYNAMIQUE COLLECTIVE
                                 </Link>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <Link to="reseau" onClick={handleClose}>
-                            RESEAU
+                            RÉSEAU
                         </Link>
                         <ul className="drop-menu">
                             <li>
@@ -132,7 +140,7 @@ function Header() {
                                     to="associations/projets-sportifs-solidaires-et-de-cohesion"
                                     onClick={handleClose}
                                 >
-                                    PROJETS SPORTIFS SOLIDAIRES ET DE COHESION
+                                    PROJETS SPORTIFS SOLIDAIRES ET DE COHÉSION
                                 </Link>
                             </li>
                             <li>
@@ -148,7 +156,7 @@ function Header() {
                                     to="associations/creation-course-solidaire"
                                     onClick={handleClose}
                                 >
-                                    CREATION COURSE SOLIDAIRE
+                                    CRÉATION COURSE SOLIDAIRE
                                 </Link>
                             </li>
                             <li>
@@ -156,8 +164,8 @@ function Header() {
                                     to="associations/handicap-et-dependance"
                                     onClick={handleClose}
                                 >
-                                    MISE EN LUMIERE DU HANDICAP ET DE LA
-                                    DEPENDANCE
+                                    MISE EN LUMIÈRE DU HANDICAP ET DE LA
+                                    DÉPENDANCE
                                 </Link>
                             </li>
                         </ul>

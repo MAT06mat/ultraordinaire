@@ -9,10 +9,11 @@ function App() {
         <Routes>
             <Route path="/" element={<PageLayout />}>
                 <Route index element={<Home />} />
-                <Route path="conferences">
-                    <Route path="mental" />
-                    <Route path="physique" />
-                    <Route path="entourage" />
+                <Route path="aventures">
+                    <Route path="temoignages" />
+                    <Route path="ultra-trail" />
+                    <Route path="capital-sante" />
+                    <Route path="dynamique-collective" />
                 </Route>
                 <Route path="reseau">
                     <Route path="secteurs-d-intervention" />

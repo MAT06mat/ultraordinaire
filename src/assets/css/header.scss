@@ -33,6 +33,10 @@ header {
         }
     }
 
+    &+* {
+        padding-top: 7em !important;
+    }
+
     nav {
         height: 100%;
         display: flex;
@@ -146,16 +150,12 @@ header {
             font-size: 20px;
             cursor: pointer;
             display: none;
-        }
 
-        .btn.close-btn {
-            margin-left: 9.8px;
-            margin-top: 0.75em;
+            &.close-btn {
+                margin-left: 9.8px;
+                margin-top: 0.75em;
+            }
         }
-    }
-
-    &+* {
-        padding-top: 7em !important;
     }
 }
 
@@ -245,14 +245,14 @@ header {
                     flex-direction: column;
                     margin: 1em 0;
                     background-color: var(--complementary-3);
-                }
 
-                &>li>a {
-                    border-left: solid 0.15em var(--complementary);
-                    padding: 0.75em;
-                    display: block;
-                    font-size: 1.2em;
-                    color: var(--complementary);
+                    &>a {
+                        border-left: solid 0.15em var(--complementary);
+                        padding: 0.75em;
+                        display: block;
+                        font-size: 1.2em;
+                        color: var(--complementary);
+                    }
                 }
 
                 .drop-menu {
@@ -299,19 +299,19 @@ header {
 
         .nav-links>li {
             margin-top: 0.25em;
-        }
 
-        .nav-links>li>a {
-            font-size: 1em;
+            &>a {
+                font-size: 1em;
+            }
         }
 
         .drop-menu li {
             padding: 0.3em 0;
-        }
 
-        .drop-menu li a {
-            font-size: 0.9em;
-            line-height: 1.2em;
+            a {
+                font-size: 0.9em;
+                line-height: 1.2em;
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ function Home() {
                 />
                 <link rel="canonical" href="" />
             </Helmet>
-            <Section color="main-3">
+            <Section color="main-2">
                 <TextImage source="766f77b3.jpg" proportion={50}>
                     <h2>PETITE INFO</h2>
                     <h1 className="separator">
@@ -101,7 +101,7 @@ function Home() {
                 placeat. Est, expedita dicta excepturi sed eum magnam
                 consequatur iste?
             </Section>
-            <Section color="main-3">
+            <Section color="main-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad
                 modi perspiciatis, error enim earum, distinctio accusantium
                 alias praesentium unde nam at blanditiis sunt suscipit vero

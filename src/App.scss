@@ -1,8 +1,7 @@
 :root {
     --main: #ffffff;
-    --main-2: #fbfbfb;
-    --main-3: #f7f7f7;
-    --main-4: #e7e7e7;
+    --main-2: #f7f7f7;
+    --main-3: #e7e7e7;
     --secondary: #102230;
     --secondary-2: #203240;
     --complementary: #b90d0d;
@@ -61,11 +60,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-3);
+    background-color: var(--main-2);
     cursor: pointer;
 
     &:hover {
-        background-color: var(--main-4);
+        background-color: var(--main-3);
 
         path {
             stroke: var(--complementary);
@@ -85,7 +84,7 @@ path {
 }
 
 .separator {
-    border-top: solid 1px var(--main-4);
+    border-top: solid 1px var(--main-3);
 }
 
 .center {

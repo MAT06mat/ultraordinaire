@@ -9,7 +9,7 @@ function Footer() {
                     <div>Sponsor 2</div>
                     <div>Sponsor 3</div>
                 </div>
-                <div className="copyright">
+                <div className="copyright separator">
                     <div>© 2024 Julien Coindet</div>
                     <div>Tous droits réservés</div>
                 </div>

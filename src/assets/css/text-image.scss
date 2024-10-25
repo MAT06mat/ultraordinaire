@@ -1,0 +1,32 @@
+.text-image {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+
+    &.right {
+        flex-direction: row-reverse
+    }
+
+    .image {
+        border-radius: .5em;
+        height: fit-content;
+    }
+
+    h2 {
+        color: var(--complementary);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-image {
+        flex-direction: column-reverse;
+
+        .image {
+            width: 100% !important;
+        }
+
+        .text {
+            width: 100% !important;
+        }
+    }
+}

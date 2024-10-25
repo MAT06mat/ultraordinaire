@@ -17,11 +17,7 @@
     .text-image {
         flex-direction: column-reverse;
 
-        .image {
-            width: 100% !important;
-        }
-
-        .text {
+        * {
             width: 100% !important;
         }
     }

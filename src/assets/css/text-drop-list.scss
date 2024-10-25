@@ -47,17 +47,14 @@
                 padding: 1em;
             }
 
-            .title {
-                .btn {
-                    &.open {
-                        display: none;
-                    }
-
-                    &.close {
-                        display: flex;
-                    }
+            .title .btn {
+                &.open {
+                    display: none;
                 }
 
+                &.close {
+                    display: flex;
+                }
             }
         }
     }

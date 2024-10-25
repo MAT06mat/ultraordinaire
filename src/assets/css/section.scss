@@ -1,11 +1,8 @@
 section {
     padding: 2em 0;
 
-    &.secondary .container {
-        color: var(--main);
-    }
-
-    &.secondary-2 .container {
+    &.secondary *,
+    &.secondary-2 * {
         color: var(--main);
     }
 }

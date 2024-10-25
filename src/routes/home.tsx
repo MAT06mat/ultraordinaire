@@ -74,6 +74,7 @@ function Home() {
                 />
             </Section>
             <Section color="secondary">
+                <h1 className="center">FAQ</h1>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reprehenderit explicabo, suscipit ut dolores aperiam ducimus.
                 Porro pariatur provident ipsam voluptates temporibus! Numquam

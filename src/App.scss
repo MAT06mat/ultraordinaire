@@ -90,3 +90,21 @@ path {
 .center {
     text-align: center;
 }
+
+.text-cols {
+    text-align: justify;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .text-cols {
+        -webkit-columns: 0 1;
+        -moz-columns: 0 1;
+        columns: 0 1;
+    }
+}

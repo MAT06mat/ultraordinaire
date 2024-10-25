@@ -1,10 +1,9 @@
 import { ReactNode } from "react";
-import "../assets/css/text-image.scss";
 
 interface Props {
     children: ReactNode;
     source: string;
-    imagePos?: "left" | "right";
+    reverse?: boolean;
     proportion?: number;
     alt?: string;
 }
@@ -12,16 +11,19 @@ interface Props {
 function TextImage({
     children,
     source,
-    imagePos = "left",
+    reverse = false,
     proportion = 50,
     alt = "Photo de Julien",
 }: Props) {
     return (
-        <div className={"text-image " + imagePos}>
+        <div
+            className={
+                reverse ? "cols reverse mobile-reverse" : "cols mobile-reverse"
+            }
+        >
             <img
                 src={"/images/" + source}
                 alt={alt}
-                className="image"
                 style={{ width: proportion.toString() + "%" }}
             />
             <div

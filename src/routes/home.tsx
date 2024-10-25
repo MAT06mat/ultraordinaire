@@ -17,7 +17,7 @@ function Home() {
             <Section color="main-2">
                 <TextImage source="766f77b3.jpg" proportion={50}>
                     <h2>PETITE INFO</h2>
-                    <h1 className="separator">
+                    <h1 className="separator padding">
                         GROS TITRE{" "}
                         <span className="complementary">SPECIAL</span>
                     </h1>
@@ -108,87 +108,56 @@ function Home() {
                 </p>
             </Section>
             <Section color="main-2">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                    ad modi perspiciatis, error enim earum, distinctio
-                    accusantium alias praesentium unde nam at blanditiis sunt
-                    suscipit vero cupiditate, exercitationem facilis. Id
-                    deleniti fugiat sint consectetur facere, ex libero neque
-                    numquam quasi, maiores voluptas accusamus, sit saepe alias
-                    aperiam temporibus veniam ullam repudiandae. Eaque culpa
-                    quisquam consectetur enim natus! Laudantium possimus
-                    dignissimos commodi eaque enim eos qui sunt omnis, saepe ea
-                    modi iure est incidunt, minima aliquam quia necessitatibus
-                    illum. Necessitatibus commodi assumenda eum et! Debitis
-                    facere quidem est quo delectus. Minima repudiandae tempore,
-                    asperiores tenetur illo soluta optio velit perspiciatis
-                    dolore dolorum quo! Cum porro beatae dolore minus qui
-                    ducimus eaque quasi vero, debitis assumenda velit
-                    reprehenderit, itaque blanditiis neque. Quis, ducimus
-                    facilis laudantium unde cumque nemo consectetur eius est at
-                    ipsa veniam tempore expedita. Quisquam quis iusto, explicabo
-                    mollitia quia numquam corrupti animi est, ullam ut delectus
-                    fuga odit in maxime quam, dolores quidem accusantium
-                    consequatur? Dolor ipsa, animi inventore odio alias expedita
-                    perferendis iste modi nemo architecto, explicabo labore,
-                    saepe hic ex dignissimos! Molestias odio modi, nulla quia
-                    obcaecati asperiores sapiente in incidunt repellat ab
-                    provident saepe repudiandae sit tenetur corrupti nisi
-                    consectetur quisquam fugit reprehenderit aut. Aliquam eum
-                    provident dolor illum ea magnam autem, sint, sed temporibus
-                    omnis veritatis! Illum soluta voluptatem et sunt. Natus
-                    molestias sunt eligendi dolore? Earum, saepe! Repellendus ex
-                    architecto, provident optio ea suscipit fugit dicta atque
-                    esse assumenda amet nihil eos recusandae mollitia aliquam id
-                    culpa accusantium deleniti! Molestias minima praesentium
-                    voluptate dicta cumque odio dolores libero sunt dolore
-                    accusamus facere ducimus itaque obcaecati dolorem veritatis
-                    asperiores eligendi, quisquam qui mollitia quis et!
-                    Voluptatibus, eum enim asperiores blanditiis, at laudantium
-                    qui, quasi tempore consequatur quisquam nostrum cupiditate
-                    aliquam suscipit! Officia quo laboriosam veritatis aut
-                    expedita ab. Corporis ratione doloremque quam. Cumque
-                    accusamus deserunt ex nisi nostrum quisquam praesentium quas
-                    dolor reiciendis, veniam ratione excepturi at dolorem nulla
-                    delectus rerum vitae mollitia dolorum, necessitatibus
-                    laborum modi rem inventore recusandae repellat? Quibusdam
-                    quasi fuga illum? Dolorum qui at quam, rerum laudantium
-                    harum, nobis libero nisi atque incidunt porro modi officiis
-                    voluptas consequuntur minima sit. Odio doloremque impedit
-                    non nostrum sequi libero qui est nihil cum voluptates
-                    eligendi optio dolorum, quam quis tenetur voluptate? Beatae
-                    culpa totam excepturi ipsa, ullam, quis itaque, nihil
-                    impedit exercitationem dolores inventore recusandae maxime.
-                    Amet, reiciendis sint qui eaque tempore repellendus optio
-                    tempora unde necessitatibus, architecto eum minus voluptates
-                    dolorum doloremque fugiat numquam, nostrum modi laboriosam
-                    dicta ea mollitia soluta magni assumenda vero. Quod aliquid
-                    adipisci, tempora nisi consequuntur ipsam neque ab a, hic
-                    error illo aut illum eveniet amet vitae, dignissimos esse
-                    ipsum fugiat! Qui consequatur beatae nihil placeat similique
-                    facere, doloribus laudantium autem eum repudiandae officia
-                    ex repellendus libero quas asperiores, deserunt voluptatem
-                    cupiditate labore nobis, ab at ducimus a? Quibusdam iusto
-                    perspiciatis provident doloremque saepe, quisquam eum,
-                    similique quos corrupti quia exercitationem tenetur nemo
-                    placeat excepturi ducimus. Quod consectetur quos, recusandae
-                    cum excepturi itaque molestias, culpa in voluptates minus
-                    molestiae a adipisci dolores deserunt nobis ipsam aliquid
-                    ipsa nisi facere quasi! Voluptates nulla exercitationem
-                    velit architecto debitis id cum, nostrum amet neque nisi,
-                    maxime, quaerat fugiat ratione dignissimos distinctio.
-                    Consequatur, blanditiis tenetur architecto, tempore
-                    reprehenderit dolores vel enim similique natus odit debitis
-                    nihil odio distinctio quam itaque temporibus at nulla nisi!
-                    Voluptatum sit expedita beatae porro, nobis autem
-                    voluptatibus quos temporibus quibusdam at tempora ducimus
-                    veritatis et magnam, ratione earum impedit quisquam laborum
-                    facere sed blanditiis dolores architecto? In ab voluptas
-                    quasi atque doloribus, eum minima magnam mollitia accusamus
-                    excepturi aperiam tempore nulla, at cumque enim consequuntur
-                    itaque repellendus. Necessitatibus, suscipit id eos nemo est
-                    voluptate molestiae commodi.
-                </p>
+                <div className="cols center">
+                    <div>
+                        <h1>
+                            Texte <span className="complementary">1</span>
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Distinctio temporibus, dolorum quis molestiae
+                            sequi, numquam quia accusantium magnam
+                            necessitatibus sit tempore odio ipsam iste dolores,
+                            veritatis accusamus esse aliquam porro ea ex
+                            debitis. Consectetur, aperiam doloribus! Obcaecati
+                            consequuntur, sapiente veniam nemo repellat in
+                            provident, repellendus molestiae minima accusantium
+                            harum atque.
+                        </p>
+                    </div>
+                    <div>
+                        <h1>
+                            Texte <span className="complementary">2</span>
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Distinctio temporibus, dolorum quis molestiae
+                            sequi, numquam quia accusantium magnam
+                            necessitatibus sit tempore odio ipsam iste dolores,
+                            veritatis accusamus esse aliquam porro ea ex
+                            debitis. Consectetur, aperiam doloribus! Obcaecati
+                            consequuntur, sapiente veniam nemo repellat in
+                            provident, repellendus molestiae minima accusantium
+                            harum atque.
+                        </p>
+                    </div>
+                    <div>
+                        <h1>
+                            Texte <span className="complementary">3</span>
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Distinctio temporibus, dolorum quis molestiae
+                            sequi, numquam quia accusantium magnam
+                            necessitatibus sit tempore odio ipsam iste dolores,
+                            veritatis accusamus esse aliquam porro ea ex
+                            debitis. Consectetur, aperiam doloribus! Obcaecati
+                            consequuntur, sapiente veniam nemo repellat in
+                            provident, repellendus molestiae minima accusantium
+                            harum atque.
+                        </p>
+                    </div>
+                </div>
             </Section>
             <Section>
                 <p>

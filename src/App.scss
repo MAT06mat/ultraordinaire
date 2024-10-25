@@ -40,9 +40,13 @@ body {
 }
 
 h1 {
-    padding: 16px 0;
+    padding: 0 0 16px 0;
     font-size: 2.5em;
     font-family: "Bebas Neue", sans-serif;
+}
+
+.padding {
+    padding-top: 16px;
 }
 
 h2 {
@@ -83,12 +87,27 @@ path {
     stroke-linecap: round;
 }
 
+img {
+    border-radius: .5em;
+    height: fit-content;
+}
+
 .separator {
     border-top: solid 1px var(--main-3);
 }
 
 .center {
     text-align: center;
+}
+
+.cols {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+
+    &.reverse {
+        flex-direction: row-reverse
+    }
 }
 
 .text-cols {
@@ -102,6 +121,18 @@ path {
 }
 
 @media screen and (max-width: 768px) {
+    .cols {
+        flex-direction: column;
+
+        &.mobile-reverse {
+            flex-direction: column-reverse
+        }
+
+        * {
+            width: 100% !important;
+        }
+    }
+
     .text-cols {
         -webkit-columns: 0 1;
         -moz-columns: 0 1;

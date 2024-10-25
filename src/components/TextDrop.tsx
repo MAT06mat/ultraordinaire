@@ -25,7 +25,9 @@ function TextDrop({ title, text, active = false, onClick }: Props) {
                 </div>
             </div>
             <div className="text-wrapper">
-                <div className="text">{text}</div>
+                <div className="text">
+                    <p>{text}</p>
+                </div>
             </div>
         </div>
     );

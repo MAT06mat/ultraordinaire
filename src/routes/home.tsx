@@ -21,14 +21,17 @@ function Home() {
                         GROS TITRE{" "}
                         <span className="complementary">SPECIAL</span>
                     </h1>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Nobis tenetur obcaecati molestias veritatis possimus quae
-                    quis eveniet maxime voluptatem itaque aliquam nostrum ea
-                    culpa vitae dignissimos sequi inventore odio ullam, et
-                    tempore quisquam suscipit aliquid? Tenetur natus dicta vitae
-                    debitis officia corrupti perferendis a fugiat? Sequi iure
-                    blanditiis dolorum eveniet! Ipsa at facere ipsam temporibus
-                    delectus.
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Nobis tenetur obcaecati molestias veritatis
+                        possimus quae quis eveniet maxime voluptatem itaque
+                        aliquam nostrum ea culpa vitae dignissimos sequi
+                        inventore odio ullam, et tempore quisquam suscipit
+                        aliquid? Tenetur natus dicta vitae debitis officia
+                        corrupti perferendis a fugiat? Sequi iure blanditiis
+                        dolorum eveniet! Ipsa at facere ipsam temporibus
+                        delectus.
+                    </p>
                 </TextImage>
             </Section>
             <Section>

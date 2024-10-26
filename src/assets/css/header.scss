@@ -6,6 +6,17 @@ header {
     font-weight: bolder;
     transition: all 0s;
     user-select: none;
+    z-index: 999;
+
+    @keyframes instantColor {
+        from {
+            color: var(--main-3);
+        }
+
+        to {
+            color: var(--main-3);
+        }
+    }
 
     @keyframes show {
         from {
@@ -33,6 +44,26 @@ header {
 
     &+* {
         padding-top: 7em !important;
+    }
+
+
+    &:has(+ .background-image):not(.showed) {
+        a {
+            animation: instantColor 1s 1;
+            color: var(--main-3);
+        }
+
+        .btn.menu-btn {
+            background-color: transparent;
+
+            &:hover path {
+                stroke: var(--complementary);
+            }
+
+            path {
+                stroke: var(--main-3);
+            }
+        }
     }
 
     nav {
@@ -77,7 +108,7 @@ header {
         }
 
         li>a:hover {
-            color: var(--complementary);
+            color: var(--complementary) !important;
         }
 
         .nav-links {
@@ -123,7 +154,10 @@ header {
 
                     &:hover {
                         background-color: var(--complementary-3);
-                        color: var(--complementary);
+
+                        a {
+                            color: var(--complementary);
+                        }
                     }
 
                     a {
@@ -135,6 +169,7 @@ header {
                         width: max-content;
                         max-width: 10em;
                         min-width: 8em;
+                        color: var(--secondary);
                     }
                 }
             }
@@ -236,7 +271,7 @@ header {
                         padding: 0.75em;
                         display: block;
                         font-size: 1.2em;
-                        color: var(--complementary);
+                        color: var(--complementary) !important;
                     }
                 }
 

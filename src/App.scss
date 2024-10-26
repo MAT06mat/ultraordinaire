@@ -119,6 +119,24 @@ img {
     column-gap: 2em;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 0 1.5em;
+    max-width: 1280px;
+}
+
+.no-container {
+    .container {
+        margin: 0;
+        padding: 0;
+        max-width: none;
+
+        img {
+            border-radius: 0;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column;

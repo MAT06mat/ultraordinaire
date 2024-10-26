@@ -14,6 +14,33 @@ function Home() {
                 />
                 <link rel="canonical" href="" />
             </Helmet>
+            <Section background="709d56cf.jpg" noContainer>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </Section>
             <Section color="main-2">
                 <TextImage source="766f77b3.jpg" proportion={50}>
                     <h2>PETITE INFO</h2>

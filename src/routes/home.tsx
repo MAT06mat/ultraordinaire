@@ -14,19 +14,7 @@ function Home() {
                 />
                 <link rel="canonical" href="" />
             </Helmet>
-            <Section background="709d56cf.jpg" noContainer>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+            <Section background="panorama.webp" noContainer>
                 <br />
                 <br />
                 <br />

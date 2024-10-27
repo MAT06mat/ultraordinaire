@@ -31,7 +31,7 @@ function Home() {
             </Section>
             <Section color="main-2">
                 <TextImage source="766f77b3.jpg" proportion={50}>
-                    <h2>PETITE INFO test</h2>
+                    <h2>PETITE INFO</h2>
                     <h1 className="separator padding">
                         GROS TITRE{" "}
                         <span className="complementary">SPECIAL</span>

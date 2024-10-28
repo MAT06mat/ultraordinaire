@@ -51,10 +51,9 @@ function Home() {
                         La notion de "sport santé" est une base commune aux 3
                         sentiers développés sur ce site : aventures, réseau,
                         associations. Ce <b>professionnel hospitalier</b>{" "}
-                        (diplôme universitaire en activité physique adaptée) aux
-                        multiples casquettes professionnelles
-                        (enseignant/coordinateur APA, formateur,
-                        auto-entrepreneur) est{" "}
+                        (diplômé en activité physique adaptée) aux multiples
+                        casquettes professionnelles (enseignant/coordinateur
+                        APA, formateur, auto-entrepreneur) est{" "}
                         <b>ouvert à toute forme de collaboration</b> autour de
                         ces 3 sentiers.
                     </p>

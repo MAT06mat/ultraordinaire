@@ -24,10 +24,6 @@ function Home() {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
-                <br />
             </Section>
             <Section color="main-2">
                 <TextImage source="766f77b3.jpg" proportion={50}>
@@ -36,7 +32,7 @@ function Home() {
                         BIENVENUE SUR LES 3 SENTIERS DE JULIEN COINDET
                     </h1>
                     <p>
-                        Un témoignage d’une vie ultra ordinaire !{" "}
+                        Un témoignage d’une vie ultra ordinaire !<br />
                         <b>Julien Coindet</b> vous invite à le suivre sur les
                         chemins de ses aventures sportives solidaires et de
                         cohésion interprofessionnelle.{" "}
@@ -45,15 +41,17 @@ function Home() {
                         résidents, les patients et leurs familles sur 2 courses
                         d'ultra distance <b>mondialement connues</b> pour être
                         les plus difficiles au monde : <b>UTMB</b> et{" "}
-                        <b>le grand raid de la réunion</b> (la diagonale des
-                        fous). <br /> Un dossard solidaire en faveur de la
-                        fondation maladies rares… <br />
-                        La notion de "sport santé" est une base commune aux 3
-                        sentiers développés sur ce site : aventures, réseau,
-                        associations. Ce <b>professionnel hospitalier</b>{" "}
-                        (diplômé en activité physique adaptée) aux multiples
-                        casquettes professionnelles (enseignant/coordinateur
-                        APA, formateur, auto-entrepreneur) est{" "}
+                        <b>le grand raid de la réunion</b> (la Diagonale des
+                        Fous). <br /> Un dossard solidaire en faveur de la
+                        fondation maladies rares…
+                        <br />
+                        La notion de <b>sport santé</b> est une base commune aux
+                        3 sentiers développés sur ce site : aventures, réseau,
+                        associations. <br />
+                        Ce <b>professionnel hospitalier</b>, diplômé en activité
+                        physique adaptée et aux multiples casquettes
+                        professionnelles (enseignant/coordinateur APA,
+                        formateur, auto-entrepreneur) est{" "}
                         <b>ouvert à toute forme de collaboration</b> autour de
                         ces 3 sentiers.
                     </p>

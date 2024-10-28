@@ -44,7 +44,7 @@ function Home() {
                         avec lui plusieurs CHU en embarquant ses collègues, les
                         résidents, les patients et leurs familles sur 2 courses
                         d'ultra distance <b>mondialement connues</b> pour être
-                        les plus difficiles au monde : UTMB et{" "}
+                        les plus difficiles au monde : <b>UTMB</b> et{" "}
                         <b>le grand raid de la réunion</b> (la diagonale des
                         fous). <br /> Un dossard solidaire en faveur de la
                         fondation maladies rares… <br />

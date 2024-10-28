@@ -21,17 +21,17 @@ function TextImage({
                 reverse ? "cols reverse mobile-reverse" : "cols mobile-reverse"
             }
         >
-            <img
-                src={"/images/" + source}
-                alt={alt}
-                style={{ width: proportion.toString() + "%" }}
-            />
             <div
                 className="text"
                 style={{ width: (100 - proportion).toString() + "%" }}
             >
                 {children}
             </div>
+            <img
+                src={"/images/" + source}
+                alt={alt}
+                style={{ width: proportion.toString() + "%" }}
+            />
         </div>
     );
 }

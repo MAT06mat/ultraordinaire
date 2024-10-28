@@ -14,7 +14,7 @@ function Home() {
                 />
                 <link rel="canonical" href="" />
             </Helmet>
-            <Section background="mb.jpg" noContainer>
+            <Section background="panorama.webp" noContainer>
                 <br />
                 <br />
                 <br />
@@ -31,21 +31,32 @@ function Home() {
             </Section>
             <Section color="main-2">
                 <TextImage source="766f77b3.jpg" proportion={50}>
-                    <h2>PETITE INFO</h2>
+                    <h2>PASSIONNÉ D’ULTRA TRAIL, ENSEIGNANT APA, FÉDÉRATEUR</h2>
                     <h1 className="separator padding">
-                        GROS TITRE{" "}
-                        <span className="complementary">SPECIAL</span>
+                        BIENVENUE SUR LES 3 SENTIERS DE JULIEN COINDET
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Nobis tenetur obcaecati molestias veritatis
-                        possimus quae quis eveniet maxime voluptatem itaque
-                        aliquam nostrum ea culpa vitae dignissimos sequi
-                        inventore odio ullam, et tempore quisquam suscipit
-                        aliquid? Tenetur natus dicta vitae debitis officia
-                        corrupti perferendis a fugiat? Sequi iure blanditiis
-                        dolorum eveniet! Ipsa at facere ipsam temporibus
-                        delectus.
+                        Un témoignage d’une vie ultra ordinaire !{" "}
+                        <b>Julien Coindet</b> vous invite à le suivre sur les
+                        chemins de ses aventures sportives solidaires et de
+                        cohésion interprofessionnelle.{" "}
+                        <b>Ultra traileur confirmé</b>, il a réussi à embarquer
+                        avec lui plusieurs CHU, ses collègues, les résidents,
+                        les patients et leurs familles sur 2 courses d'ultra
+                        distance <b>mondialement connues</b> pour être les plus
+                        difficiles au monde : UTMB et le grand raid de la
+                        réunion : la diagonale des fous. <br /> Un dossard
+                        solidaire en faveur de la fondation maladies rares…{" "}
+                        <br />
+                        La notion de "sport santé" est une base commune aux 3
+                        sentiers développés sur ce site : Aventures, réseau,
+                        associations. Ce <b>professionnel hospitalier</b>{" "}
+                        (diplôme universitaire en activité physique adaptée) aux
+                        multiples casquettes professionnelles
+                        (Enseignant/coordinateur APA, formateur,
+                        auto-entrepreneur) est{" "}
+                        <b>ouvert à toute forme de collaboration</b> autour de
+                        ces 3 sentiers.
                     </p>
                 </TextImage>
             </Section>

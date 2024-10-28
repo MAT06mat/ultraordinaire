@@ -24,9 +24,15 @@ function Home() {
                 <br />
                 <br />
                 <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
             </Section>
             <Section color="main-2">
-                <TextImage source="766f77b3.jpg" proportion={50}>
+                <TextImage source="766f77b3.jpg">
                     <h2>PASSIONNÉ D’ULTRA TRAIL, ENSEIGNANT APA, FÉDÉRATEUR</h2>
                     <h1 className="separator padding">
                         BIENVENUE SUR LES 3 SENTIERS DE JULIEN COINDET

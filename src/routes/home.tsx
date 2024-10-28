@@ -14,7 +14,7 @@ function Home() {
                 />
                 <link rel="canonical" href="" />
             </Helmet>
-            <Section background="chemin.jpg" noContainer>
+            <Section background="panorama.webp" noContainer>
                 <br />
                 <br />
                 <br />

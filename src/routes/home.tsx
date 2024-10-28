@@ -40,11 +40,11 @@ function Home() {
                         <b>Julien Coindet</b> vous invite à le suivre sur les
                         chemins de ses aventures sportives solidaires et de
                         cohésion interprofessionnelle.{" "}
-                        <b>Ultra traileur confirmé</b>, il a réussi à embarquer
-                        avec lui plusieurs CHU, ses collègues, les résidents,
-                        les patients et leurs familles sur 2 courses d'ultra
-                        distance <b>mondialement connues</b> pour être les plus
-                        difficiles au monde : UTMB et{" "}
+                        <b>Ultra traileur confirmé</b>, il a réussi à mobiliser
+                        avec lui plusieurs CHU en embarquant ses collègues, les
+                        résidents, les patients et leurs familles sur 2 courses
+                        d'ultra distance <b>mondialement connues</b> pour être
+                        les plus difficiles au monde : UTMB et{" "}
                         <b>le grand raid de la réunion</b> (la diagonale des
                         fous). <br /> Un dossard solidaire en faveur de la
                         fondation maladies rares… <br />

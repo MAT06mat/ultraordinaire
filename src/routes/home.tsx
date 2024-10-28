@@ -44,16 +44,16 @@ function Home() {
                         avec lui plusieurs CHU, ses collègues, les résidents,
                         les patients et leurs familles sur 2 courses d'ultra
                         distance <b>mondialement connues</b> pour être les plus
-                        difficiles au monde : UTMB et le grand raid de la
-                        réunion : la diagonale des fous. <br /> Un dossard
-                        solidaire en faveur de la fondation maladies rares…{" "}
-                        <br />
+                        difficiles au monde : UTMB et{" "}
+                        <b>le grand raid de la réunion</b> (la diagonale des
+                        fous). <br /> Un dossard solidaire en faveur de la
+                        fondation maladies rares… <br />
                         La notion de "sport santé" est une base commune aux 3
-                        sentiers développés sur ce site : Aventures, réseau,
+                        sentiers développés sur ce site : aventures, réseau,
                         associations. Ce <b>professionnel hospitalier</b>{" "}
                         (diplôme universitaire en activité physique adaptée) aux
                         multiples casquettes professionnelles
-                        (Enseignant/coordinateur APA, formateur,
+                        (enseignant/coordinateur APA, formateur,
                         auto-entrepreneur) est{" "}
                         <b>ouvert à toute forme de collaboration</b> autour de
                         ces 3 sentiers.

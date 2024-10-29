@@ -69,7 +69,7 @@ function Home() {
                         Portrait d’un professionnel de santé actif passionné
                     </h1>
                     <p>
-                        En 2021, il décide d’ associer{" "}
+                        En 2021, il décide d’associer{" "}
                         <b>sa passion de l’ultra endurance</b> avec son
                         environnement socioprofessionnel autour de 2 grands
                         domaines de vie aux déclinaisons diverses :{" "}

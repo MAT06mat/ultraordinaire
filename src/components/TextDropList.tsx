@@ -1,9 +1,9 @@
 import TextDrop from "./TextDrop";
 import "../assets/css/text-drop-list.scss";
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 
 interface Props {
-    list: { title: string; text: string }[];
+    list: { title: string; content: ReactNode }[];
 }
 
 function TextDropList({ list }: Props) {
@@ -21,7 +21,7 @@ function TextDropList({ list }: Props) {
                     <TextDrop
                         key={index}
                         title={element.title}
-                        text={element.text}
+                        content={element.content}
                         active={index === textDropIndex}
                         onClick={() => {
                             newTextDropIndex(index);

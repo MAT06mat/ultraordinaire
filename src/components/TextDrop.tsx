@@ -1,13 +1,13 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
 interface Props {
     title: string;
-    text: string;
+    content: ReactNode;
     active?: boolean;
     onClick: React.MouseEventHandler;
 }
 
-function TextDrop({ title, text, active = false, onClick }: Props) {
+function TextDrop({ title, content, active = false, onClick }: Props) {
     return (
         <div className={active ? "text-drop active" : "text-drop"}>
             <div className="drop-button" onClick={onClick}>
@@ -25,9 +25,7 @@ function TextDrop({ title, text, active = false, onClick }: Props) {
                 </div>
             </div>
             <div className="text-wrapper">
-                <div className="text">
-                    <p>{text}</p>
-                </div>
+                <div className="text">{content}</div>
             </div>
         </div>
     );

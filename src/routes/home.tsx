@@ -79,29 +79,52 @@ function Home() {
                         list={[
                             {
                                 title: "PROFESSIONNEL PROACTIF - ENVIRONNEMENT RÉCEPTIF, GAGNANT - GAGNANT ",
-                                text: `Au démarrage d’une idée, on va être confronté au « c'est compliqué »
-                                        soit par ses propres pensées limitantes, parfois dévalorisantes ou
-                                        par un environnement socioprofessionnel septique.
-                                        Une des solutions pour basculer d'une idée à l'état de projet viable
-                                        est de trouver des espaces communs « gagnant - gagnant » entre
-                                        les acteurs de ce projet avec des niveaux d'intérêt différents.`,
+                                content: (
+                                    <p>
+                                        Au démarrage d’une idée, on va être
+                                        confronté au « c'est compliqué » soit
+                                        par ses propres pensées limitantes,
+                                        parfois dévalorisantes ou par un
+                                        environnement socioprofessionnel
+                                        septique. Une des solutions pour
+                                        basculer d'une idée à l'état de projet
+                                        viable est de trouver des espaces
+                                        communs « gagnant - gagnant » entre les
+                                        acteurs de ce projet avec des niveaux
+                                        d'intérêt différents.`,
+                                    </p>
+                                ),
                             },
                             {
                                 title: "JULIEN COINDET, UN PASSIONNÉ FEDERATEUR ET MOTIVANT",
-                                text: `La passion du sport individuel-collectif et indoor-outdoor a rythmé
-                                        ma vie, depuis les plus jeunes âges. Toutes ces expériences motrices
-                                        et sociales ont participé à la construction du sportif, du professionnel
-                                        et de l’homme que je suis aujourd’hui : un parcours de vie ordinaire
-                                        sans expérience du haut niveau ou de l'élitisme mais en essayant d'être 
-                                        la meilleure version de moi même sur chaque nouvelle
-                                        expérience initiée.`,
+                                content: (
+                                    <p>
+                                        La passion du sport individuel-collectif
+                                        et indoor-outdoor a rythmé ma vie,
+                                        depuis les plus jeunes âges. Toutes ces
+                                        expériences motrices et sociales ont
+                                        participé à la construction du sportif,
+                                        du professionnel et de l’homme que je
+                                        suis aujourd’hui : un parcours de vie
+                                        ordinaire sans expérience du haut niveau
+                                        ou de l'élitisme mais en essayant d'être
+                                        la meilleure version de moi même sur
+                                        chaque nouvelle expérience initiée.
+                                    </p>
+                                ),
                             },
                             {
                                 title: "FEDERER LES ÉNERGIES. LES COMPÉTENCES ",
-                                text: `Quelque soit son métier et son statut, développer sa capacité à
-                                        fédérer des énergies positives et compétentes est un véritable
-                                        atout dans la construction collective de son projet : donner du sens
-                                        à son projet action.`,
+                                content: (
+                                    <p>
+                                        Quelque soit son métier et son statut,
+                                        développer sa capacité à fédérer des
+                                        énergies positives et compétentes est un
+                                        véritable atout dans la construction
+                                        collective de son projet : donner du
+                                        sens à son projet action.
+                                    </p>
+                                ),
                             },
                         ]}
                     />

@@ -16,11 +16,7 @@ function TextImage({
     alt = "Photo de Julien",
 }: Props) {
     return (
-        <div
-            className={
-                reverse ? "cols reverse mobile-reverse" : "cols mobile-reverse"
-            }
-        >
+        <div className={reverse ? "cols reverse" : "cols"}>
             <div
                 className="text"
                 style={{ width: (100 - proportion).toString() + "%" }}

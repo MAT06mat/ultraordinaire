@@ -40,7 +40,7 @@ function Home() {
                     <p>
                         Un témoignage d’une vie ultra ordinaire !<br />
                         <b>Julien Coindet</b> vous invite à le suivre sur les
-                        chemins de ses aventures sportives solidaires et de
+                        sentiers de ses aventures sportives solidaires et de
                         cohésion interprofessionnelle.{" "}
                         <b>Ultra traileur confirmé</b>, il a réussi à mobiliser
                         avec lui plusieurs CHU en embarquant ses collègues, les
@@ -48,8 +48,8 @@ function Home() {
                         d'ultra distance <b>mondialement connues</b> pour être
                         les plus difficiles au monde : <b>UTMB</b> et{" "}
                         <b>le grand raid de la réunion</b> (la Diagonale des
-                        Fous). <br /> Un dossard solidaire en faveur de la
-                        fondation maladies rares…
+                        Fous). <br /> À chaque course, un dossard solidaire en
+                        faveur de la fondation maladies rares !
                         <br />
                         La notion de <b>sport santé</b> est une base commune aux
                         3 sentiers développés sur ce site : aventures, réseau,
@@ -57,84 +57,76 @@ function Home() {
                         Ce <b>professionnel hospitalier</b>, diplômé en activité
                         physique adaptée et aux multiples casquettes
                         professionnelles (enseignant/coordinateur APA,
-                        formateur, auto-entrepreneur) est{" "}
-                        <b>ouvert à toute forme de collaboration</b> autour de
-                        ces 3 sentiers.
+                        formateur, auto-entrepreneur) est à votre écoute pour{" "}
+                        <b>vous accompagner</b> sur ces 3 sentiers.
                     </p>
                 </TextImage>
             </Section>
             <Section>
-                <TextDropList
-                    list={[
-                        {
-                            title: "Petit paragraphe",
-                            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                        },
-                        {
-                            title: "Moyen paragraphe",
-                            text: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit explicabo, suscipit ut dolores aperiam ducimus.
-                Porro pariatur provident ipsam voluptates temporibus! Numquam
-                laboriosam veritatis repellendus laborum officiis error qui
-                cupiditate aperiam ea voluptatum assumenda magnam eaque veniam,
-                eum dolore quia quisquam unde nobis, nisi voluptatibus alias.
-                Repudiandae adipisci ducimus esse deleniti perspiciatis quaerat
-                voluptatibus. Recusandae porro quia dolores, nobis tempore nisi
-                veniam maiores cum corporis.`,
-                        },
-                        {
-                            title: "Très long paragraphe",
-                            text: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit explicabo, suscipit ut dolores aperiam ducimus.
-                Porro pariatur provident ipsam voluptates temporibus! Numquam
-                laboriosam veritatis repellendus laborum officiis error qui
-                cupiditate aperiam ea voluptatum assumenda magnam eaque veniam,
-                eum dolore quia quisquam unde nobis, nisi voluptatibus alias.
-                Repudiandae adipisci ducimus esse deleniti perspiciatis quaerat
-                voluptatibus. Recusandae porro quia dolores, nobis tempore nisi
-                veniam maiores cum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit explicabo, suscipit ut dolores aperiam ducimus.
-                Porro pariatur provident ipsam voluptates temporibus! Numquam
-                laboriosam veritatis repellendus laborum officiis error qui
-                cupiditate aperiam ea voluptatum assumenda magnam eaque veniam,
-                eum dolore quia quisquam unde nobis, nisi voluptatibus alias.
-                Repudiandae adipisci ducimus esse deleniti perspiciatis quaerat
-                voluptatibus. Recusandae porro quia dolores, nobis tempore nisi
-                veniam maiores cum corporis.`,
-                        },
-                    ]}
-                />
+                <TextImage source="3782cdfc.jpg" reverse>
+                    <h2>JULIEN COINDET</h2>
+                    <h1 className="separator padding">
+                        Portrait d’un professionnel de santé actif passionné
+                    </h1>
+                    <p>
+                        En 2021, il décide d’ associer{" "}
+                        <b>sa passion de l’ultra endurance</b> avec son
+                        environnement socioprofessionnel autour de 2 grands
+                        domaines de vie aux déclinaisons diverses :{" "}
+                        <b>sport en santé</b> et <b>santé par le sport</b>.
+                    </p>
+                    <TextDropList
+                        list={[
+                            {
+                                title: "PROFESSIONNEL PROACTIF - ENVIRONNEMENT RÉCEPTIF, GAGNANT - GAGNANT ",
+                                text: `Au démarrage d’une idée, on va être confronté au « c'est compliqué »
+                                        soit par ses propres pensées limitantes, parfois dévalorisantes ou
+                                        par un environnement socioprofessionnel septique.
+                                        Une des solutions pour basculer d'une idée à l'état de projet viable
+                                        est de trouver des espaces communs « gagnant - gagnant » entre
+                                        les acteurs de ce projet avec des niveaux d'intérêt différents.`,
+                            },
+                            {
+                                title: "JULIEN COINDET, UN PASSIONNÉ FEDERATEUR ET MOTIVANT",
+                                text: `La passion du sport individuel-collectif et indoor-outdoor a rythmé
+                                        ma vie, depuis les plus jeunes âges. Toutes ces expériences motrices
+                                        et sociales ont participé à la construction du sportif, du professionnel
+                                        et de l’homme que je suis aujourd’hui : un parcours de vie ordinaire
+                                        sans expérience du haut niveau ou de l'élitisme mais en essayant d'être 
+                                        la meilleure version de moi même sur chaque nouvelle
+                                        expérience initiée.`,
+                            },
+                            {
+                                title: "FEDERER LES ÉNERGIES. LES COMPÉTENCES ",
+                                text: `Quelque soit son métier et son statut, développer sa capacité à
+                                        fédérer des énergies positives et compétentes est un véritable
+                                        atout dans la construction collective de son projet : donner du sens
+                                        à son projet action.`,
+                            },
+                        ]}
+                    />
+                </TextImage>
             </Section>
             <Section color="secondary">
-                <h1 className="center">FAQ</h1>
-                <p className="text-cols">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Reprehenderit explicabo, suscipit ut dolores aperiam
-                    ducimus. Porro pariatur provident ipsam voluptates
-                    temporibus! Numquam laboriosam veritatis repellendus laborum
-                    officiis error qui cupiditate aperiam ea voluptatum
-                    assumenda magnam eaque veniam, eum dolore quia quisquam unde
-                    nobis, nisi voluptatibus alias. Repudiandae adipisci ducimus
-                    esse deleniti perspiciatis quaerat voluptatibus. Recusandae
-                    porro quia dolores, nobis tempore nisi veniam maiores cum
-                    corporis. At, non vel sunt enim velit ratione! Maxime
-                    quaerat, fugit quia et suscipit sunt animi nesciunt eum est
-                    corporis quis ipsam repellat unde at expedita aliquam minima
-                    tempora facere excepturi pariatur? Corporis quae quas quis
-                    sapiente aut distinctio fugiat culpa quaerat, sunt dolorem
-                    eaque iusto commodi ducimus possimus, velit aliquam quam
-                    sint odio iste molestiae obcaecati nostrum totam. Facilis
-                    quasi rem nobis? Aspernatur soluta accusantium magnam
-                    corrupti minima, eos hic, a harum repellat placeat itaque
-                    nesciunt totam ea alias cupiditate facilis! Consequuntur
-                    fuga illum ad eaque exercitationem distinctio vero labore
-                    maiores laboriosam nam ullam dolorum facere repellat, non
-                    dolorem inventore delectus at cumque reiciendis, sequi quod
-                    necessitatibus earum quidem accusantium? Odit facilis
-                    molestias, itaque eum sed libero quaerat nulla, soluta
-                    debitis eveniet cupiditate porro alias placeat. Est,
-                    expedita dicta excepturi sed eum magnam consequatur iste?
-                </p>
+                <div className="cols">
+                    <div style={{ width: "50%" }}>
+                        <blockquote>
+                            Tout seul je vais vite <br />
+                            Ensemble on va loin <br />
+                            L’esprit d’équipe <br />
+                            Comme un besoin
+                        </blockquote>
+                    </div>
+                    <div style={{ width: "50%" }}>
+                        <p>Cette citation de Grand Corps Malade ...</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione deleniti aspernatur perspiciatis ex
+                            quaerat, iste sequi aut, possimus rerum consectetur
+                            veniam incidunt!
+                        </p>
+                    </div>
+                </div>
             </Section>
             <Section color="main-2">
                 <div className="cols center">
@@ -189,73 +181,34 @@ function Home() {
                 </div>
             </Section>
             <Section>
-                <p>
+                <h1 className="center">FAQ</h1>
+                <p className="text-cols">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Praesentium maxime laudantium dolores officiis, soluta
-                    exercitationem molestias ad nesciunt possimus, velit dolor?
-                    Fugiat praesentium, ab iure, aut, ratione voluptatem itaque
-                    mollitia libero adipisci quae sunt? Aliquam tenetur
-                    doloribus iste voluptas quidem ipsum, quae omnis id
-                    cupiditate inventore odit placeat. Temporibus, enim
-                    similique nisi quo sit laborum esse corrupti a, cupiditate
-                    molestias eveniet facere molestiae quos ea ab et est
-                    aliquid. Aliquam, aliquid perferendis officia laudantium
-                    sequi ipsa dolorum est. Consectetur veniam ab praesentium
-                    commodi, vitae et rerum odit doloribus necessitatibus
-                    repellendus expedita quo dolore itaque recusandae eum. Quia
-                    perspiciatis, at vitae beatae totam excepturi, optio
-                    mollitia quam reiciendis esse ut temporibus eos laboriosam
-                    nobis laborum omnis repellat animi cupiditate deleniti
-                    doloremque accusamus? Nemo dolorum sed ipsam ut tenetur.
-                    Sint ullam quisquam voluptas autem repellendus, harum quidem
-                    vero, placeat amet iure commodi unde eligendi eveniet dolore
-                    fugit! Doloribus, fuga beatae ex ratione accusamus deserunt
-                    alias natus reiciendis culpa asperiores dicta obcaecati
-                    dolores, odio, magni mollitia. Odio natus modi est officiis
-                    deleniti perferendis, ipsum ipsam ullam soluta, consectetur
-                    vitae ad numquam repellendus asperiores obcaecati unde
-                    reprehenderit accusamus rerum explicabo repudiandae!
-                    Excepturi facilis praesentium expedita quisquam inventore a,
-                    minima, cum nihil voluptas necessitatibus exercitationem,
-                    qui quidem modi nemo fugit voluptatum facere quis veritatis
-                    possimus aliquam repellendus eligendi sit. Animi unde
-                    placeat deserunt rem ab itaque odit eius repellendus neque,
-                    saepe iure provident odio voluptates reprehenderit
-                    laboriosam accusantium, quisquam dolorem eligendi recusandae
-                    officiis minus asperiores beatae. Id doloremque maxime
-                    consequuntur ex odit inventore debitis reiciendis, nisi
-                    dolorem aliquam necessitatibus nemo perspiciatis neque
-                    placeat tempora earum, consequatur harum assumenda eaque
-                    exercitationem facere veritatis eveniet. Odio, earum quae
-                    minus nemo quo maiores temporibus placeat! Earum esse odio
-                    repellat omnis accusamus, pariatur, unde rem quidem, vitae
-                    corporis doloremque cum quas ut quos. Praesentium aliquid
-                    voluptatum iure veniam vitae ullam. Magni omnis incidunt
-                    maxime quos officia rem repudiandae dolorem tempore
-                    obcaecati pariatur ipsum nisi, nobis earum, dicta odio eum
-                    voluptas illum aliquid architecto voluptates quo ex fugit!
-                    Explicabo ducimus rerum molestiae delectus itaque ipsa saepe
-                    ea. Nihil quo non est sunt, voluptatibus odit! Cum maiores,
-                    porro corrupti vero quidem fugiat necessitatibus veritatis,
-                    placeat laborum earum ex magni et consequatur delectus illum
-                    velit iste consectetur tempora similique aliquid debitis
-                    praesentium. Mollitia laboriosam nam, quos harum cupiditate
-                    sit, itaque, pariatur vel blanditiis sequi fugiat. Ut,
-                    similique. Nulla iste dolorum soluta repellat dolorem
-                    quisquam ipsa aliquam corrupti mollitia! In dolores unde
-                    placeat et, quas nihil, qui quam sapiente, harum praesentium
-                    temporibus accusantium ratione reprehenderit! Soluta non
-                    alias et dolor id. Debitis veniam tenetur corrupti nesciunt
-                    pariatur expedita at dolorum quaerat fugit nihil quos,
-                    repellat excepturi molestiae magni eius recusandae eaque
-                    ratione cumque totam laborum. Nam eos obcaecati fugit
-                    delectus maxime nemo earum accusamus minima porro, sunt
-                    natus ad dolor ab ullam in, fuga vitae nobis nostrum vel
-                    eum. Aliquid accusantium dolore, odit est accusamus
-                    veritatis provident non vitae nobis sit, unde soluta dolorem
-                    eos et perspiciatis cumque dignissimos ea quibusdam hic
-                    delectus eius laudantium. Eligendi similique nemo
-                    perferendis, illo optio tenetur labore!
+                    Reprehenderit explicabo, suscipit ut dolores aperiam
+                    ducimus. Porro pariatur provident ipsam voluptates
+                    temporibus! Numquam laboriosam veritatis repellendus laborum
+                    officiis error qui cupiditate aperiam ea voluptatum
+                    assumenda magnam eaque veniam, eum dolore quia quisquam unde
+                    nobis, nisi voluptatibus alias. Repudiandae adipisci ducimus
+                    esse deleniti perspiciatis quaerat voluptatibus. Recusandae
+                    porro quia dolores, nobis tempore nisi veniam maiores cum
+                    corporis. At, non vel sunt enim velit ratione! Maxime
+                    quaerat, fugit quia et suscipit sunt animi nesciunt eum est
+                    corporis quis ipsam repellat unde at expedita aliquam minima
+                    tempora facere excepturi pariatur? Corporis quae quas quis
+                    sapiente aut distinctio fugiat culpa quaerat, sunt dolorem
+                    eaque iusto commodi ducimus possimus, velit aliquam quam
+                    sint odio iste molestiae obcaecati nostrum totam. Facilis
+                    quasi rem nobis? Aspernatur soluta accusantium magnam
+                    corrupti minima, eos hic, a harum repellat placeat itaque
+                    nesciunt totam ea alias cupiditate facilis! Consequuntur
+                    fuga illum ad eaque exercitationem distinctio vero labore
+                    maiores laboriosam nam ullam dolorum facere repellat, non
+                    dolorem inventore delectus at cumque reiciendis, sequi quod
+                    necessitatibus earum quidem accusantium? Odit facilis
+                    molestias, itaque eum sed libero quaerat nulla, soluta
+                    debitis eveniet cupiditate porro alias placeat. Est,
+                    expedita dicta excepturi sed eum magnam consequatur iste?
                 </p>
             </Section>
         </>

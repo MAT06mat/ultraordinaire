@@ -15,7 +15,7 @@ function TextDropList({ list }: Props) {
     }
 
     return (
-        <div className="text-drop-list">
+        <div className="text-drop-list padding">
             {list.map((element, index) => {
                 return (
                     <TextDrop

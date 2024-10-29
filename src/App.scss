@@ -58,6 +58,18 @@ body {
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@font-face {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style: normal;
+    src: url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+    src: url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+        url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+        url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+        url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+        url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+
 h1 {
     padding: 0 0 16px 0;
     font-size: 2.5em;
@@ -157,13 +169,41 @@ img {
     }
 }
 
+table {
+    width: 100%;
+}
+
+blockquote {
+    position: relative;
+    font-size: 18px;
+    padding: 1em 3em;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+blockquote:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    font-size: 40px;
+    color: var(--complementary);
+}
+
+blockquote:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "\f10e";
+    font-family: 'Fontawesome';
+    font-size: 40px;
+    color: var(--complementary);
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column;
-
-        &.mobile-reverse {
-            flex-direction: column-reverse
-        }
 
         * {
             width: 100% !important;

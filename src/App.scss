@@ -191,7 +191,7 @@ blockquote:after {
     .cols {
         flex-direction: column !important;
 
-        * {
+        &>* {
             width: 100% !important;
         }
     }

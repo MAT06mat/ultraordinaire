@@ -32,7 +32,7 @@ function Home() {
                 <br />
             </Section>
             <Section color="main-2">
-                <TextImage source="766f77b3.jpg">
+                <TextImage source="766f77b3.jpg" reverse>
                     <h2>PASSIONNÉ D’ULTRA TRAIL, ENSEIGNANT APA, FÉDÉRATEUR</h2>
                     <h1 className="separator padding">
                         BIENVENUE SUR LES 3 SENTIERS DE JULIEN COINDET
@@ -63,7 +63,7 @@ function Home() {
                 </TextImage>
             </Section>
             <Section>
-                <TextImage source="3782cdfc.jpg" reverse>
+                <TextImage source="3782cdfc.jpg">
                     <h2>JULIEN COINDET</h2>
                     <h1 className="separator padding">
                         Portrait d’un professionnel de santé actif passionné

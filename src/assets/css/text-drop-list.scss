@@ -4,19 +4,17 @@
     gap: .5em;
 
     .text-drop {
-        .title {
+        .drop-button {
+            position: relative;
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            padding: 0 0.25em 0 1em;
+            padding: 0 2.5em 0 1em;
             background-color: var(--main-2);
             border-radius: 8px;
             height: 2.5em;
-            cursor: pointer;
-            font-family: "Bebas Neue", sans-serif;
+            gap: 1em;
             font-size: 20px;
-            white-space: nowrap;
-            overflow: hidden;
+            cursor: pointer;
 
             &:hover {
                 .btn {
@@ -28,10 +26,19 @@
                 }
             }
 
+            .title {
+                font-family: "Bebas Neue", sans-serif;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+
             .btn {
+                position: absolute;
+                right: 0.25em;
                 height: 2em;
                 width: 2em;
-                border-radius: 1em;
+                border-radius: 20px;
                 transition: all .2s ease;
 
                 &.close {

@@ -20,18 +20,18 @@ header {
 
     @keyframes show {
         from {
-            top: -20px;
+            top: -1.5em;
             opacity: 0;
         }
 
         to {
-            top: 0px;
+            top: 0;
             opacity: 1;
         }
     }
 
     &.showed {
-        animation: 0.3s ease show;
+        animation: 0.5s ease-out show;
         position: fixed;
         top: 0px;
         height: 4em;
@@ -193,21 +193,11 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-    @keyframes show {
-        from {
-            top: -20px;
-        }
-
-        to {
-            top: 0px;
-        }
-    }
-
     header {
         height: 5em;
 
         &.showed {
-            border-radius: 0 0 1em 1em;
+            border-radius: 0 0 .5em .5em;
         }
 
         &+* {

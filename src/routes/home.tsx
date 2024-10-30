@@ -78,7 +78,7 @@ function Home() {
                     <TextDropList
                         list={[
                             {
-                                title: "PROFESSIONNEL PROACTIF - ENVIRONNEMENT RÉCEPTIF, GAGNANT - GAGNANT ",
+                                title: "PROFESSIONNEL PROACTIF - ENVIRONNEMENT RÉCEPTIF, GAGNANT - GAGNANT",
                                 content: (
                                     <p>
                                         Au démarrage d’une idée, on va être
@@ -96,7 +96,7 @@ function Home() {
                                 ),
                             },
                             {
-                                title: "JULIEN COINDET, UN PASSIONNÉ FEDERATEUR ET MOTIVANT",
+                                title: "JULIEN COINDET, UN PASSIONNÉ FÉDÉRATEUR ET MOTIVANT",
                                 content: (
                                     <p>
                                         La passion du sport individuel-collectif
@@ -114,7 +114,7 @@ function Home() {
                                 ),
                             },
                             {
-                                title: "FEDERER LES ÉNERGIES. LES COMPÉTENCES ",
+                                title: "FÉDÉRER LES ÉNERGIES. LES COMPÉTENCES",
                                 content: (
                                     <p>
                                         Quelque soit son métier et son statut,

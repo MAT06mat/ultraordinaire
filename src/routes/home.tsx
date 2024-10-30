@@ -177,7 +177,7 @@ function Home() {
                             domaines d’activités variées et un ensemble de
                             réseaux indispensables à la réussite des actions
                             initiées. <br /> Le sport et vous ça fait deux ?
-                            Peut être mais votre santé et vous ne font qu'un !{" "}
+                            Peut être, mais votre santé et vous ne font qu'un !{" "}
                             <br /> Vous avez besoin d’une collaboration ultra
                             ordinaire ? Vous êtes sur le bon sentier.
                         </p>

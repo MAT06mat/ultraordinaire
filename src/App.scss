@@ -202,17 +202,13 @@ blockquote:after {
 .action {
     gap: 2em;
 
-    svg {
+    img {
         width: 3em;
         height: 3em;
         margin: 0 auto;
         display: block;
         padding-bottom: 2em;
-
-        path {
-            fill: var(--complementary);
-            stroke: transparent;
-        }
+        object-fit: contain;
     }
 
     button {

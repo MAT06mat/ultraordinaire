@@ -62,7 +62,11 @@ h1 {
     padding: 0 0 16px 0;
     font-size: 2.5em;
     line-height: 1em;
-    font-family: "Bebas Neue", sans-serif;
+
+    &,
+    &>span {
+        font-family: "Bebas Neue", sans-serif;
+    }
 }
 
 .padding {
@@ -73,11 +77,19 @@ h2 {
     padding: 16px 0;
     font-size: .8em;
     font-weight: 700;
-    color: var(--complementary);
+    color: var(--complementary) !important;
+}
+
+h3 {
+    padding: 0 0 16px 0;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif !important;
 }
 
 .complementary {
-    color: var(--complementary);
+    color: var(--complementary) !important;
 }
 
 .btn {
@@ -185,6 +197,41 @@ blockquote:after {
     height: 40px;
     width: 40px;
     content: url("/images/quote_out.svg");
+}
+
+.action {
+    gap: 2em;
+
+    svg {
+        width: 3em;
+        height: 3em;
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 2em;
+
+        path {
+            fill: var(--complementary);
+            stroke: transparent;
+        }
+    }
+
+    button {
+        background-color: var(--complementary);
+        color: var(--main);
+        margin: 0 auto;
+        display: block;
+        padding: .5em 1em;
+        border: none;
+        border-radius: .5em;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 20px;
+        transition: transform .2s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {

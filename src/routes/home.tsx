@@ -302,6 +302,11 @@ function Home() {
                     expedita dicta excepturi sed eum magnam consequatur iste?
                 </p>
             </Section>
+            <Section>
+                <a href="/pdf_test.pdf" download={"/pdf_test.pdf"}>
+                    TELECHARGER LE PDF (test pour papi)
+                </a>
+            </Section>
         </>
     );
 }

@@ -48,7 +48,9 @@ header {
 
 
     &:has(+ .background-image):not(.showed) {
-        a {
+
+        .logo,
+        .nav-links>li>a {
             animation: instantColor 1s 1;
             color: var(--main-3);
         }

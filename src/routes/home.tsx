@@ -184,12 +184,91 @@ function Home() {
                     </div>
                     <div style={{ width: "30%" }}>
                         <img src="/images/mobile.svg" alt="" />
-                        <h3>Contactez moi pour votre projet !</h3>
+                        <h3 className="center">
+                            Contactez moi pour votre projet !
+                        </h3>
                         <button>Contactez moi maintenant</button>
                     </div>
                 </div>
             </Section>
             <Section color="main-2">
+                <div className="cols">
+                    <div>
+                        <h1 className="complementary">TÉMOIGNAGES</h1>
+                        <p className="separator padding">
+                            2 aventures sportives, collectives, solidaires et de
+                            cohésion interprofessionnelle pour une cause
+                            commune,{" "}
+                            <b>
+                                collecter des fonds pour la fondation maladies
+                                rares
+                            </b>
+                            .{" "}
+                        </p>
+                        <p>
+                            Un récit inspirant et motivant dans un esprit de
+                            partage et d’échange !
+                        </p>
+                        <p>
+                            Des projets basés sur l’intelligence collective
+                            Incluant toute personne investie dans une dynamique
+                            positive vers un même but :{" "}
+                            <b>
+                                être ensemble dans le mouvement en direction
+                                d’une cause commune
+                            </b>
+                            . S’impliquer, s'engager et s’identifier sont des
+                            comportements fondamentaux{" "}
+                            <b>pour maximiser les chances de réussite</b> du
+                            projet.
+                        </p>
+                        <h3 className="padding">Projet 1</h3>
+                        <p>
+                            Cham 22 : CHAMpmaillot (nom du centre gériatrique
+                            CHU Dijon) - CHAMonix (ville départ/Arrivée de
+                            l'UTMB){" "}
+                        </p>
+                        <p>
+                            200 personnes se sont mis en mouvement dans un
+                            esprit telethon (rameur, vélo, parcours extérieur),
+                            jour et nuit pendant{" "}
+                            <b>les 35h de course de Julien Coindet</b> à l’UTMB.{" "}
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Projet 2</h3>
+                        <p>
+                            Diag 23: La Diagonale des CHU (CHU Dijon –CHU La
+                            Réunion){" "}
+                        </p>
+                        <p>
+                            300 personnes se sont rassemblées dans un esprit de
+                            partage, d’expériences motrices et sensorielles sur
+                            des ateliers tels que le tir à l’arc, les casques
+                            réalité virtuelle, tir à la carabine laser, rameurs,
+                            ergocycles, expositions de contenus réalisés par les
+                            résidents sur la réunion, etc…{" "}
+                        </p>
+                        <p>
+                            100 personnes ont participé au trail du CHU Dijon
+                            avec un départ donné juste après celui de Julien
+                            Coindet sur le Grand Raid en direct de la Réunion
+                            sur un écran TV géant. Les cuisines du CHU ont
+                            également travaillé leurs menus en version
+                            réunionnais pour tous les résidents du centre
+                            gériatrique de Champmaillot et à la cafétéria du CHU
+                            Dijon.{" "}
+                        </p>
+                        <h3 className="padding">Titre</h3>
+                        <p>
+                            Les projets commencent, la plupart du temps, d'une
+                            page blanche d’où émerge une idée avec une forte
+                            volonté d’entreprendre.
+                        </p>
+                    </div>
+                </div>
+            </Section>
+            <Section>
                 <div className="cols center">
                     <div>
                         <h1>
@@ -240,37 +319,6 @@ function Home() {
                         </p>
                     </div>
                 </div>
-            </Section>
-            <Section>
-                <h1 className="center">FAQ</h1>
-                <p className="text-cols">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Reprehenderit explicabo, suscipit ut dolores aperiam
-                    ducimus. Porro pariatur provident ipsam voluptates
-                    temporibus! Numquam laboriosam veritatis repellendus laborum
-                    officiis error qui cupiditate aperiam ea voluptatum
-                    assumenda magnam eaque veniam, eum dolore quia quisquam unde
-                    nobis, nisi voluptatibus alias. Repudiandae adipisci ducimus
-                    esse deleniti perspiciatis quaerat voluptatibus. Recusandae
-                    porro quia dolores, nobis tempore nisi veniam maiores cum
-                    corporis. At, non vel sunt enim velit ratione! Maxime
-                    quaerat, fugit quia et suscipit sunt animi nesciunt eum est
-                    corporis quis ipsam repellat unde at expedita aliquam minima
-                    tempora facere excepturi pariatur? Corporis quae quas quis
-                    sapiente aut distinctio fugiat culpa quaerat, sunt dolorem
-                    eaque iusto commodi ducimus possimus, velit aliquam quam
-                    sint odio iste molestiae obcaecati nostrum totam. Facilis
-                    quasi rem nobis? Aspernatur soluta accusantium magnam
-                    corrupti minima, eos hic, a harum repellat placeat itaque
-                    nesciunt totam ea alias cupiditate facilis! Consequuntur
-                    fuga illum ad eaque exercitationem distinctio vero labore
-                    maiores laboriosam nam ullam dolorum facere repellat, non
-                    dolorem inventore delectus at cumque reiciendis, sequi quod
-                    necessitatibus earum quidem accusantium? Odit facilis
-                    molestias, itaque eum sed libero quaerat nulla, soluta
-                    debitis eveniet cupiditate porro alias placeat. Est,
-                    expedita dicta excepturi sed eum magnam consequatur iste?
-                </p>
             </Section>
         </>
     );

@@ -81,3 +81,13 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .text-drop-list {
+        .text-drop {
+            .drop-button {
+                font-size: 18px;
+            }
+        }
+    }
+}

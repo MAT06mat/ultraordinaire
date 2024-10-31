@@ -265,56 +265,42 @@ function Home() {
                 </div>
             </Section>
             <Section>
-                <div className="cols center">
-                    <div>
-                        <h1>
-                            Texte <span className="complementary">1</span>
-                        </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Distinctio temporibus, dolorum quis molestiae
-                            sequi, numquam quia accusantium magnam
-                            necessitatibus sit tempore odio ipsam iste dolores,
-                            veritatis accusamus esse aliquam porro ea ex
-                            debitis. Consectetur, aperiam doloribus! Obcaecati
-                            consequuntur, sapiente veniam nemo repellat in
-                            provident, repellendus molestiae minima accusantium
-                            harum atque.
-                        </p>
-                    </div>
-                    <div>
-                        <h1>
-                            Texte <span className="complementary">2</span>
-                        </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Distinctio temporibus, dolorum quis molestiae
-                            sequi, numquam quia accusantium magnam
-                            necessitatibus sit tempore odio ipsam iste dolores,
-                            veritatis accusamus esse aliquam porro ea ex
-                            debitis. Consectetur, aperiam doloribus! Obcaecati
-                            consequuntur, sapiente veniam nemo repellat in
-                            provident, repellendus molestiae minima accusantium
-                            harum atque.
-                        </p>
-                    </div>
-                    <div>
-                        <h1>
-                            Texte <span className="complementary">3</span>
-                        </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Distinctio temporibus, dolorum quis molestiae
-                            sequi, numquam quia accusantium magnam
-                            necessitatibus sit tempore odio ipsam iste dolores,
-                            veritatis accusamus esse aliquam porro ea ex
-                            debitis. Consectetur, aperiam doloribus! Obcaecati
-                            consequuntur, sapiente veniam nemo repellat in
-                            provident, repellendus molestiae minima accusantium
-                            harum atque.
-                        </p>
-                    </div>
-                </div>
+                <TextImage reverse source="WA0040.jpg">
+                    <h2>LE MONDE DE JULIEN</h2>
+                    <h1 className="separator padding">
+                        LE MONDE DE{" "}
+                        <span className="complementary">L’ULTRATRAIL</span> ET
+                        LE MONDE DE{" "}
+                        <span className="complementary">L’ENTREPRISE</span>
+                    </h1>
+                    <p>
+                        On s'interroge tous les jours sur ce fameux{" "}
+                        <b>pourquoi</b>. Pourquoi souffrir pour une course ?
+                        Pourquoi faire ce métier ? Pourquoi je n'arrive plus à
+                        me motiver ? Pourquoi, pourquoi, pourquoi…
+                    </p>
+                    <p>
+                        L'ultra trail n'est évidemment pas la solution magique
+                        mais en tout cas{" "}
+                        <b>
+                            son univers nous amène à un questionnement
+                            introspectif
+                        </b>{" "}
+                        en interaction permanente avec son environnement pour
+                        atteindre un objectif fixé au départ. Intéressant non ?
+                        Et en entreprise, le processus n'est il pas le même ?
+                    </p>
+                    <p>
+                        Imaginez le nombre de pistes de travail que{" "}
+                        <b>nous pouvons activer ensemble</b> autour des
+                        parallèles possibles entre ces 2 univers.
+                    </p>
+                    <p>
+                        Ce qui nous intéresse, ce n'est pas tant le résultat de
+                        ces réponses qui nous intéresse mais{" "}
+                        <b>le chemin pour y parvenir</b>.
+                    </p>
+                </TextImage>
             </Section>
         </>
     );

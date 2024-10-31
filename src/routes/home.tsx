@@ -222,11 +222,10 @@ function Home() {
                             <b>pour maximiser les chances de réussite</b> du
                             projet.
                         </p>
-                        <h3 className="padding">Projet 1</h3>
+                        <h3 className="padding">Projet 1 - Cham 22</h3>
                         <p>
-                            Cham 22 : CHAMpmaillot (nom du centre gériatrique
-                            CHU Dijon) - CHAMonix (ville départ/Arrivée de
-                            l'UTMB){" "}
+                            CHAMpmaillot (nom du centre gériatrique CHU Dijon) -
+                            CHAMonix (ville départ/Arrivée de l'UTMB){" "}
                         </p>
                         <p>
                             200 personnes se sont mis en mouvement dans un
@@ -236,11 +235,8 @@ function Home() {
                         </p>
                     </div>
                     <div>
-                        <h3>Projet 2</h3>
-                        <p>
-                            Diag 23: La Diagonale des CHU (CHU Dijon –CHU La
-                            Réunion){" "}
-                        </p>
+                        <h3>Projet 2 - Diag 23</h3>
+                        <p>La Diagonale des CHU (CHU Dijon –CHU La Réunion) </p>
                         <p>
                             300 personnes se sont rassemblées dans un esprit de
                             partage, d’expériences motrices et sensorielles sur

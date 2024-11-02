@@ -54,16 +54,14 @@ function Home() {
                         <b>le grand raid de la réunion</b> (la Diagonale des
                         Fous). <br /> À chaque course, un dossard solidaire a
                         été financé par des partenaires en faveur de la
-                        Fondation Maladies Rares!
-                        <br />
-                        La notion de <b>sport santé</b> est une base commune aux
-                        3 sentiers développés sur ce site : aventures, réseau,
-                        association. <br />
-                        Ce <b>professionnel hospitalier</b>, diplômé en activité
-                        physique adaptée et aux multiples casquettes
-                        professionnelles (enseignant/coordinateur APA,
-                        formateur, auto-entrepreneur) est à votre écoute pour{" "}
-                        <b>vous accompagner</b> sur ces 3 sentiers.
+                        Fondation Maladies Rares! <br /> La notion de{" "}
+                        <b>sport santé</b> est une base commune aux 3 sentiers
+                        développés sur ce site : aventures, réseau,
+                        associations. <br /> Ce <b>professionnel hospitalier</b>
+                        , diplômé en activité physique adaptée et aux multiples
+                        casquettes professionnelles (enseignant/coordinateur
+                        APA, formateur, auto-entrepreneur) est à votre écoute
+                        pour <b>vous accompagner</b> sur ces 3 sentiers.
                     </p>
                 </TextImage>
             </Section>

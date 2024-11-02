@@ -3,6 +3,7 @@ import "./App.scss";
 import Home from "./routes/home";
 import PageLayout from "./components/PageLayout";
 import ErrorPage from "./routes/error-page";
+import Aventures from "./routes/aventures";
 
 function App() {
     return (
@@ -10,12 +11,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<PageLayout />}>
                     <Route index element={<Home />} />
-                    <Route path="aventures">
-                        <Route path="temoignages" />
-                        <Route path="ultra-trail" />
-                        <Route path="capital-sante" />
-                        <Route path="dynamique-collective" />
-                    </Route>
+                    <Route path="aventures" element={<Aventures />}></Route>
                     <Route path="reseau">
                         <Route path="secteurs-d-intervention" />
                         <Route path="coordination-des-interventions" />

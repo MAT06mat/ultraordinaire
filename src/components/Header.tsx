@@ -56,40 +56,6 @@ function Header() {
                         <Link to="aventures" onClick={handleClose}>
                             AVENTURES
                         </Link>
-                        <ul className="drop-menu">
-                            <li>
-                                <Link
-                                    to="aventures/temoignages"
-                                    onClick={handleClose}
-                                >
-                                    TÉMOIGNAGES
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="aventures/ultra-trail"
-                                    onClick={handleClose}
-                                >
-                                    ULTRA TRAIL
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="aventures/capital-sante"
-                                    onClick={handleClose}
-                                >
-                                    CAPITAL SANTÉ
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="aventures/dynamique-collective"
-                                    onClick={handleClose}
-                                >
-                                    DYNAMIQUE COLLECTIVE
-                                </Link>
-                            </li>
-                        </ul>
                     </li>
                     <li>
                         <Link to="reseau" onClick={handleClose}>

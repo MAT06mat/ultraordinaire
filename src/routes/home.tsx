@@ -134,27 +134,6 @@ function Home() {
                     />
                 </TextImage>
             </Section>
-            <Section color="main-2">
-                <div className="cols">
-                    <div style={{ width: "50%" }}>
-                        <blockquote>
-                            Tout seul je vais vite <br />
-                            Ensemble on va loin <br />
-                            L’esprit d’équipe <br />
-                            Comme un besoin
-                        </blockquote>
-                    </div>
-                    <div style={{ width: "50%" }}>
-                        <p>
-                            Cette citation de Grand Corps Malade ... <br />
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ratione deleniti aspernatur perspiciatis ex
-                            quaerat, iste sequi aut, possimus rerum consectetur
-                            veniam incidunt!
-                        </p>
-                    </div>
-                </div>
-            </Section>
             <Section color="secondary">
                 <div className="cols action">
                     <div style={{ width: "70%" }}>
@@ -171,15 +150,11 @@ function Home() {
                             public et privé, association ou fondation,
                             indépendant, particulier vous trouverez, peut être,
                             dans mes 3 sentiers un levier de discussion qui fait
-                            sens pour vos équipes ou pour vous même. <br />
-                            Mes différentes casquettes m'offrent l’opportunité
-                            de rencontrer de nombreux professionnels dans des
-                            domaines d’activités variées et un ensemble de
-                            réseaux indispensables à la réussite des actions
-                            initiées. <br /> Le sport et vous ça fait deux ?
-                            Peut être, mais votre santé et vous ne font qu'un !{" "}
-                            <br /> Vous avez besoin d’une collaboration ultra
-                            ordinaire ? Vous êtes sur le bon sentier.
+                            sens pour vos équipes ou pour vous même. <br /> Le
+                            sport et vous ça fait deux ? Peut être, mais votre
+                            santé et vous ne font qu'un ! <br /> Vous avez
+                            besoin d’une collaboration, d'un témoignage ou d'un
+                            accompagnement ? Vous êtes sur le bon sentier.
                         </p>
                     </div>
                     <div style={{ width: "30%" }}>
@@ -187,108 +162,33 @@ function Home() {
                         <h3 className="center">
                             Contactez moi pour votre projet !
                         </h3>
-                        <button>Contactez moi maintenant</button>
-                    </div>
-                </div>
-            </Section>
-            <Section color="main-2">
-                <div className="cols">
-                    <div>
-                        <h1 className="complementary">TÉMOIGNAGES</h1>
-                        <p className="separator padding">
-                            2 aventures sportives, collectives, solidaires et de
-                            cohésion interprofessionnelle pour une cause
-                            commune,{" "}
-                            <b>
-                                collecter des fonds pour la fondation maladies
-                                rares
-                            </b>
-                            . <br />
-                            Un récit inspirant et motivant dans un esprit de
-                            partage et d’échange ! <br />
-                            Des projets basés sur l’intelligence collective
-                            Incluant toute personne investie dans une dynamique
-                            positive vers un même but :{" "}
-                            <b>
-                                être ensemble dans le mouvement en direction
-                                d’une cause commune
-                            </b>
-                            . S’impliquer, s'engager et s’identifier sont des
-                            comportements fondamentaux{" "}
-                            <b>pour maximiser les chances de réussite</b> du
-                            projet.
-                        </p>
-                        <h3 className="padding">Projet 1 - Cham 22</h3>
-                        <p>
-                            CHAMpmaillot (nom du centre gériatrique CHU Dijon) -
-                            CHAMonix (ville départ/Arrivée de l'UTMB) <br />
-                            200 personnes se sont mis en mouvement dans un
-                            esprit telethon (rameur, vélo, parcours extérieur),
-                            jour et nuit pendant{" "}
-                            <b>les 35h de course de Julien Coindet</b> à l’UTMB.{" "}
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Projet 2 - Diag 23</h3>
-                        <p>
-                            La Diagonale des CHU (CHU Dijon –CHU La Réunion){" "}
-                            <br />
-                            300 personnes se sont rassemblées dans un esprit de
-                            partage, d’expériences motrices et sensorielles sur
-                            des ateliers tels que le tir à l’arc, les casques
-                            réalité virtuelle, tir à la carabine laser, rameurs,
-                            ergocycles, expositions de contenus réalisés par les
-                            résidents sur la réunion, etc… <br />
-                            100 personnes ont participé au trail du CHU Dijon
-                            avec un départ donné juste après celui de Julien
-                            Coindet sur le Grand Raid en direct de la Réunion
-                            sur un écran TV géant. Les cuisines du CHU ont
-                            également travaillé leurs menus en version
-                            réunionnais pour tous les résidents du centre
-                            gériatrique de Champmaillot et à la cafétéria du CHU
-                            Dijon.{" "}
-                        </p>
-                        <h3 className="padding">Titre</h3>
-                        <p>
-                            Les projets commencent, la plupart du temps, d'une
-                            page blanche d’où émerge une idée avec une forte
-                            volonté d’entreprendre.
-                        </p>
+                        <button className="margin">
+                            Contactez moi maintenant
+                        </button>
                     </div>
                 </div>
             </Section>
             <Section>
-                <TextImage reverse source="WA0040.jpg">
-                    <h2>LE MONDE DE JULIEN</h2>
-                    <h1 className="separator padding">
-                        LE MONDE DE{" "}
-                        <span className="complementary">L’ULTRATRAIL</span> ET
-                        LE MONDE DE{" "}
-                        <span className="complementary">L’ENTREPRISE</span>
-                    </h1>
-                    <p>
-                        On s'interroge tous les jours sur ce fameux{" "}
-                        <b>pourquoi</b>. Pourquoi souffrir pour une course ?
-                        Pourquoi faire ce métier ? Pourquoi je n'arrive plus à
-                        me motiver ? Pourquoi, pourquoi, pourquoi… <br />
-                        L'ultra trail n'est évidemment pas la solution magique
-                        mais en tout cas{" "}
-                        <b>
-                            son univers nous amène à un questionnement
-                            introspectif
-                        </b>{" "}
-                        en interaction permanente avec son environnement pour
-                        atteindre un objectif fixé au départ. Intéressant non ?
-                        Et en entreprise, le processus n'est il pas le même ?{" "}
-                        <br />
-                        Imaginez le nombre de pistes de travail que{" "}
-                        <b>nous pouvons activer ensemble</b> autour des
-                        parallèles possibles entre ces 2 univers. <br />
-                        Ce qui nous intéresse, ce n'est pas tant le résultat de
-                        ces réponses qui nous intéresse mais{" "}
-                        <b>le chemin pour y parvenir</b>.
-                    </p>
-                </TextImage>
+                <div className="cols">
+                    <div>
+                        <blockquote>
+                            Tout seul je vais vite <br />
+                            Ensemble on va loin <br />
+                            L’esprit d’équipe <br />
+                            Comme un besoin
+                        </blockquote>
+                    </div>
+                    <div>
+                        <p>
+                            Rien de nouveau sous le soleil, seul on avance
+                            autour de son nombril débordant d’ambition ou de
+                            désir alors que « Ensemble » son nombril vient
+                            s’additionner aux autres nombrils ambitieux. Ils
+                            vont mettre en place un état d’esprit commun dans le
+                            but d’aller plus loin.
+                        </p>
+                    </div>
+                </div>
             </Section>
         </>
     );

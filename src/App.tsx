@@ -1,13 +1,15 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Home from "./routes/Home";
 import PageLayout from "./components/PageLayout";
 import ErrorPage from "./routes/ErrorPage";
 import Aventures from "./routes/Aventures";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
-        <BrowserRouter>
+        <Router>
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<PageLayout />}>
                     <Route index element={<Home />} />
@@ -27,7 +29,7 @@ function App() {
                 </Route>
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
-        </BrowserRouter>
+        </Router>
     );
 }
 

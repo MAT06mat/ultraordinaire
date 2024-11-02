@@ -5,7 +5,7 @@ function Action() {
     return (
         <Section color="secondary">
             <div className="cols action">
-                <div style={{ width: "70%" }}>
+                <div>
                     <h2>PRÉSENTATION DES COLLABORATIONS AVEC JULIEN COINDET</h2>
                     <h1>
                         Voici <span className="complementary">les offres</span>{" "}
@@ -18,12 +18,13 @@ function Action() {
                         sentiers un levier de discussion qui fait sens pour vos
                         équipes ou pour vous même. <br /> Le sport et vous ça
                         fait deux ? Peut être, mais votre santé et vous ne font
-                        qu'un ! <br /> Vous avez besoin d’une collaboration,
-                        d'un témoignage ou d'un accompagnement ? Vous êtes sur
+                        qu'un ! <br />
+                        <br /> Vous avez besoin d’une collaboration, d'un
+                        témoignage ou d'un accompagnement ? <br /> Vous êtes sur
                         le bon sentier.
                     </p>
                 </div>
-                <div style={{ width: "30%" }}>
+                <div>
                     <img src="/images/mobile.svg" alt="" />
                     <h3 className="center">
                         Contactez moi pour votre projet !

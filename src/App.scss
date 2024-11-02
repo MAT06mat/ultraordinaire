@@ -202,37 +202,6 @@ blockquote:after {
     content: url("/images/quote_out.svg");
 }
 
-.action {
-    gap: 2em;
-
-    img {
-        width: 3em;
-        height: 3em;
-        margin: 0 auto;
-        display: block;
-        padding-bottom: 2em;
-        object-fit: contain;
-    }
-
-    button {
-        background-color: var(--complementary);
-        color: var(--main);
-        margin: 0 auto;
-        display: block;
-        padding: .5em 1em;
-        border: none;
-        border-radius: .5em;
-        font-family: "Bebas Neue", sans-serif;
-        font-size: 20px;
-        transition: transform .2s ease-in-out;
-        cursor: pointer;
-
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
-}
-
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;

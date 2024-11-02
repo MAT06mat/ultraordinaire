@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Section from "../components/Section";
 import TextImage from "../components/TextImage";
+import Action from "../components/Action";
 
 function Aventures() {
     return (
@@ -128,6 +129,7 @@ function Aventures() {
                     </p>
                 </blockquote>
             </Section>
+            <Action />
         </>
     );
 }

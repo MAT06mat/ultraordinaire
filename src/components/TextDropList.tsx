@@ -1,5 +1,5 @@
 import TextDrop from "./TextDrop";
-import "../assets/css/text-drop-list.scss";
+import "../assets/css/TextDropList.scss";
 import { ReactNode, useState } from "react";
 
 interface Props {

@@ -1,5 +1,5 @@
 import { ReactNode, useState } from "react";
-import "../assets/css/carousel.scss";
+import "../assets/css/Carousel.scss";
 
 interface Props {
     list: ReactNode[];

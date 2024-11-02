@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import "../assets/css/section.scss";
+import "../assets/css/Section.scss";
 
 interface Props {
     children?: ReactNode;

@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
-import Home from "./routes/home";
+import Home from "./routes/Home";
 import PageLayout from "./components/PageLayout";
-import ErrorPage from "./routes/error-page";
-import Aventures from "./routes/aventures";
+import ErrorPage from "./routes/ErrorPage";
+import Aventures from "./routes/Aventures";
 
 function App() {
     return (

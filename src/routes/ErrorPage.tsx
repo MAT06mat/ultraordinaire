@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import "../assets/css/error-page.scss";
+import "../assets/css/ErrorPage.scss";
 import { Link } from "react-router-dom";
 
 export default function ErrorPage() {

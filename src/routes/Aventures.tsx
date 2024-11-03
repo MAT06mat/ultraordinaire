@@ -52,37 +52,25 @@ function Aventures() {
                     <div>
                         <h1 className="complementary">TÉMOIGNAGES</h1>
                         <p className="separator padding">
-                            2 aventures sportives, collectives, solidaires et de
-                            cohésion interprofessionnelle pour une cause
-                            commune,{" "}
+                            Les projets de Julien illustrent{" "}
+                            <b>l’intelligence collective</b> et l’importance de
+                            la solidarité pour une cause commune :{" "}
                             <b>
-                                collecter des fonds pour la fondation maladies
-                                rares
+                                la collecte de fonds pour la Fondation Maladies
+                                Rares
                             </b>
-                            . <br />
-                            Un récit inspirant et motivant dans un esprit de
-                            partage et d’échange ! <br />
-                            Des projets basés sur l’intelligence collective
-                            Incluant toute personne investie dans une dynamique
-                            positive vers un même but :{" "}
-                            <b>
-                                être ensemble dans le mouvement en direction
-                                d’une cause commune
-                            </b>
-                            . S’impliquer, s'engager et s’identifier sont des
-                            comportements fondamentaux{" "}
-                            <b>pour maximiser les chances de réussite</b> du
-                            projet.
+                            . S’impliquer, s’engager, et s’identifier à un but
+                            commun maximise les chances de succès.
                         </p>
                         <h3 className="padding">Projet 1 - Cham 22</h3>
                         <p>
-                            CHAMpmaillot (nom du centre gériatrique CHU Dijon) -
-                            CHAMonix (ville départ/Arrivée de l'UTMB) <br />
-                            Dans ce projet, 200 personnes se sont mis en
-                            mouvement dans un esprit telethon (rameur, vélo,
-                            parcours extérieur), jour et nuit pendant{" "}
-                            <b>les 35h de course de Julien Coindet</b> à l’UTMB.
-                            Il à fini 427ème sur 1789.
+                            Depuis le centre gériatrique{" "}
+                            <b>Champmaillot à Dijon</b>
+                            jusqu’à <b>Chamonix</b>, 200 personnes se sont
+                            mobilisées, participant à des activités physiques
+                            (rameur, vélo, parcours extérieur) en continu
+                            pendant les <b>35 heures</b> de course de Julien
+                            lors de l’<b>UTMB</b>.
                         </p>
                     </div>
                     <div>
@@ -98,7 +86,8 @@ function Aventures() {
                             carabine laser, rameurs, ergocycles, expositions de
                             contenus réalisés par les résidents sur la réunion,
                             etc… <br />
-                            Durant ce trail du CHU Dijon,{" "}
+                            <br />
+                            Durant le trail du CHU Dijon,{" "}
                             <b>2047 personnes ont participé</b> sur le Grand
                             Raid en direct de la Réunion sur un écran TV géant.
                             Les cuisines du CHU ont également travaillé leurs

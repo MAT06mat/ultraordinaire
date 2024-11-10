@@ -94,7 +94,7 @@ function Home() {
                                         viable est de trouver des espaces
                                         communs « gagnant - gagnant » entre les
                                         acteurs de ce projet avec des niveaux
-                                        d'intérêt différents.`,
+                                        d'intérêt différents.
                                     </p>
                                 ),
                             },
@@ -111,7 +111,7 @@ function Home() {
                                         suis aujourd’hui : un parcours sportif
                                         ordinaire en dehors de l’élitisme mais
                                         en essayant d'être la meilleure version
-                                        de moi même sur chaque nouvelle
+                                        de moi-même sur chaque nouvelle
                                         expérience initiée.
                                     </p>
                                 ),
@@ -120,7 +120,7 @@ function Home() {
                                 title: "FÉDÉRER ÉNERGIES & COMPÉTENCES",
                                 content: (
                                     <p>
-                                        Quelque soit son métier et son statut,
+                                        Quel que soit son métier et son statut,
                                         développer sa capacité à fédérer des
                                         énergies positives et compétentes est un
                                         véritable atout dans la construction
@@ -146,12 +146,11 @@ function Home() {
                     </div>
                     <div>
                         <p>
-                            Rien de nouveau sous le soleil, seul on avance
-                            autour de son nombril débordant d’ambition ou de
-                            désir alors que « Ensemble » son nombril vient
-                            s’additionner aux autres nombrils ambitieux. Ils
-                            vont mettre en place un état d’esprit commun dans le
-                            but d’aller plus loin.
+                            Rien de nouveau sous le soleil, l’addition des
+                            énergies et des compétences de chacun augmente les
+                            chances de réussite du projet. L’état d’esprit du
+                            groupe aura une incidence fondamentale pour mener à
+                            terme celui-ci.
                         </p>
                     </div>
                 </div>

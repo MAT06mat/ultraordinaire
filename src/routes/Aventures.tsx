@@ -64,13 +64,12 @@ function Aventures() {
                         </p>
                         <h3 className="padding">Projet 1 - Cham 22</h3>
                         <p>
-                            Depuis le centre gériatrique{" "}
-                            <b>Champmaillot à Dijon</b>
-                            jusqu’à <b>Chamonix</b>, 200 personnes se sont
-                            mobilisées, participant à des activités physiques
-                            (rameur, vélo, parcours extérieur) en continu
-                            pendant les <b>35 heures</b> de course de Julien
-                            lors de l’<b>UTMB</b>.
+                            Au centre gériatrique <b>Champmaillot</b> à Dijon,
+                            200 personnes se sont mobilisées et mis en mouvement
+                            dans <b>un esprit Téléthon</b> (rameur, vélo,
+                            parcours extérieur), en continu jour et nuit pendant
+                            les 35h de course de Julien Coindet à l’UTMB dont le
+                            départ et l’arrivée est à <b>Chamonix</b>.
                         </p>
                     </div>
                     <div>
@@ -78,23 +77,20 @@ function Aventures() {
                         <p>
                             La Diagonale des CHU (CHU Dijon –CHU La Réunion){" "}
                             <br />
-                            Pendant cet instant,{" "}
-                            <b>300 personnes se sont rassemblées</b> dans un
-                            esprit de partage d’expériences motrices et
-                            sensorielles sur des ateliers tels que le tir à
-                            l’arc, les casques réalité virtuelle, tir à la
-                            carabine laser, rameurs, ergocycles, expositions de
-                            contenus réalisés par les résidents sur la réunion,
-                            etc… <br />
-                            <br />
-                            Durant le trail du CHU Dijon,{" "}
-                            <b>2047 personnes ont participé</b> sur le Grand
-                            Raid en direct de la Réunion sur un écran TV géant.
-                            Les cuisines du CHU ont également travaillé leurs
-                            menus en version réunionnais pour tous les résidents
-                            du centre gériatrique de Champmaillot et à la
-                            cafétéria du CHU Dijon. Julien à fini en 41h45 et
-                            s'est placé 393ème.
+                            Sur 2 jours de course, <b>300 personnes</b> se sont
+                            rassemblées dans un esprit de partage, d’expériences
+                            motrices et sensorielles sur des ateliers tels que
+                            le tir à l’arc, les casques de réalité virtuelle,
+                            tir à la carabine laser, rameurs, ergocycles,
+                            expositions de contenus réalisés par les résidents
+                            sur l’île de la réunion, etc. Durant{" "}
+                            <b>le trail du chu</b> créé à cette occasion,{" "}
+                            <b>100 personnes</b> sont partis simultanément au
+                            départ en direct de la Réunion transmis sur un écran
+                            géant. Les cuisines du CHU ont également travaillé
+                            leurs menus en version réunionnais pour tous les
+                            résidents du centre gériatrique de Champmaillot et à
+                            la cafétéria du CHU Dijon.
                         </p>
                     </div>
                 </div>

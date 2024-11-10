@@ -5,6 +5,7 @@ import PageLayout from "./components/PageLayout";
 import ErrorPage from "./routes/ErrorPage";
 import Aventures from "./routes/Aventures";
 import ScrollToTop from "./components/ScrollToTop";
+import Diag23 from "./routes/Diag23";
 
 function App() {
     return (
@@ -13,7 +14,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<PageLayout />}>
                     <Route index element={<Home />} />
-                    <Route path="aventures" element={<Aventures />}></Route>
+                    <Route path="aventures">
+                        <Route index element={<Aventures />} />
+                        <Route path="diag23" element={<Diag23 />} />
+                    </Route>
                     <Route path="reseau">
                         <Route path="secteurs-d-intervention" />
                         <Route path="coordination-des-interventions" />

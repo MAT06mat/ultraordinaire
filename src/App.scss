@@ -202,6 +202,23 @@ blockquote:after {
     content: url("/images/quote_out.svg");
 }
 
+.link {
+    text-decoration: underline;
+
+    &:hover {
+        color: var(--complementary);
+    }
+}
+
+.images-container {
+    margin: 0 auto;
+    max-width: 750px;
+
+    img {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;

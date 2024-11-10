@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Section from "../components/Section";
 import TextImage from "../components/TextImage";
 import Action from "../components/Action";
+import { Link } from "react-router-dom";
 
 function Aventures() {
     return (
@@ -75,7 +76,10 @@ function Aventures() {
                     <div>
                         <h3>Projet 2 - Diag 23</h3>
                         <p>
-                            La Diagonale des CHU (CHU Dijon –CHU La Réunion){" "}
+                            <Link to={"diag23"} className="link">
+                                La Diagonale des CHU (CHU Dijon –CHU La Réunion)
+                            </Link>
+                            <br />
                             <br />
                             Sur 2 jours de course, <b>300 personnes</b> se sont
                             rassemblées dans un esprit de partage, d’expériences

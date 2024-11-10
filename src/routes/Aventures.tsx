@@ -63,7 +63,10 @@ function Aventures() {
                             . S’impliquer, s’engager, et s’identifier à un but
                             commun maximise les chances de succès.
                         </p>
-                        <h3 className="padding">Projet 1 - Cham 22</h3>
+                        <div className="infos padding">
+                            <h3>Projet 1 - Cham 22</h3>
+                            <div className="info">35h - 427ème/1789</div>
+                        </div>
                         <p>
                             Au centre gériatrique <b>Champmaillot</b> à Dijon,
                             200 personnes se sont mobilisées et mis en mouvement
@@ -74,7 +77,10 @@ function Aventures() {
                         </p>
                     </div>
                     <div>
-                        <h3>Projet 2 - Diag 23</h3>
+                        <div className="infos">
+                            <h3>Projet 2 - Diag 23</h3>
+                            <div className="info">41h45 - 393ème/2047</div>{" "}
+                        </div>
                         <p>
                             <Link to={"diag23"} className="link">
                                 La Diagonale des CHU (CHU Dijon –CHU La Réunion)

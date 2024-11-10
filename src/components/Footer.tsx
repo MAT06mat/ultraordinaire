@@ -11,7 +11,15 @@ function Footer() {
                 </div>
                 <div className="copyright separator">
                     <div>© 2024 Julien Coindet</div>
-                    <div>Tous droits réservés</div>
+                    <div>
+                        Tous droits réservés - Site réalisé par{" "}
+                        <a
+                            className="link"
+                            href="https://mat06mat.github.io/MAT06mat"
+                        >
+                            MAT06mat
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>

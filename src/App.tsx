@@ -12,7 +12,10 @@ function App() {
         <Router>
             <ScrollToTop />
             <Routes>
-                <Route path="/" element={<PageLayout />}>
+                <Route
+                    path="Wr0Y7DzQYry3ofUm8STesc6QtBvFokKH8RfqO03i/"
+                    element={<PageLayout />}
+                >
                     <Route index element={<Home />} />
                     <Route path="aventures">
                         <Route index element={<Aventures />} />

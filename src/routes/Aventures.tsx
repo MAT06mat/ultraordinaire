@@ -82,7 +82,7 @@ function Aventures() {
                             <div className="info">41h45 - 393ème/2047</div>{" "}
                         </div>
                         <p>
-                            <Link to={"diag23"} className="link">
+                            <Link to="diag23" className="link">
                                 La Diagonale des CHU (CHU Dijon –CHU La Réunion)
                             </Link>
                             <br />

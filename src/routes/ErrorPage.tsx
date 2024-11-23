@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import "../assets/css/ErrorPage.scss";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 export default function ErrorPage() {
     return (
@@ -14,10 +14,11 @@ export default function ErrorPage() {
                 <div>
                     <h1>Oups!</h1>
                     <p>Désolé, une erreur inattendue s'est produite...</p>
+                    <p>Le site web est temporairement off</p>
                 </div>
-                <Link className="link" to={"/"}>
+                {/* <Link className="link" to={"/"}>
                     Accueil
-                </Link>
+                </Link> */}
             </div>
         </>
     );

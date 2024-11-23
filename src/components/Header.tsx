@@ -6,16 +6,17 @@ function Header() {
     const [showed, setShowed] = useState(false);
 
     useEffect(() => {
-        const root = document.getElementById("root");
         const header = document.getElementById("header");
-        if (root && header)
-            root.onscroll = function () {
-                if (root.scrollTop > header.offsetHeight * 2) {
+        function handleScroll() {
+            if (header) {
+                if (window.scrollY > header.offsetHeight * 2) {
                     setShowed(true);
                 } else {
                     setShowed(false);
                 }
-            };
+            }
+        }
+        window.addEventListener("scroll", handleScroll);
     });
 
     const [menuState, setMenuState] = useState(false);

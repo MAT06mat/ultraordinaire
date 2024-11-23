@@ -69,7 +69,7 @@ function Home() {
                 <TextImage source="3782cdfc.jpg">
                     <h2>JULIEN COINDET</h2>
                     <h1 className="separator padding">
-                        Portrait d’un professionnel de santé actif passionné
+                        Portrait d’un professionnel de santé actif et passionné
                     </h1>
                     <p>
                         En 2021, il décide d’associer{" "}

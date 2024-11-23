@@ -53,7 +53,7 @@ function Aventures() {
                     <div>
                         <h1 className="complementary">TÉMOIGNAGES</h1>
                         <p className="separator padding">
-                            Les projets de Julien illustrent{" "}
+                            Les projets de Julien s'appuient sur{" "}
                             <b>l’intelligence collective</b> et l’importance de
                             la solidarité pour une cause commune :{" "}
                             <b>

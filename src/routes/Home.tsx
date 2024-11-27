@@ -35,22 +35,23 @@ function Home() {
             <Section color="main-2">
                 <TextImage source="766f77b3.jpg" reverse>
                     <h2>
-                        PASSIONNÉ D’ULTRA TRAIL, ENSEIGNANT APA, FONDATEUR
-                        ASSOCIATION CPHD
+                        PASSIONNÉ D’ULTRA TRAIL, PROFESSIONNEL SPORT SANTÉ,
+                        FONDATEUR ASSOCIATION CPHD
                     </h2>
                     <h1 className="separator padding">
-                        BIENVENUE SUR LES SENTIERS AVEC JULIEN COINDET
+                        LES 3 SENTIERS DE JULIEN COINDET
                     </h1>
                     <p>
                         Une vie en mouvement ultra ordinaire !<br />
-                        <b>Julien Coindet</b> vous invite à le suivre sur les
-                        sentiers de ses aventures sportives, solidaires et de
+                        <b>Julien Coindet</b> vous invite à le suivre sur le
+                        sentier de ses aventures sportives, solidaires et de
                         cohésion interprofessionnelle.{" "}
                         <b>Ultra traileur confirmé</b>, il a réussi à mobiliser
-                        avec lui plusieurs CHU en embarquant ses collègues, les
-                        résidents, les patients et leurs familles sur 2 courses
-                        d'ultra distance <b>mondialement connues</b> pour être
-                        les plus difficiles au monde : <b>UTMB</b> et{" "}
+                        avec lui plusieurs CHU en embarquant dans le mouvement,
+                        ses collègues, les résidents, les patients et leurs
+                        familles sur 2 courses d'ultra distance{" "}
+                        <b>mondialement connues</b> pour être les plus
+                        difficiles au monde : <b>UTMB</b> et{" "}
                         <b>le grand raid de la réunion</b> (la Diagonale des
                         Fous). <br /> À chaque course, un dossard solidaire a
                         été financé par des partenaires en faveur de la
@@ -60,8 +61,9 @@ function Home() {
                         associations. <br /> Ce <b>professionnel hospitalier</b>
                         , diplômé en activité physique adaptée et aux multiples
                         casquettes professionnelles (enseignant/coordinateur
-                        APA, formateur, auto-entrepreneur) est à votre écoute
-                        pour <b>vous accompagner</b> sur ces 3 sentiers.
+                        APA, formateur, auto-entrepreneur conseil &
+                        développement sport santé) est à votre écoute pour{" "}
+                        <b>vous accompagner</b> sur ces 3 sentiers.
                     </p>
                 </TextImage>
             </Section>
@@ -75,8 +77,8 @@ function Home() {
                         En 2021, il décide d’associer{" "}
                         <b>sa passion de l’ultra endurance</b> avec son
                         environnement socioprofessionnel autour de 2 grands
-                        domaines de vie aux déclinaisons diverses :{" "}
-                        <b>sport en santé</b> et <b>santé par le sport</b>.
+                        domaines de vie : Le <b>sport en santé</b> et la{" "}
+                        <b>santé par le sport</b>.
                     </p>
                     <TextDropList
                         list={[

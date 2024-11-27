@@ -32,7 +32,7 @@ function Home() {
                 <br />
                 <br />
             </Section>
-            <Section color="main-2">
+            <Section color="main-2" end>
                 <TextImage source="766f77b3.jpg" reverse>
                     <h2>
                         PASSIONNÉ D’ULTRA TRAIL, PROFESSIONNEL SPORT SANTÉ,

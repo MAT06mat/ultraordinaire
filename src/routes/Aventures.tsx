@@ -15,7 +15,7 @@ function Aventures() {
                 />
                 <link rel="canonical" href="/aventures" />
             </Helmet>
-            <Section color="main-2">
+            <Section color="main-2" end>
                 <TextImage reverse source="WA0040.jpg">
                     <h2>LE MONDE DE JULIEN</h2>
                     <h1 className="separator padding">
@@ -105,7 +105,7 @@ function Aventures() {
                     </div>
                 </div>
             </Section>
-            <Section color="main-2">
+            <Section color="main-2" start>
                 <blockquote>
                     <h3 className="padding">Le chemin, le processus</h3>
                     <p>

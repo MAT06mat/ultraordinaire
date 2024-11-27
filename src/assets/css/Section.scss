@@ -1,5 +1,5 @@
 section {
-    padding: 2em 0;
+    padding: 4em 0;
 
     &.secondary *,
     &.secondary-2 * {
@@ -22,5 +22,24 @@ section {
             background-color: var(--secondary);
             opacity: 60%;
         }
+    }
+
+    &.padding-top {
+        padding-top: 6em;
+    }
+
+    &.padding-bottom {
+        padding-bottom: 6em;
+    }
+}
+
+div.end,
+div.start {
+    background-color: var(--main-2);
+    height: min-content;
+
+    img {
+        width: 100%;
+        display: block;
     }
 }

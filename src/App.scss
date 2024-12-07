@@ -243,6 +243,36 @@ ul.list {
     padding-left: 1.5em;
 }
 
+.video-link {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+
+    h3 {
+        padding-top: 1px;
+    }
+
+    .play-icon {
+        height: 1.5em;
+
+        path {
+            fill: var(--secondary);
+            transition: fill ease-in-out .1s;
+            stroke-width: 0;
+        }
+    }
+
+    &:hover {
+        h3 {
+            text-decoration: underline;
+        }
+
+        .play-icon path {
+            fill: var(--complementary);
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;

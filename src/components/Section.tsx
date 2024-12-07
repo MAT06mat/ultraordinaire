@@ -6,6 +6,7 @@ interface Props {
     color?: "main" | "main-2" | "secondary" | "secondary-2";
     background?: string;
     noContainer?: boolean;
+    noPadding?: boolean;
     start?: boolean;
     end?: boolean;
 }
@@ -14,7 +15,8 @@ function Section({
     children = "",
     color = "main",
     background = "",
-    noContainer = false,
+    noContainer,
+    noPadding,
     start,
     end,
 }: Props) {
@@ -25,8 +27,8 @@ function Section({
         background = `/images/${background}`;
     }
     className = noContainer ? className + " no-container" : className;
-    className = start ? className : className + " padding-top";
-    className = end ? className : className + " padding-bottom";
+    className = start || noPadding ? className : className + " padding-top";
+    className = end || noPadding ? className : className + " padding-bottom";
     return (
         <>
             {start ? (

@@ -77,7 +77,9 @@ function Home() {
                 <TextImage source="3782cdfc.jpg">
                     <h2>JULIEN COINDET</h2>
                     <h1 className="separator padding">
-                        Portrait d’un professionnel de santé actif et passionné
+                        Portrait d’un{" "}
+                        <span className="complementary">professionnel</span> de
+                        santé actif et passionné
                     </h1>
                     <p>
                         En 2021, il décide d’associer{" "}
@@ -152,7 +154,7 @@ function Home() {
                 </TextImage>
             </Section>
             <Action />
-            <Section>
+            <Section noPadding>
                 <div className="cols">
                     <div>
                         <blockquote>

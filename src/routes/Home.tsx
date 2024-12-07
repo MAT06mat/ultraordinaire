@@ -39,31 +39,37 @@ function Home() {
                         FONDATEUR ASSOCIATION CPHD
                     </h2>
                     <h1 className="separator padding">
-                        LES 3 SENTIERS DE JULIEN COINDET
+                        LES SENTIERS DE JULIEN COINDET
                     </h1>
                     <p>
                         Une vie en mouvement ultra ordinaire !<br />
                         <b>Julien Coindet</b> vous invite à le suivre sur le
-                        sentier de ses aventures sportives, solidaires et de
-                        cohésion interprofessionnelle.{" "}
-                        <b>Ultra traileur confirmé</b>, il a réussi à mobiliser
-                        avec lui plusieurs CHU en embarquant dans le mouvement,
-                        ses collègues, les résidents, les patients et leurs
-                        familles sur 2 courses d'ultra distance{" "}
-                        <b>mondialement connues</b> pour être les plus
-                        difficiles au monde : <b>UTMB</b> et{" "}
-                        <b>le grand raid de la réunion</b> (la Diagonale des
-                        Fous). <br /> À chaque course, un dossard solidaire a
-                        été financé par des partenaires en faveur de la
-                        Fondation Maladies Rares! <br /> La notion de{" "}
-                        <b>sport santé</b> est une base commune aux 3 sentiers
-                        développés sur ce site : aventures, réseau,
-                        associations. <br /> Ce <b>professionnel hospitalier</b>
-                        , diplômé en activité physique adaptée et aux multiples
-                        casquettes professionnelles (enseignant/coordinateur
-                        APA, formateur, auto-entrepreneur conseil &
-                        développement sport santé) est à votre écoute pour{" "}
-                        <b>vous accompagner</b> sur ces 3 sentiers.
+                        sentier <b>Aventure</b>. Ultra traileur confirmé, il a
+                        construit 2 projets <b>sportifs</b>, <b>solidaires</b>{" "}
+                        et de <b>cohésions interprofessionnels</b> en faveur de
+                        la fondation maladies rares au sein du pôle personnes
+                        âgées du CHU Dijon (UTMB ultra trail mont blanc ) puis
+                        entre deux CHU (Dijon - La réunion) éloignés par des
+                        milliers de kilomètres (Grand Raid de la Réunion « la
+                        diagonale des fous »).
+                        <br />
+                        Un mouvement fédérateur s’est mis en marche grâce au
+                        soutien et l’enthousiasme de ses collègues, des
+                        résidents, des familles, de l’ensemble du personnel
+                        hospitalier et des partenaires.
+                        <br />
+                        Le <b>réseau</b> est un second sentier orienté autour de
+                        deux axes en conseil & développement pour pratiquer le{" "}
+                        <b>sport en santé</b> et pour mettre en place des
+                        dispositifs interprofessionnels de{" "}
+                        <b>santé par le sport</b>.
+                        <br />
+                        Julien Coindet, un <b>professionnel hospitalier</b>,
+                        diplômé en activité physique adaptée
+                        (enseignant/coordinateur APA, formateur,
+                        auto-entrepreneur conseil & développement sport santé)
+                        est à votre écoute pour <b>vous accompagner</b> sur le
+                        sentier de votre choix.
                     </p>
                 </TextImage>
             </Section>
@@ -76,8 +82,8 @@ function Home() {
                     <p>
                         En 2021, il décide d’associer{" "}
                         <b>sa passion de l’ultra endurance</b> avec son
-                        environnement socioprofessionnel autour de 2 grands
-                        domaines de vie : Le <b>sport en santé</b> et la{" "}
+                        environnement socioprofessionnel autour de deux
+                        thématiques: Le <b>sport en santé</b> et la{" "}
                         <b>santé par le sport</b>.
                     </p>
                     <TextDropList
@@ -86,17 +92,27 @@ function Home() {
                                 title: "PROACTIF, GAGNANT - GAGNANT",
                                 content: (
                                     <p>
-                                        Au démarrage d’une idée, on va être
+                                        Au démarrage d’une idée, on est
                                         confronté au « c'est compliqué » soit
                                         par ses propres pensées limitantes,
                                         parfois dévalorisantes ou par un
                                         environnement socioprofessionnel
-                                        septique. Une des solutions pour
-                                        basculer d'une idée à l'état de projet
-                                        viable est de trouver des espaces
-                                        communs « gagnant - gagnant » entre les
-                                        acteurs de ce projet avec des niveaux
-                                        d'intérêt différents.
+                                        septique et inhibé par le système. La
+                                        proactivité demande de l’engagement et
+                                        du travail basée sur une grande part
+                                        d'inconnues. Elle est guidée par une
+                                        forte conviction sur la pertinence de
+                                        son idée, de son projet. Une des
+                                        solutions pour basculer d'une idée à
+                                        l'état de projet collectif est de
+                                        trouver des espaces de rencontre «
+                                        gagnant - gagnant » entre les acteurs de
+                                        ce projet dont les niveaux d'intérêt
+                                        seront, certes différents, mais dirigés
+                                        vers cet objectif commun. La motivation
+                                        de chacun va venir remplir la jauge de
+                                        l’émulation collective déterminante dans
+                                        la réussite du projet.
                                     </p>
                                 ),
                             },
@@ -110,10 +126,10 @@ function Home() {
                                         expériences motrices et sociales ont
                                         participé à la construction du sportif,
                                         du professionnel et de l’homme que je
-                                        suis aujourd’hui : un parcours sportif
-                                        ordinaire en dehors de l’élitisme mais
-                                        en essayant d'être la meilleure version
-                                        de moi-même sur chaque nouvelle
+                                        suis aujourd’hui: un parcours sportif
+                                        ordinaire et confirmé dans une recherche
+                                        permanente d'être la meilleure version
+                                        de soi-même sur chaque nouvelle
                                         expérience initiée.
                                     </p>
                                 ),
@@ -125,9 +141,9 @@ function Home() {
                                         Quel que soit son métier et son statut,
                                         développer sa capacité à fédérer des
                                         énergies positives et compétentes est un
-                                        véritable atout dans la construction
-                                        collective du projet : donner du sens à
-                                        son action.
+                                        véritable challenge et un atout dans la
+                                        construction collective d’un projet :
+                                        savoir donner du sens à son action.
                                     </p>
                                 ),
                             },
@@ -151,8 +167,7 @@ function Home() {
                             Rien de nouveau sous le soleil, l’addition des
                             énergies et des compétences de chacun augmente les
                             chances de réussite du projet. L’état d’esprit du
-                            groupe aura une incidence fondamentale pour mener à
-                            terme celui-ci.
+                            groupe aura une incidence fondamentale.
                         </p>
                     </div>
                 </div>

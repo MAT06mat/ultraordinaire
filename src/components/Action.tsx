@@ -6,7 +6,7 @@ function Action() {
         <Section color="secondary">
             <div className="cols action">
                 <div>
-                    <h2>PRÉSENTATION DES COLLABORATIONS AVEC JULIEN COINDET</h2>
+                    <h2>COLLABORER AVEC JULIEN COINDET</h2>
                     <h1>
                         Voici <span className="complementary">les offres</span>{" "}
                         de Julien
@@ -14,13 +14,18 @@ function Action() {
                     <p>
                         Quelque soit vos besoins, entreprise, établissement
                         public et privé, association ou fondation, indépendant
-                        ou particulier, vous trouverez, peut être, dans mes 3
-                        sentiers un levier de discussion qui fait sens pour vos
-                        équipes ou pour vous même. <br /> Le sport et vous ça
-                        fait deux ? Peut être, mais votre santé et vous ne font
-                        qu'un ! <br />
-                        <br /> Vous avez besoin d’un intervenant, d’un
-                        accompagnement ? <br /> Vous êtes sur le bon sentier.
+                        ou particulier, vous trouverez, peut être, sur les 2
+                        sentiers, un levier de discussion qui fait sens pour vos
+                        équipes ou pour vous même. Le sport et vous ça fait deux
+                        ?<br />
+                        <b>
+                            Peut-être mais votre santé et vous ne font qu’un !
+                        </b>
+                        <br />
+                        <br />
+                        Vous avez besoin d’un intervenant, d’un accompagnement ?
+                        <br />
+                        Vous êtes sur les bons sentiers.
                     </p>
                 </div>
                 <div>

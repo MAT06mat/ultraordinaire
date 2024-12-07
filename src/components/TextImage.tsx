@@ -27,6 +27,7 @@ function TextImage({
                 src={"/images/" + source}
                 alt={alt}
                 style={{ width: proportion.toString() + "%" }}
+                className="shadow"
             />
         </div>
     );

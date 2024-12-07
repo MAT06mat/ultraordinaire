@@ -163,14 +163,14 @@ function Aventures() {
                         <br />
                         Cela exige de trouver un <b>équilibre complexe</b> entre
                         5 ressources à adapter et à questionner régulièrement.
-                        <ul className="list">
-                            <li>Ressource Entraînement physique & mental</li>
-                            <li>Ressource Expérience</li>
-                            <li>Ressource Famille</li>
-                            <li>Ressource Travail</li>
-                            <li>Ressource Vie sociale</li>
-                        </ul>
                     </p>
+                    <ul className="list">
+                        <li>Ressource Entraînement physique & mental</li>
+                        <li>Ressource Expérience</li>
+                        <li>Ressource Famille</li>
+                        <li>Ressource Travail</li>
+                        <li>Ressource Vie sociale</li>
+                    </ul>
                 </TextImage>
             </Section>
             <Section>

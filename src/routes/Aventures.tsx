@@ -37,7 +37,7 @@ function Aventures() {
                         </b>{" "}
                         en interaction permanente avec son environnement pour
                         atteindre un objectif fixé au départ. Intéressant non ?
-                        Et en entreprise, le processus n'est il pas le même ?{" "}
+                        Et en entreprise, le processus n'est-il pas le même ?{" "}
                         <br />
                         Imaginez le nombre de pistes de travail que{" "}
                         <b>nous pouvons activer ensemble</b> autour des
@@ -60,11 +60,17 @@ function Aventures() {
                                 la collecte de fonds pour la Fondation Maladies
                                 Rares
                             </b>
-                            . S’impliquer, s’engager, et s’identifier à un but
-                            commun maximise les chances de succès.
+                            . S’engager et s’identifier, pour un but commun,
+                            maximise les chances de succès.
                         </p>
                         <div className="infos padding">
-                            <h3>Projet 1 - Cham 22</h3>
+                            <a
+                                href="https://www.facebook.com/reel/3537453623207227"
+                                className="link"
+                                target="_blank"
+                            >
+                                <h3>Projet 1 - Cham 22</h3>
+                            </a>
                             <div className="info">35h - 427ème/1789</div>
                         </div>
                         <p>
@@ -74,11 +80,18 @@ function Aventures() {
                             parcours extérieur), en continu jour et nuit pendant
                             les 35h de course de Julien Coindet à l’UTMB dont le
                             départ et l’arrivée est à <b>Chamonix</b>.
+                            <br />
                         </p>
                     </div>
                     <div>
                         <div className="infos">
-                            <h3>Projet 2 - Diag 23</h3>
+                            <a
+                                href="https://www.youtube.com/watch?v=gk1McQvHeD8"
+                                className="link"
+                                target="_blank"
+                            >
+                                <h3>Projet 2 - Diag 23</h3>
+                            </a>
                             <div className="info">41h45 - 393ème/2047</div>{" "}
                         </div>
                         <p>
@@ -106,32 +119,86 @@ function Aventures() {
                 </div>
             </Section>
             <Section color="main-2" start>
-                <blockquote>
-                    <h3 className="padding">Le chemin, le processus</h3>
-                    <p>
-                        Un projet commence, la plupart du temps, d'une page
-                        blanche d’où émerge une idée au stylo noir avec une
-                        forte volonté d’entreprendre. Ce projet emprunte un
-                        chemin mais parfois il se trompe. Il s’arrête pour faire
-                        le point en regardant l’objectif à atteindre sur la
-                        carte. Il demande autour quel chemin prendre car il est
-                        un peu perdu. Un nouveau chemin se présente à lui et, il
-                        devient alors plus vigilant, plus attentif pour ne plus
-                        s’éloigner de l’objectif. Finalement, le résultat sera
-                        la mise en couleur de toutes ces idées écrites, au fur
-                        et à mesure sur cette page blanche au départ de ce
-                        projet.
-                    </p>
-                </blockquote>
+                <TextImage source="chemin.jpg" alt="Le chemin" proportion={20}>
+                    <blockquote>
+                        <h3 className="padding">Le chemin, le processus</h3>
+                        <p>
+                            Un projet commence, la plupart du temps, d'une page
+                            blanche d’où émerge une idée au stylo noir avec une
+                            forte volonté d’entreprendre. Ce projet emprunte un
+                            chemin mais parfois il se trompe.
+                            <br />
+                            Il s’arrête pour faire le point sur sa trajectoire
+                            de celui-ci en se référant à l’objectif à atteindre
+                            sur la carte.
+                            <br />
+                            Il demande, parfois, autour de lui le chemin à
+                            prendre pour se rassurer ou par égarement.
+                            <br />
+                            Le chemin est retrouvé et son niveau de vigilance,
+                            d'attention est accru pour ne plus s’éloigner de
+                            l’objectif.
+                        </p>
+                    </blockquote>
+                </TextImage>
             </Section>
             <Action />
+            <Section color="main-2" end>
+                <TextImage source="8a3a2c9f.jpg" reverse>
+                    <h1 className="">
+                        CONSTRUIRE & OPTIMISER SON{" "}
+                        <span className="complementary">CAPITAL SANTÉ</span>
+                    </h1>
+                    <p className="separator padding">
+                        Nous sommes tous des <b>êtres uniques</b> avec sous nos
+                        yeux, énormément d’informations sur le corps et
+                        l’esprit, de témoignage, d’éléments de recherche,
+                        d'expérience sur les différentes ressources à mobiliser
+                        pour <b>construire</b> et <b>optimiser</b> son{" "}
+                        <b>capital santé</b>. Pourtant, il est tellement{" "}
+                        <b>difficile</b> de rester sur le chemin d’une pratique
+                        sportive en <b>bonne santé</b> et ne pas se{" "}
+                        <b>perdre</b>.
+                        <br />
+                        <br />
+                        Cela exige de trouver un <b>équilibre complexe</b> entre
+                        5 ressources à adapter et à questionner régulièrement.
+                        <ul className="list">
+                            <li>Ressource Entraînement physique & mental</li>
+                            <li>Ressource Expérience</li>
+                            <li>Ressource Famille</li>
+                            <li>Ressource Travail</li>
+                            <li>Ressource Vie sociale</li>
+                        </ul>
+                    </p>
+                </TextImage>
+            </Section>
+            <Section>
+                <TextImage source="16d71a61.jpg" alt="Nuit étoilé">
+                    <h1>Le mot de la fin</h1>
+                    <p className="separator padding">
+                        Parfois sur ce <b>chemin</b>, on pense n’avoir besoin de
+                        personne. On se sent fort physiquement, mentalement,
+                        émotionnellement jusqu’au moment où un des 5 éléments se
+                        met à vaciller{" "}
+                        <b>remettant en question notre pourquoi</b>.<br />
+                        Là, on commence à <b>quitter</b> doucement{" "}
+                        <b>ce chemin</b>.<br />
+                        Le questionnement s’invite dans notre tête laissant
+                        entrer le doute et une baisse de cette énergie qu'on
+                        pensait illimitée, Il est temps de demander son chemin
+                        autour de soi et de se faire accompagner.
+                    </p>
+                </TextImage>
+            </Section>
         </>
     );
 }
 
 /*
-<Route path="temoignages" />
+https://www.youtube.com/watch?v=g1LzMYOnpBg
 <Route path="ultra-trail" />
+<Route path="temoignages" />
 <Route path="capital-sante" />
 <Route path="dynamique-collective" />
 */

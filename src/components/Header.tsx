@@ -89,54 +89,6 @@ function Header() {
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <Link to="associations" onClick={handleClose}>
-                            ASSOCIATIONS
-                        </Link>
-                        <ul className="drop-menu last">
-                            <li>
-                                <Link
-                                    to="associations/missions"
-                                    onClick={handleClose}
-                                >
-                                    MISSIONS
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="associations/projets-sportifs-solidaires-et-de-cohesion"
-                                    onClick={handleClose}
-                                >
-                                    PROJETS SPORTIFS SOLIDAIRES ET DE COHÉSION
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="associations/projets-innovants"
-                                    onClick={handleClose}
-                                >
-                                    PROJETS INNOVANTS
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="associations/creation-course-solidaire"
-                                    onClick={handleClose}
-                                >
-                                    CRÉATION COURSE SOLIDAIRE
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="associations/handicap-et-dependance"
-                                    onClick={handleClose}
-                                >
-                                    MISE EN LUMIÈRE DU HANDICAP ET DE LA
-                                    DÉPENDANCE
-                                </Link>
-                            </li>
-                        </ul>
-                    </li>
                 </ul>
             </nav>
         </header>

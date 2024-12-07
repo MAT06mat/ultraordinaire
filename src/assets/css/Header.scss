@@ -137,16 +137,11 @@ header {
                 width: min-content;
                 line-height: 1.5em;
                 top: 3em;
-                left: 0;
                 opacity: 0;
                 visibility: hidden;
                 padding: 0.5em 0;
                 box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-
-                &.last {
-                    right: 0;
-                    left: auto;
-                }
+                right: 0;
 
                 li {
                     width: 100%;

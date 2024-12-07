@@ -28,13 +28,6 @@ const router = createBrowserRouter(
                     <Route path="coordination-des-interventions" />
                     <Route path="optimisation-des-conditions-d-interventions" />
                 </Route>
-                <Route path="associations">
-                    <Route path="missions" />
-                    <Route path="projets-sportifs-solidaires-et-de-cohesion" />
-                    <Route path="projets-innovants" />
-                    <Route path="creation-course-solidaire" />
-                    <Route path="handicap-et-dependance" />
-                </Route>
             </Route>
             <Route path="*" element={<ErrorPage />} />
         </>

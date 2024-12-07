@@ -149,19 +149,13 @@ function Aventures() {
                         <p>
                             Un projet commence, la plupart du temps, d'une page
                             blanche d’où émerge une idée au stylo noir avec une
-                            forte volonté d’entreprendre. Ce projet emprunte un
-                            chemin mais parfois il se trompe.
-                            <br />
-                            Il s’arrête pour faire le point sur sa trajectoire
-                            de celui-ci en se référant à l’objectif à atteindre
-                            sur la carte.
-                            <br />
-                            Il demande, parfois, autour de lui le chemin à
-                            prendre pour se rassurer ou par égarement.
-                            <br />
-                            Le chemin est retrouvé et son niveau de vigilance,
-                            d'attention est accru pour ne plus s’éloigner de
-                            l’objectif.
+                            forte volonté d’entreprendre. On emprunte un chemin
+                            mais parfois on s’égare. On s’arrête, on repère
+                            l’objectif à atteindre sur la carte. On demande,
+                            parfois, autour de nous le chemin à prendre. Le
+                            chemin retrouvé, on repart avec un niveau de
+                            vigilance, d'attention accrue pour ne plus
+                            s’éloigner de l’objectif.
                         </p>
                     </blockquote>
                 </TextImage>
@@ -199,7 +193,7 @@ function Aventures() {
             </Section>
             <Section>
                 <TextImage source="16d71a61.jpg" alt="Nuit étoilé">
-                    <h1>Le mot de la fin</h1>
+                    <h1>INTERROGER SON MINDSET</h1>
                     <p className="separator padding">
                         Parfois sur ce <b>chemin</b>, on pense n’avoir besoin de
                         personne. On se sent fort physiquement, mentalement,
@@ -209,9 +203,10 @@ function Aventures() {
                         Là, on commence à <b>quitter</b> doucement{" "}
                         <b>ce chemin</b>.<br />
                         Le questionnement s’invite dans notre tête laissant
-                        entrer le doute et une baisse de cette énergie qu'on
-                        pensait illimitée, Il est temps de demander son chemin
-                        autour de soi et de se faire accompagner.
+                        entrer le doute et un changement de son état d’esprit{" "}
+                        <b>qu'on pensait inébranlable</b>.<br />
+                        Il est temps de demander son chemin autour de soi et de
+                        se faire accompagner.
                     </p>
                 </TextImage>
             </Section>

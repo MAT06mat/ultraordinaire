@@ -3,6 +3,7 @@ import Section from "../components/layouts/Section";
 import TextImage from "../components/layouts/TextImage";
 import Action from "../components/layouts/Action";
 import { Link } from "react-router-dom";
+import PlayButton from "../assets/img/PlayButton";
 
 function Aventures() {
     return (
@@ -69,18 +70,7 @@ function Aventures() {
                                 target="_blank"
                                 className="video-link"
                             >
-                                <svg
-                                    className="play-icon"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM10.6935 15.8458L15.4137 13.059C16.1954 12.5974 16.1954 11.4026 15.4137 10.941L10.6935 8.15419C9.93371 7.70561 9 8.28947 9 9.21316V14.7868C9 15.7105 9.93371 16.2944 10.6935 15.8458Z"
-                                    />
-                                </svg>
+                                <PlayButton />
                                 <h3>Projet 1 - Cham 22</h3>
                             </a>
                             <div className="info">35h - 427ème/1789</div>
@@ -102,18 +92,7 @@ function Aventures() {
                                 target="_blank"
                                 className="video-link"
                             >
-                                <svg
-                                    className="play-icon"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        fillRule="evenodd"
-                                        clipRule="evenodd"
-                                        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM10.6935 15.8458L15.4137 13.059C16.1954 12.5974 16.1954 11.4026 15.4137 10.941L10.6935 8.15419C9.93371 7.70561 9 8.28947 9 9.21316V14.7868C9 15.7105 9.93371 16.2944 10.6935 15.8458Z"
-                                    />
-                                </svg>
+                                <PlayButton />
                                 <h3>Projet 2 - Diag 23</h3>
                             </a>
                             <div className="info">41h45 - 393ème/2047</div>{" "}

@@ -1,5 +1,7 @@
 import { ReactNode } from "react";
 import "../../assets/css/Section.scss";
+import TriangleStartWhite from "../../assets/img/TriangleStartWhite";
+import TriangleEndWhite from "../../assets/img/TriangleEndWhite";
 
 interface Props {
     children?: ReactNode;
@@ -33,7 +35,7 @@ function Section({
         <>
             {start ? (
                 <div className="start">
-                    <img src="/images/triangle1white.svg" alt="" />
+                    <TriangleStartWhite />
                 </div>
             ) : null}
             <section
@@ -47,7 +49,7 @@ function Section({
             </section>
             {end ? (
                 <div className="end">
-                    <img src="/images/triangle2white.svg" alt="" />
+                    <TriangleEndWhite />
                 </div>
             ) : null}
         </>

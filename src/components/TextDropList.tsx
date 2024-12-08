@@ -1,4 +1,4 @@
-import TextDrop from "./TextDrop";
+import TextDropItem from "./TextDropItem";
 import "../assets/css/TextDropList.scss";
 import { ReactNode, useState } from "react";
 
@@ -18,7 +18,7 @@ function TextDropList({ list }: Props) {
         <div className="text-drop-list padding">
             {list.map((element, index) => {
                 return (
-                    <TextDrop
+                    <TextDropItem
                         key={index}
                         title={element.title}
                         content={element.content}

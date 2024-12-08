@@ -7,7 +7,7 @@ interface Props {
     onClick: React.MouseEventHandler;
 }
 
-function TextDrop({ title, content, active = false, onClick }: Props) {
+function TextDropItem({ title, content, active = false, onClick }: Props) {
     return (
         <div className={active ? "text-drop active" : "text-drop"}>
             <div className="drop-button" onClick={onClick}>
@@ -31,4 +31,4 @@ function TextDrop({ title, content, active = false, onClick }: Props) {
     );
 }
 
-export default TextDrop;
+export default TextDropItem;

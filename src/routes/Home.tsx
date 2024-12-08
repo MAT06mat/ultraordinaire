@@ -154,16 +154,55 @@ function Home() {
                 </TextImage>
             </Section>
             <Action />
+            <Section color="main-2" end>
+                <TextImage source="e9ae3025.jpg" proportion={30} reverse>
+                    <h1>Carnet de route</h1>
+                    <p className="padding separator">
+                        Ce site est le combo d’une vie
+                        <br />
+                        <br />
+                        d’un enfant pratiquant de multiples activités sportives
+                        avec une énergie débordante mais en difficulté dans la
+                        gestion du stress (peur de mal faire) et des émotions
+                        (certaines raquettes de tennis s'en rappellent encore),
+                        <br />
+                        <br />
+                        d’une mère bienveillante et d’un père inspirant de part
+                        ses connaissances et sa passion pour la nature,
+                        notamment la montagne à travers son passé d’alpiniste;
+                        <br />
+                        <br />
+                        d’une jeunesse en quête perpétuelle d’expériences
+                        sportives malgré une croissance complexante en décalage
+                        avec les jeunes de son âge ;
+                        <br />
+                        <br />
+                        d’un homme rêvant de performance dans l’idée d’atteindre
+                        le maximum de ses capacités exploitables et acceptant,
+                        finalement, le stress comme un élément moteur
+                        indispensable à la réussite d’une action;
+                        <br />
+                        <br />
+                        d’un homme où les relations humaines fortes et sincères
+                        s’installent dans sa vie;
+                        <br />
+                        <br />
+                        d’un homme devenu papa de deux magnifiques princesses
+                        décuplant cette énergie originelle pour déplacer des
+                        montagnes grâce, notamment au soutien de leur maman;
+                        <br />
+                        <br />
+                        Ce site est une synthèse d’un chemin singulier où l’être
+                        unique, que nous sommes, chemine entre joie et douleur
+                        avec, malheureusement , la perte de proches, la
+                        séparation, les blessures qui nous font basculer soit
+                        dans le monde de la victimisation ou alors dans celui de
+                        la résilience.
+                    </p>
+                </TextImage>
+            </Section>
             <Section noPadding>
                 <div className="cols">
-                    <div>
-                        <blockquote>
-                            Tout seul je vais vite <br />
-                            Ensemble on va loin <br />
-                            L’esprit d’équipe <br />
-                            Comme un besoin
-                        </blockquote>
-                    </div>
                     <div>
                         <p>
                             Rien de nouveau sous le soleil, l’addition des
@@ -171,6 +210,14 @@ function Home() {
                             chances de réussite du projet. L’état d’esprit du
                             groupe aura une incidence fondamentale.
                         </p>
+                    </div>
+                    <div>
+                        <blockquote>
+                            Tout seul je vais vite <br />
+                            Ensemble on va loin <br />
+                            L’esprit d’équipe <br />
+                            Comme un besoin
+                        </blockquote>
                     </div>
                 </div>
             </Section>

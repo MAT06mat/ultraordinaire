@@ -1,5 +1,5 @@
 import TextDropItem from "./TextDropItem";
-import "../assets/css/TextDropList.scss";
+import "../../assets/css/TextDropList.scss";
 import { ReactNode, useState } from "react";
 
 interface Props {

@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet-async";
-import Section from "../components/Section";
-import TextDropList from "../components/TextDropList";
-import TextImage from "../components/TextImage";
-import Action from "../components/Action";
+import Section from "../components/layouts/Section";
+import TextDropList from "../components/ui/TextDropList";
+import TextImage from "../components/layouts/TextImage";
+import Action from "../components/layouts/Action";
 
 function Home() {
     return (

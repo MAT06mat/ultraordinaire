@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import "./App.scss";
 import Home from "./routes/Home";
-import PageLayout from "./components/PageLayout";
+import PageLayout from "./components/layouts/PageLayout";
 import ErrorPage from "./routes/ErrorPage";
 import Aventures from "./routes/Aventures";
 import Diag23 from "./routes/Diag23";

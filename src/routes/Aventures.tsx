@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
-import Section from "../components/Section";
-import TextImage from "../components/TextImage";
-import Action from "../components/Action";
+import Section from "../components/layouts/Section";
+import TextImage from "../components/layouts/TextImage";
+import Action from "../components/layouts/Action";
 import { Link } from "react-router-dom";
 
 function Aventures() {

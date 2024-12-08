@@ -1,5 +1,5 @@
 import Section from "./Section";
-import "../assets/css/Action.scss";
+import "../../assets/css/Action.scss";
 
 function Action() {
     return (

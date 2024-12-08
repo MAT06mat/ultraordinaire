@@ -1,6 +1,8 @@
 import "../../assets/css/Header.scss";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import MenuButton from "../../assets/images/MenuButton";
+import CloseButton from "../../assets/images/CloseButton";
 
 function Header() {
     const [showed, setShowed] = useState(false);
@@ -33,11 +35,7 @@ function Header() {
         <header className={showed ? "showed" : ""} id="header">
             <nav>
                 <div className="btn menu-btn" onClick={handleOpen}>
-                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 6L37 6" />
-                        <path d="M3 34L37 34" />
-                        <path d="M3 20L37 20" />
-                    </svg>
+                    <MenuButton />
                 </div>
                 <Link to="" className="logo">
                     <span className="complementary">ULTRA</span>ORDINAIRE
@@ -45,13 +43,7 @@ function Header() {
                 <div className="background-button" onClick={handleClose}></div>
                 <ul className={menuState ? "nav-links open" : "nav-links"}>
                     <div className="btn close-btn" onClick={handleClose}>
-                        <svg
-                            viewBox="0 0 40 40"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path d="M3 37L37 3" />
-                            <path d="M37 37L3 3" />
-                        </svg>
+                        <CloseButton />
                     </div>
                     <li>
                         <Link to="aventures" onClick={handleClose}>

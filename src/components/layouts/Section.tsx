@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import "../../assets/css/Section.scss";
-import TriangleStartWhite from "../../assets/img/TriangleStartWhite";
-import TriangleEndWhite from "../../assets/img/TriangleEndWhite";
+import TriangleStartWhite from "../../assets/images/TriangleStartWhite";
+import TriangleEndWhite from "../../assets/images/TriangleEndWhite";
 
 interface Props {
     children?: ReactNode;

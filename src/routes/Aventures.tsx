@@ -3,7 +3,7 @@ import Section from "../components/layouts/Section";
 import TextImage from "../components/layouts/TextImage";
 import Action from "../components/layouts/Action";
 import { Link } from "react-router-dom";
-import PlayButton from "../assets/img/PlayButton";
+import PlayButton from "../assets/images/PlayButton";
 
 function Aventures() {
     return (

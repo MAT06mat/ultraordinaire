@@ -61,7 +61,7 @@ function Aventures() {
                                 la collecte de fonds pour la Fondation Maladies
                                 Rares
                             </b>
-                            . S’engager et s’identifier, pour un but commun,
+                            . S’engager et s’identifier, dans un but commun,
                             maximise les chances de succès.
                         </p>
                         <div className="infos padding">

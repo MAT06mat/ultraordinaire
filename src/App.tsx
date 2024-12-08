@@ -23,11 +23,7 @@ const router = createBrowserRouter(
                     <Route index element={<Aventures />} />
                     <Route path="diag23" element={<Diag23 />} />
                 </Route>
-                <Route path="reseau">
-                    <Route path="secteurs-d-intervention" />
-                    <Route path="coordination-des-interventions" />
-                    <Route path="optimisation-des-conditions-d-interventions" />
-                </Route>
+                <Route path="conseil-et-developpement" />
             </Route>
             <Route path="*" element={<ErrorPage />} />
         </>

@@ -59,35 +59,12 @@ function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="reseau" onClick={handleClose}>
-                            RÉSEAU
+                        <Link
+                            to="conseil-et-developpement"
+                            onClick={handleClose}
+                        >
+                            Conseil & développement
                         </Link>
-                        <ul className="drop-menu">
-                            <li>
-                                <Link
-                                    to="reseau/secteurs-d-intervention"
-                                    onClick={handleClose}
-                                >
-                                    SECTEURS D'INTERVENTION
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="reseau/coordination-des-interventions"
-                                    onClick={handleClose}
-                                >
-                                    COORDINATION DES INTERVENTIONS
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="reseau/optimisation-des-conditions-d-interventions"
-                                    onClick={handleClose}
-                                >
-                                    OPTIMISATION DES CONDITIONS D'INTERVENTION
-                                </Link>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
             </nav>

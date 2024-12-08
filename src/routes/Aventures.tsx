@@ -141,7 +141,7 @@ function Aventures() {
             </Section>
             <Action />
             <Section color="main-2" end>
-                <TextImage source="8a3a2c9f.jpg" reverse>
+                <TextImage source="8a3a2c9f.jpg" alt="Paysage" reverse>
                     <h1 className="">
                         CONSTRUIRE & OPTIMISER SON{" "}
                         <span className="complementary">CAPITAL SANTÉ</span>

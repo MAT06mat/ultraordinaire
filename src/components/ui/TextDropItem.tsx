@@ -1,4 +1,6 @@
 import React, { ReactNode } from "react";
+import PlusButton from "../../assets/images/PlusButton";
+import MinusButton from "../../assets/images/MinusButton";
 
 interface Props {
     title: string;
@@ -13,15 +15,10 @@ function TextDropItem({ title, content, active = false, onClick }: Props) {
             <div className="drop-button" onClick={onClick}>
                 <div className="title">{title}</div>
                 <div className="btn open">
-                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20 37L20 3" />
-                        <path d="M3 20L37 20" />
-                    </svg>
+                    <PlusButton />
                 </div>
                 <div className="btn close">
-                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 20L37 20" />
-                    </svg>
+                    <MinusButton />
                 </div>
             </div>
             <div className="text-wrapper">

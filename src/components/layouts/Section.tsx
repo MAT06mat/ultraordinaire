@@ -34,7 +34,7 @@ function Section({
     return (
         <>
             {start ? (
-                <div className="start">
+                <div className="triangle">
                     <TriangleStartWhite />
                 </div>
             ) : null}
@@ -48,7 +48,7 @@ function Section({
                 <div className="container">{children}</div>
             </section>
             {end ? (
-                <div className="end">
+                <div className="triangle">
                     <TriangleEndWhite />
                 </div>
             ) : null}

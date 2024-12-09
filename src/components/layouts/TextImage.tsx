@@ -1,8 +1,10 @@
 import { ReactNode } from "react";
+import ImageVideo from "../ui/ImageVideo";
 
 interface Props {
     children: ReactNode;
-    source: string;
+    source?: string;
+    videoLink?: string;
     reverse?: boolean;
     proportion?: number;
     alt?: string;
@@ -11,6 +13,7 @@ interface Props {
 function TextImage({
     children,
     source,
+    videoLink,
     reverse = false,
     proportion = 50,
     alt = "Photo de Julien",
@@ -23,12 +26,17 @@ function TextImage({
             >
                 {children}
             </div>
-            <img
-                src={"/images/" + source}
-                alt={alt}
-                style={{ width: proportion.toString() + "%" }}
-                className="shadow"
-            />
+            {source && !videoLink ? (
+                <img
+                    src={"/images/" + source}
+                    alt={alt}
+                    style={{ width: proportion.toString() + "%" }}
+                    className="shadow"
+                />
+            ) : null}
+            {source && videoLink ? (
+                <ImageVideo src={source} link={videoLink} />
+            ) : null}
         </div>
     );
 }

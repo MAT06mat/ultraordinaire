@@ -17,7 +17,12 @@ function Aventures() {
                 <link rel="canonical" href="/aventures" />
             </Helmet>
             <Section color="main-2" end>
-                <TextImage reverse source="WA0040.jpg">
+                <TextImage
+                    reverse
+                    source="WA0040.jpg"
+                    videoLink="
+https://www.youtube.com/embed/g1LzMYOnpBg"
+                >
                     <h2>LE MONDE DE JULIEN</h2>
                     <h1 className="separator padding">
                         LE MONDE DE{" "}
@@ -194,7 +199,6 @@ function Aventures() {
 }
 
 /*
-https://www.youtube.com/watch?v=g1LzMYOnpBg
 <Route path="ultra-trail" />
 <Route path="temoignages" />
 <Route path="capital-sante" />

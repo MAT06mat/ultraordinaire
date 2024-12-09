@@ -33,7 +33,7 @@ function Home() {
                         FONDATEUR ASSOCIATION CPHD
                     </h2>
                     <h1 className="separator padding">
-                        Une vie en mouvement ultraordinaire
+                        Une vie en mouvement
                     </h1>
                     <p>
                         <b>Julien Coindet</b> vous invite à le suivre sur le

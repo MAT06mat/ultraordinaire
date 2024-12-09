@@ -15,22 +15,16 @@ function Home() {
                 />
                 <link rel="canonical" href="" />
             </Helmet>
-            <Section background="panorama.webp" noContainer>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+            <Section background="panorama.webp" noContainer color="secondary">
+                <div className="section-title">
+                    <h1 className="center">
+                        Bienvenue sur les sentiers de Julien Coindet
+                    </h1>
+                    <p className="center">
+                        Tout seul je vais vite, Ensemble on va loin <br />
+                        L’esprit d’équipe, Comme un besoin
+                    </p>
+                </div>
             </Section>
             <Section color="main-2" end>
                 <TextImage source="766f77b3.jpg" reverse>
@@ -154,9 +148,9 @@ function Home() {
                 </TextImage>
             </Section>
             <Action />
-            <Section color="main-2" end>
-                <TextImage source="e9ae3025.jpg" proportion={30} reverse>
-                    <h1>Carnet de route</h1>
+            <Section>
+                <TextImage source="e9ae3025.jpg" proportion={40} reverse>
+                    <h1>Une vie singulière</h1>
                     <p className="padding separator">
                         Ce site est le combo d’une vie
                         <br />
@@ -200,26 +194,6 @@ function Home() {
                         la résilience.
                     </p>
                 </TextImage>
-            </Section>
-            <Section noPadding>
-                <div className="cols">
-                    <div>
-                        <p>
-                            Rien de nouveau sous le soleil, l’addition des
-                            énergies et des compétences de chacun augmente les
-                            chances de réussite du projet. L’état d’esprit du
-                            groupe aura une incidence fondamentale.
-                        </p>
-                    </div>
-                    <div>
-                        <blockquote>
-                            Tout seul je vais vite <br />
-                            Ensemble on va loin <br />
-                            L’esprit d’équipe <br />
-                            Comme un besoin
-                        </blockquote>
-                    </div>
-                </div>
             </Section>
         </>
     );

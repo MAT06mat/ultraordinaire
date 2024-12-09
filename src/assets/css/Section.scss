@@ -21,6 +21,12 @@ section {
             height: 100%;
             background-color: var(--secondary);
             opacity: 60%;
+            z-index: 0;
+        }
+
+        * {
+            position: relative;
+            z-index: 1;
         }
     }
 

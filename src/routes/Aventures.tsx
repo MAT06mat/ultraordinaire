@@ -20,8 +20,7 @@ function Aventures() {
                 <TextImage
                     reverse
                     source="WA0040.jpg"
-                    videoLink="
-https://www.youtube.com/embed/g1LzMYOnpBg"
+                    videoLink="https://www.youtube.com/embed/g1LzMYOnpBg"
                 >
                     <h2>LE MONDE DE JULIEN</h2>
                     <h1 className="separator padding">

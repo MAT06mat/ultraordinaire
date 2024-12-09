@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../../assets/css/ImageVideo.scss";
-import PlayButton from "../../assets/images/PlayButton";
+import PlayButton2 from "../../assets/images/PlayButton2";
 
 interface Props {
     src: string;
@@ -24,7 +24,7 @@ function ImageVideo({ src, alt = "", link }: Props) {
             />
             {!videoActivated ? (
                 <div className="svg-container" onClick={handleClick}>
-                    <PlayButton />
+                    <PlayButton2 />
                 </div>
             ) : (
                 <iframe

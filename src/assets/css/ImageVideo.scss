@@ -21,9 +21,15 @@
         cursor: pointer;
 
         svg {
-            height: 8em;
-            opacity: 70%;
+            height: 6em;
+            opacity: 80%;
             transition: all 0.2s ease-in-out;
+
+            path {
+                fill: var(--secondary);
+                stroke-width: 0;
+                transition: all 0.3s ease-in-out;
+            }
         }
     }
 
@@ -41,14 +47,10 @@
         svg {
             transform: scale(1.2);
             opacity: 100%;
-        }
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .svg-container {
-        svg {
-            height: 6em !important;
+            path {
+                fill: var(--complementary);
+            }
         }
     }
 }

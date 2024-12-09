@@ -20,10 +20,10 @@ function Home() {
                     <h1 className="center">
                         Bienvenue sur les sentiers de Julien Coindet
                     </h1>
-                    <p className="center">
+                    <blockquote className="center">
                         Tout seul je vais vite, Ensemble on va loin <br />
                         L’esprit d’équipe, Comme un besoin
-                    </p>
+                    </blockquote>
                 </div>
             </Section>
             <Section color="main-2" end>
@@ -33,10 +33,9 @@ function Home() {
                         FONDATEUR ASSOCIATION CPHD
                     </h2>
                     <h1 className="separator padding">
-                        LES SENTIERS DE JULIEN COINDET
+                        Une vie en mouvement ultraordinaire
                     </h1>
                     <p>
-                        Une vie en mouvement ultra ordinaire !<br />
                         <b>Julien Coindet</b> vous invite à le suivre sur le
                         sentier <b>Aventure</b>. Ultra traileur confirmé, il a
                         construit 2 projets <b>sportifs</b>, <b>solidaires</b>{" "}

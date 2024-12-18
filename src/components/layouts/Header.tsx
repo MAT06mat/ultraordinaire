@@ -46,8 +46,8 @@ function Header() {
                         <CloseButton />
                     </div>
                     <li>
-                        <Link to="aventures" onClick={handleClose}>
-                            AVENTURES
+                        <Link to="aventures-et-partage" onClick={handleClose}>
+                            Aventures & Partage
                         </Link>
                     </li>
                     <li>
@@ -55,7 +55,7 @@ function Header() {
                             to="conseil-et-developpement"
                             onClick={handleClose}
                         >
-                            Conseil & développement
+                            Conseil & Développement
                         </Link>
                     </li>
                 </ul>

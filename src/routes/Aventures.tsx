@@ -48,8 +48,7 @@ function Aventures() {
                         <b>nous pouvons activer ensemble</b> autour des
                         parallèles possibles entre ces 2 univers. <br />
                         Ce qui nous intéresse, ce n'est pas tant le résultat de
-                        ces réponses qui nous intéresse mais{" "}
-                        <b>le chemin pour y parvenir</b>.
+                        ces réponses mais <b>le chemin pour y parvenir</b>.
                     </p>
                 </TextImage>
             </Section>
@@ -183,7 +182,7 @@ function Aventures() {
                     <p className="separator padding">
                         Parfois sur ce <b>chemin</b>, on pense n’avoir besoin de
                         personne. On se sent fort physiquement, mentalement,
-                        émotionnellement jusqu’au moment où un des 5 éléments se
+                        émotionnellement jusqu’au moment où un des 6 éléments se
                         met à vaciller{" "}
                         <b>remettant en question notre pourquoi</b>.<br />
                         Là, on commence à <b>quitter</b> doucement{" "}

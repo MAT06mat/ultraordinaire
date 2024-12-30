@@ -5,11 +5,12 @@ import TriangleEndWhite from "../../assets/images/TriangleEndWhite";
 
 interface Props {
     children?: ReactNode;
-    color?: "main" | "main-2" | "secondary" | "secondary-2";
+    color?: "main" | "main-2" | "main-3" | "secondary" | "secondary-2";
     background?: string;
     noContainer?: boolean;
     noPadding?: boolean;
     start?: boolean;
+    noStart?: boolean;
     end?: boolean;
 }
 
@@ -48,7 +49,11 @@ function Section({
                 <div className="container">{children}</div>
             </section>
             {end ? (
-                <div className="triangle">
+                <div
+                    className={
+                        color === "main-3" ? "triangle dark" : "triangle"
+                    }
+                >
                     <TriangleEndWhite />
                 </div>
             ) : null}

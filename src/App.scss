@@ -1,7 +1,8 @@
 :root {
     --main: #ffffff;
     --main-2: #f7f7f7;
-    --main-3: #e7e7e7;
+    --main-3: #efefef;
+    --main-4: #e7e7e7;
     --secondary: #112230;
     --secondary-2: #213240;
     --complementary: #b80d0d;
@@ -89,11 +90,11 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-2);
+    background-color: var(--main-3);
     cursor: pointer;
 
     &:hover {
-        background-color: var(--main-3);
+        background-color: var(--main-4);
 
         path {
             stroke: var(--complementary);
@@ -122,7 +123,7 @@ img {
 }
 
 .separator {
-    border-top: solid 1px var(--main-3);
+    border-top: solid 1px var(--main-4);
 }
 
 .center {
@@ -285,6 +286,10 @@ ul.list {
     }
 }
 
+.XXL {
+    font-size: 60px;
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;
@@ -311,5 +316,9 @@ ul.list {
         h1 {
             font-size: 2.5em;
         }
+    }
+
+    .XXL {
+        font-size: 50px;
     }
 }

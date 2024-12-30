@@ -43,6 +43,14 @@ div.triangle {
     background-color: var(--main-2);
     height: min-content;
 
+    &.dark {
+        background-color: var(--main-3);
+
+        g {
+            fill: var(--main-2)
+        }
+    }
+
     svg {
         width: 100%;
         display: block;

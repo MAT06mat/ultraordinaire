@@ -16,7 +16,12 @@ function Aventures() {
                 />
                 <link rel="canonical" href="/aventures" />
             </Helmet>
-            <Section color="main-2" end>
+            <Section color="main-3" end>
+                <div className="center padding">
+                    <h1 className="XXL padding">Aventures</h1>
+                </div>
+            </Section>
+            <Section color="main-2" end noPadding>
                 <TextImage
                     reverse
                     source="WA0040.jpg"
@@ -143,7 +148,12 @@ function Aventures() {
                 </TextImage>
             </Section>
             <Action />
-            <Section color="main-2" end>
+            <Section color="main-3" end>
+                <div className="center padding">
+                    <h1 className="XXL">Santé</h1>
+                </div>
+            </Section>
+            <Section color="main-2" end noPadding>
                 <TextImage source="8a3a2c9f.jpg" alt="Paysage" reverse>
                     <h1 className="">
                         CONSTRUIRE & OPTIMISER SON{" "}

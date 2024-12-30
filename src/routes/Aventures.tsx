@@ -163,10 +163,13 @@ function Aventures() {
                         <br />
                         <br />
                         Cela exige de trouver un <b>équilibre complexe</b> entre
-                        5 ressources à adapter et à questionner régulièrement.
+                        6 ressources qui sera constamment questionné et perturbé
+                        demandant un ajustement systématique tout au long de sa
+                        vie.
                     </p>
                     <ul className="list">
                         <li>Ressource Entraînement physique & mental</li>
+                        <li>Ressource Nutrition / Hydratation</li>
                         <li>Ressource Expérience</li>
                         <li>Ressource Famille</li>
                         <li>Ressource Travail</li>

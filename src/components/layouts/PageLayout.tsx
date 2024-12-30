@@ -1,7 +1,6 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
-import ScrollToTop from "../ScrollToTop";
 
 function PageLayout() {
     return (
@@ -9,7 +8,7 @@ function PageLayout() {
             <Header />
             <Outlet />
             <Footer />
-            <ScrollToTop />
+            <ScrollRestoration getKey={(location) => location.pathname} />
         </>
     );
 }

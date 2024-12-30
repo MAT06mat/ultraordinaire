@@ -51,11 +51,8 @@ function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link
-                            to="conseil-et-developpement"
-                            onClick={handleClose}
-                        >
-                            Conseil & Développement
+                        <Link to="about" onClick={handleClose}>
+                            À Propos
                         </Link>
                     </li>
                 </ul>

@@ -46,8 +46,8 @@ function Header() {
                         <CloseButton />
                     </div>
                     <li>
-                        <Link to="aventures-et-partage" onClick={handleClose}>
-                            Aventures & Partage
+                        <Link to="mes-sentiers" onClick={handleClose}>
+                            Mes Sentiers
                         </Link>
                     </li>
                     <li>

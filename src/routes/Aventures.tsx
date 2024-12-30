@@ -9,7 +9,7 @@ function Aventures() {
     return (
         <>
             <Helmet>
-                <title>Aventures</title>
+                <title>Mes Sentiers</title>
                 <meta
                     name="description"
                     content="Page des projets ultra ordinaires de Julien Coindet sur son site web ultraordinaire.fr"

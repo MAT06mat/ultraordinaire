@@ -137,7 +137,7 @@ function Aventures() {
                             l’objectif à atteindre sur la carte. On demande,
                             parfois, autour de nous le chemin à prendre. Le
                             chemin retrouvé, on repart avec un niveau de
-                            vigilance, d'attention accrue pour ne plus
+                            vigilance et d'attention accru pour ne plus
                             s’éloigner de l’objectif.
                         </p>
                     </blockquote>

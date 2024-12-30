@@ -33,36 +33,32 @@ function Home() {
                         FONDATEUR ASSOCIATION CPHD
                     </h2>
                     <h1 className="separator padding">
-                        Une vie en mouvement
+                        Une vie en mouvement ultra ordinaire
                     </h1>
                     <p>
-                        <b>Julien Coindet</b> vous invite à le suivre sur le
-                        sentier <b>Aventure</b>. Ultra traileur confirmé, il a
-                        construit 2 projets <b>sportifs</b>, <b>solidaires</b>{" "}
-                        et de <b>cohésions interprofessionnels</b> en faveur de
-                        la fondation maladies rares au sein du pôle personnes
-                        âgées du CHU Dijon (UTMB ultra trail mont blanc ) puis
-                        entre deux CHU (Dijon - La réunion) éloignés par des
-                        milliers de kilomètres (Grand Raid de la Réunion « la
-                        diagonale des fous »).
+                        <b>Julien Coindet</b> vous invite à le suivre sur les
+                        sentiers <b>de son univers</b>.<br />
+                        Ultra traileur confirmé, il a construit 2 projets{" "}
+                        <b>sportifs</b>, <b>solidaires</b> et de{" "}
+                        <b>cohésions interprofessionnels</b> en faveur de la
+                        fondation maladies rares au sein du pôle personnes âgées
+                        du CHU Dijon (UTMB ultra trail mont blanc ) puis entre
+                        deux CHU (Dijon et La réunion) éloignés par des{" "}
+                        <b>milliers de kilomètres</b> (Grand Raid de la Réunion
+                        « la diagonale des fous »).
                         <br />
-                        Un mouvement fédérateur s’est mis en marche grâce au
-                        soutien et l’enthousiasme de ses collègues, des
+                        Un <b>mouvement fédérateur</b> s’est mis en marche grâce
+                        au soutien et à l’enthousiasme de ses collègues, des
                         résidents, des familles, de l’ensemble du personnel
-                        hospitalier et des partenaires.
+                        hospitalier sans oublier les indispensables partenaires.
                         <br />
-                        Le <b>réseau</b> est un second sentier orienté autour de
-                        deux axes en conseil & développement pour pratiquer le{" "}
-                        <b>sport en santé</b> et pour mettre en place des
-                        dispositifs interprofessionnels de{" "}
+                        Professionnel APA <b>depuis 15 ans</b>, il s’engage sur
+                        le chemin de l’auto-entreprise, dans le domaine du
+                        conseil & développement offrant un{" "}
+                        <b>accompagnement individuel</b> vers une pratique du{" "}
+                        <b>sport en santé</b> et dans la mise en place de
+                        dispositif prévention/action de la{" "}
                         <b>santé par le sport</b>.
-                        <br />
-                        Julien Coindet, un <b>professionnel hospitalier</b>,
-                        diplômé en activité physique adaptée
-                        (enseignant/coordinateur APA, formateur,
-                        auto-entrepreneur conseil & développement sport santé)
-                        est à votre écoute pour <b>vous accompagner</b> sur le
-                        sentier de votre choix.
                     </p>
                 </TextImage>
             </Section>

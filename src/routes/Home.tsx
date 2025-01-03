@@ -132,7 +132,7 @@ function Home() {
                                         Quel que soit son métier et son statut,
                                         développer sa capacité à fédérer des
                                         énergies positives et compétentes est un
-                                        véritable challenge et un atout dans la
+                                        véritable challenge. C'est un atout dans la
                                         construction collective d’un projet :
                                         savoir donner du sens à son action.
                                     </p>

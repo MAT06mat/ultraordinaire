@@ -290,6 +290,10 @@ ul.list {
     font-size: 60px;
 }
 
+.no-align {
+    align-items: normal;
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;

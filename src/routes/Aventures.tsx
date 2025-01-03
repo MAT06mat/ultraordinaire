@@ -177,12 +177,12 @@ function Aventures() {
                         vie.
                     </p>
                     <ul className="list">
-                        <li>Ressource Entraînement physique & mental</li>
-                        <li>Ressource Nutrition / Hydratation</li>
-                        <li>Ressource Expérience</li>
-                        <li>Ressource Famille</li>
-                        <li>Ressource Travail</li>
-                        <li>Ressource Vie sociale</li>
+                        <li>Ressource entraînement physique & mental</li>
+                        <li>Ressource nutrition / hydratation</li>
+                        <li>Ressource expérience</li>
+                        <li>Ressource vie personnelle</li>
+                        <li>Ressource travail</li>
+                        <li>Ressource vie sociale</li>
                     </ul>
                 </TextImage>
             </Section>

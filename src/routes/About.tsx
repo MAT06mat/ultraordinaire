@@ -198,7 +198,7 @@ function About() {
                     <img src="/images/partenariats/6c349048.jpg" alt="" />
                     <img src="/images/partenariats/bb9cc5ec.jpg" alt="" />
                     <img src="/images/partenariats/b502d641.jpg" alt="" />
-                    <img src="/images/partenariats/c3eb0f25.jpg" alt="" />
+                    <img src="/images/partenariats/4fbf9530.jpg" alt="" />
                 </div>
             </Section>
         </>

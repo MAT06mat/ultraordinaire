@@ -254,6 +254,11 @@ blockquote:after {
 ul.list {
     padding-top: .75em;
     padding-left: 1.5em;
+
+    a:hover {
+        color: var(--complementary);
+        text-decoration: underline;
+    }
 }
 
 .play-icon {

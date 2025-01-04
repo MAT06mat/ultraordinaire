@@ -200,14 +200,38 @@ function About() {
                     <img src="/images/partenariats/84cdc361.png" alt="" />
                     <img src="/images/partenariats/cbnsljfe.svg" alt="" />
                     <img src="/images/partenariats/9e5171e8.jpg" alt="" />
-                    <img src="/images/partenariats/jfcbsbhj.png" alt="" />
-                    <img src="/images/partenariats/1b454dfe.jpg" alt="" />
-                    <img src="/images/partenariats/42e3ff33.jpg" alt="" />
-                    <img src="/images/partenariats/hvhjsbcs.png" alt="" />
-                    <img src="/images/partenariats/6c349048.jpg" alt="" />
-                    <img src="/images/partenariats/bb9cc5ec.jpg" alt="" />
-                    <img src="/images/partenariats/b502d641.jpg" alt="" />
-                    <img src="/images/partenariats/4fbf9530.jpg" alt="" />
+                    <LinkImage
+                        href="https://www.chematech-mdt.com/"
+                        src="partenariats/jfcbsbhj.png"
+                    />
+                    <LinkImage
+                        href="https://www.ma.cuisinella/fr-fr/magasins/cote-d-or/dijon-quetigny"
+                        src="partenariats/1b454dfe.jpg"
+                    />
+                    <LinkImage
+                        href="https://concessions.peugeot.fr/marsannay-la-cote/nous-contacter/contactez-nous/"
+                        src="partenariats/42e3ff33.jpg"
+                    />
+                    <LinkImage
+                        href="https://negocialfinance.fr/"
+                        src="partenariats/hvhjsbcs.png"
+                    />
+                    <LinkImage
+                        href="https://urlr.me/jQMERu"
+                        src="partenariats/6c349048.jpg"
+                    />
+                    <LinkImage
+                        href="http://www.atelierlambert.fr/"
+                        src="/partenariats/bb9cc5ec.jpg"
+                    />
+                    <LinkImage
+                        href="https://securama.fr/"
+                        src="partenariats/b502d641.jpg"
+                    />
+                    <LinkImage
+                        href="https://urlr.me/M4rUuY"
+                        src="partenariats/4fbf9530.jpg"
+                    />
                 </div>
             </Section>
         </>

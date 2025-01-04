@@ -300,6 +300,8 @@ ul.list {
 }
 
 .socials-medias {
+    display: flex;
+
     a {
         height: 6rem;
         width: 6rem;
@@ -373,5 +375,22 @@ ul.list {
 
     .XXL {
         font-size: 50px;
+    }
+
+    .socials-medias {
+        display: flex;
+        padding-bottom: 1rem;
+
+        a {
+            height: 4rem;
+            width: 4rem;
+        }
+    }
+
+    .image-list {
+        img {
+            max-height: 4rem;
+            max-width: 8rem;
+        }
     }
 }

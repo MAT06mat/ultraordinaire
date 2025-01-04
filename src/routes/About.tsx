@@ -133,7 +133,7 @@ function About() {
                             <span className="complementary">réseaux</span> de
                             Julien
                         </h1>
-                        <SocialsMedias className="cols padding" />
+                        <SocialsMedias />
                     </div>
                     <div>
                         <img src="/images/mobile.svg" alt="" />

@@ -1,6 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import Section from "../components/layouts/Section";
 import List from "../components/ui/List";
+import SocialsMedias from "../assets/images/SocialsMedias";
+import "../assets/css/Action.scss";
 
 function About() {
     return (
@@ -63,17 +65,22 @@ function About() {
                 </div>
             </Section>
             <Section color="secondary">
-                <h2>SUIVRE MES AVENTURES</h2>
-                <h1>
-                    Les <span className="complementary">réseaux</span> sociaux
-                    de Julien
-                </h1>
-                <div className="cols padding">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                    <div>5</div>
+                <div className="cols action">
+                    <div>
+                        <h2>SUIVRE MES AVENTURES</h2>
+                        <h1>
+                            Les <span className="complementary">réseaux</span>{" "}
+                            sociaux de Julien
+                        </h1>
+                        <SocialsMedias className="cols padding" />
+                    </div>
+                    <div>
+                        <img src="/images/mobile.svg" alt="" />
+                        <h3 className="center">Vous êtes sur le bon chemin</h3>
+                        <button className="margin">
+                            Contactez moi maintenant
+                        </button>
+                    </div>
                 </div>
             </Section>
             <Section>

@@ -294,6 +294,28 @@ ul.list {
     align-items: normal;
 }
 
+.socials-medias {
+    svg {
+        transition: transform 0.2s ease-out;
+        height: 6rem;
+        width: 6rem;
+
+        path {
+            transition: fill 0.2s ease;
+            stroke: none;
+            fill: var(--main);
+        }
+
+        &:hover {
+            transform: scale(1.2);
+
+            path {
+                fill: var(--complementary-2);
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;

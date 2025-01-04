@@ -20,7 +20,14 @@ function About() {
                     <h1 className="XXL padding">À Propos</h1>
                     <p className="padding">
                         Ultraordinaire est le site de Julien Coindet, et a été
-                        réalisé par MAT06mat.
+                        réalisé par{" "}
+                        <a
+                            href="https://mat06mat.github.io/MAT06mat"
+                            target="_blank"
+                        >
+                            MAT06mat
+                        </a>
+                        .
                     </p>
                 </div>
             </Section>

@@ -207,7 +207,7 @@ function About() {
                     />
                 </div>
                 <h3>Financiers</h3>
-                <div className="image-list">
+                <div className="image-list" style={{ margin: 0 }}>
                     <LinkImage
                         href="https://www.mgen.fr/"
                         src="partenariats/6fcb7a38.jpg"

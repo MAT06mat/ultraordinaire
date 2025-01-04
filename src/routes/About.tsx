@@ -3,6 +3,7 @@ import Section from "../components/layouts/Section";
 import List from "../components/ui/List";
 import SocialsMedias from "../assets/images/SocialsMedias";
 import "../assets/css/Action.scss";
+import LinkImage from "../components/ui/LinkImage";
 
 function About() {
     return (
@@ -147,39 +148,47 @@ function About() {
             <Section>
                 <h1>Partenariats Réseau Entreprise</h1>
                 <div className="image-list">
-                    <a href="https://www.mvvp.fr/">
-                        <img src="/images/partenariats/ncjclxomd.avif" alt="" />
-                    </a>
-                    <a href="https://sites.google.com/view/dcsport/accueil">
-                        <img src="/images/partenariats/2e9911da.jpg" alt="" />
-                    </a>
-                    <a href="https://www.dynaforma.fr/">
-                        <img src="/images/partenariats/7fcdfb19.jpg" alt="" />
-                    </a>
-                    <a href="https://lemicrodantho.fr/">
-                        <img src="/images/partenariats/25fb201b.jpg" alt="" />
-                    </a>
+                    <LinkImage
+                        href="https://www.mvvp.fr/"
+                        src="partenariats/ncjclxomd.avif"
+                    />
+                    <LinkImage
+                        href="https://sites.google.com/view/dcsport/accueil"
+                        src="partenariats/2e9911da.jpg"
+                    />
+                    <LinkImage
+                        href="https://www.dynaforma.fr/"
+                        src="partenariats/7fcdfb19.jpg"
+                    />
+                    <LinkImage
+                        href="https://lemicrodantho.fr/"
+                        src="partenariats/25fb201b.jpg"
+                    />
                 </div>
                 <h1 className="padding">Partenariats Sportif Annuel</h1>
                 <div className="image-list">
-                    <a href="https://altore.corsica/">
-                        <img src="/images/partenariats/bc4ab58d.jpg" alt="" />
-                    </a>
-                    <a href="https://naturalorigins.me/">
-                        <img src="/images/partenariats/1445x.webp" alt="" />
-                    </a>
+                    <LinkImage
+                        href="https://altore.corsica/"
+                        src="partenariats/bc4ab58d.jpg"
+                    />
+                    <LinkImage
+                        href="https://naturalorigins.me/"
+                        src="partenariats/1445x.webp"
+                    />
                 </div>
                 <h1 className="padding">
                     Partenariats Aventures CHAM22 & DIAG23
                 </h1>
                 <h3>Organisationnels</h3>
                 <div className="image-list">
-                    <a href="https://fondation-maladiesrares.org/">
-                        <img src="/images/partenariats/3fcebed0.jpg" alt="" />
-                    </a>
-                    <a href="https://urlr.me/VFSgRs">
-                        <img src="/images/partenariats/d3fc26a5.jpg" alt="" />
-                    </a>
+                    <LinkImage
+                        href="https://fondation-maladiesrares.org/"
+                        src="partenariats/3fcebed0.jpg"
+                    />
+                    <LinkImage
+                        href="https://urlr.me/VFSgRs"
+                        src="partenariats/d3fc26a5.jpg"
+                    />
                     <img src="/images/partenariats/a012f21f.jpg" alt="" />
                     <img src="/images/partenariats/b08b568b.jpg" alt="" />
                     <img src="/images/partenariats/aecd09f9.jpg" alt="" />

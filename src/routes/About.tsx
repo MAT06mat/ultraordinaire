@@ -137,13 +137,13 @@ function About() {
                 </div>
             </Section>
             <Section>
-                <h1>Partenariat Réseau Entreprise</h1>
+                <h1>Partenariats Réseau Entreprise</h1>
                 <div className="image-list"></div>
-                <h1>Partenariat Sportif Annuel</h1>
+                <h1>Partenariats Sportif Annuel</h1>
                 <div className="image-list"></div>
-                <h1>Partenariat Aventures CHAM22 & DIAG23</h1>
+                <h1>Partenariats Aventures CHAM22 & DIAG23</h1>
                 <div className="image-list"></div>
-                <h1>Partenariat Financiers</h1>
+                <h1>Partenariats Financiers</h1>
                 <div className="image-list"></div>
             </Section>
         </>

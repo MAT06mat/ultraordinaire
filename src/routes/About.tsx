@@ -19,8 +19,8 @@ function About() {
                 <div className="center padding">
                     <h1 className="XXL padding">À Propos</h1>
                     <p className="padding">
-                        Ultraordinaire.fr est le site de Julien Coindet, et à
-                        été réalisé par MAT06mat.
+                        Ultraordinaire est le site de Julien Coindet, et a été
+                        réalisé par MAT06mat.
                     </p>
                 </div>
             </Section>

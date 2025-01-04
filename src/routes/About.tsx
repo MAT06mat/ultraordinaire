@@ -145,13 +145,60 @@ function About() {
             </Section>
             <Section>
                 <h1>Partenariats Réseau Entreprise</h1>
-                <div className="image-list"></div>
-                <h1>Partenariats Sportif Annuel</h1>
-                <div className="image-list"></div>
-                <h1>Partenariats Aventures CHAM22 & DIAG23</h1>
-                <div className="image-list"></div>
-                <h1>Partenariats Financiers</h1>
-                <div className="image-list"></div>
+                <div className="image-list">
+                    <a href="https://www.mvvp.fr/">
+                        <img src="/images/partenariats/ncjclxomd.avif" alt="" />
+                    </a>
+                    <a href="https://sites.google.com/view/dcsport/accueil">
+                        <img src="/images/partenariats/2e9911da.jpg" alt="" />
+                    </a>
+                    <a href="https://www.dynaforma.fr/">
+                        <img src="/images/partenariats/7fcdfb19.jpg" alt="" />
+                    </a>
+                    <a href="https://lemicrodantho.fr/">
+                        <img src="/images/partenariats/25fb201b.jpg" alt="" />
+                    </a>
+                </div>
+                <h1 className="padding">Partenariats Sportif Annuel</h1>
+                <div className="image-list">
+                    <a href="https://altore.corsica/">
+                        <img src="/images/partenariats/bc4ab58d.jpg" alt="" />
+                    </a>
+                    <a href="https://naturalorigins.me/">
+                        <img src="/images/partenariats/1445x.webp" alt="" />
+                    </a>
+                </div>
+                <h1 className="padding">
+                    Partenariats Aventures CHAM22 & DIAG23
+                </h1>
+                <h3>Organisationnels</h3>
+                <div className="image-list">
+                    <a href="https://fondation-maladiesrares.org/">
+                        <img src="/images/partenariats/3fcebed0.jpg" alt="" />
+                    </a>
+                    <a href="https://urlr.me/VFSgRs">
+                        <img src="/images/partenariats/d3fc26a5.jpg" alt="" />
+                    </a>
+                    <img src="/images/partenariats/a012f21f.jpg" alt="" />
+                    <img src="/images/partenariats/b08b568b.jpg" alt="" />
+                    <img src="/images/partenariats/aecd09f9.jpg" alt="" />
+                    <img src="/images/partenariats/bbc77696.jpg" alt="" />
+                </div>
+                <h3>Financiers</h3>
+                <div className="image-list">
+                    <img src="/images/partenariats/6fcb7a38.jpg" alt="" />
+                    <img src="/images/partenariats/84cdc361.png" alt="" />
+                    <img src="/images/partenariats/cbnsljfe.svg" alt="" />
+                    <img src="/images/partenariats/9e5171e8.jpg" alt="" />
+                    <img src="/images/partenariats/jfcbsbhj.png" alt="" />
+                    <img src="/images/partenariats/1b454dfe.jpg" alt="" />
+                    <img src="/images/partenariats/42e3ff33.jpg" alt="" />
+                    <img src="/images/partenariats/hvhjsbcs.png" alt="" />
+                    <img src="/images/partenariats/6c349048.jpg" alt="" />
+                    <img src="/images/partenariats/bb9cc5ec.jpg" alt="" />
+                    <img src="/images/partenariats/b502d641.jpg" alt="" />
+                    <img src="/images/partenariats/c3eb0f25.jpg" alt="" />
+                </div>
             </Section>
         </>
     );

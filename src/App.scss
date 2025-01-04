@@ -324,6 +324,25 @@ ul.list {
     }
 }
 
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    align-items: center;
+    gap: 2rem;
+
+    img {
+        display: block;
+        max-height: 6rem;
+        max-width: 12rem;
+        object-fit: contain;
+    }
+
+    a {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;

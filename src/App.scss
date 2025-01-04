@@ -295,22 +295,25 @@ ul.list {
 }
 
 .socials-medias {
-    svg {
-        transition: transform 0.2s ease-out;
+    a {
         height: 6rem;
         width: 6rem;
 
-        path {
-            transition: fill 0.2s ease;
-            stroke: none;
-            fill: var(--main);
-        }
-
-        &:hover {
-            transform: scale(1.2);
+        svg {
+            transition: transform 0.2s ease-out;
 
             path {
-                fill: var(--complementary-2);
+                transition: fill 0.2s ease;
+                stroke: none;
+                fill: var(--main);
+            }
+
+            &:hover {
+                transform: scale(1.2);
+
+                path {
+                    fill: var(--complementary-2);
+                }
             }
         }
     }

@@ -129,8 +129,9 @@ function About() {
                     <div>
                         <h2>SUIVRE MES AVENTURES</h2>
                         <h1>
-                            Les <span className="complementary">réseaux</span>{" "}
-                            sociaux de Julien
+                            Voici les{" "}
+                            <span className="complementary">réseaux</span> de
+                            Julien
                         </h1>
                         <SocialsMedias className="cols padding" />
                     </div>

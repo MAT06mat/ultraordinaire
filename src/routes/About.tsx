@@ -189,17 +189,41 @@ function About() {
                         href="https://urlr.me/VFSgRs"
                         src="partenariats/d3fc26a5.jpg"
                     />
-                    <img src="/images/partenariats/a012f21f.jpg" alt="" />
-                    <img src="/images/partenariats/b08b568b.jpg" alt="" />
-                    <img src="/images/partenariats/aecd09f9.jpg" alt="" />
-                    <img src="/images/partenariats/bbc77696.jpg" alt="" />
+                    <LinkImage
+                        href="https://www.chu-dijon.fr/"
+                        src="partenariats/a012f21f.jpg"
+                    />
+                    <LinkImage
+                        href="https://www.chu-reunion.fr/"
+                        src="partenariats/b08b568b.jpg"
+                    />
+                    <LinkImage
+                        href="http://www.chu-dijon.fr/service/plateforme-dexpertise-maladies-rares-bfc/plateforme-dexpertise-maladies-rares-bfc"
+                        src="partenariats/aecd09f9.jpg"
+                    />
+                    <LinkImage
+                        href="https://www.remarares.re/"
+                        src="partenariats/bbc77696.jpg"
+                    />
                 </div>
                 <h3>Financiers</h3>
                 <div className="image-list">
-                    <img src="/images/partenariats/6fcb7a38.jpg" alt="" />
-                    <img src="/images/partenariats/84cdc361.png" alt="" />
-                    <img src="/images/partenariats/cbnsljfe.svg" alt="" />
-                    <img src="/images/partenariats/9e5171e8.jpg" alt="" />
+                    <LinkImage
+                        href="https://www.mgen.fr/"
+                        src="partenariats/6fcb7a38.jpg"
+                    />
+                    <LinkImage
+                        href="https://www.acef.com/com/page/1460"
+                        src="partenariats/84cdc361.png"
+                    />
+                    <LinkImage
+                        href="https://www.creditmutuel.fr/fr/caisse/bourgogne-franche-comte/dijon/10278-02568-00"
+                        src="partenariats/cbnsljfe.svg"
+                    />
+                    <LinkImage
+                        href="https://www.mnh.fr/"
+                        src="partenariats/9e5171e8.jpg"
+                    />
                     <LinkImage
                         href="https://www.chematech-mdt.com/"
                         src="partenariats/jfcbsbhj.png"
@@ -222,7 +246,7 @@ function About() {
                     />
                     <LinkImage
                         href="http://www.atelierlambert.fr/"
-                        src="/partenariats/bb9cc5ec.jpg"
+                        src="partenariats/bb9cc5ec.jpg"
                     />
                     <LinkImage
                         href="https://securama.fr/"

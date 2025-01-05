@@ -20,6 +20,7 @@ footer {
                 max-width: min(12em, 100%);
                 max-height: 6em;
             }
+
         }
     }
 
@@ -34,5 +35,11 @@ footer {
         font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui",
             Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji",
             "segoe ui symbol";
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer .sponsor {
+        padding: 0;
     }
 }

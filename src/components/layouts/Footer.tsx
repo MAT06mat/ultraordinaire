@@ -1,11 +1,15 @@
 import "../../assets/css/Footer.scss";
+import LinkImage from "../ui/LinkImage";
 
 function Footer() {
     return (
         <footer>
             <div className="container">
                 <div className="sponsor">
-                    <img src="/images/fc540aad.jpg" />
+                    <LinkImage
+                        href="https://altore.corsica/"
+                        src="fc540aad.jpg"
+                    />
                     <div>Sponsor 2</div>
                     <div>Sponsor 3</div>
                 </div>

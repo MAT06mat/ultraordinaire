@@ -10,8 +10,18 @@ function Footer() {
                         href="https://altore.corsica/"
                         src="fc540aad.jpg"
                     />
-                    <div>Sponsor 2</div>
-                    <div>Sponsor 3</div>
+                    <LinkImage
+                        href="https://naturalorigins.me/"
+                        src="partenariats/1445x.webp"
+                    />
+                    <LinkImage
+                        href="https://www.mvvp.fr/"
+                        src="partenariats/ncjclxomd.avif"
+                    />
+                    <LinkImage
+                        href="https://sites.google.com/view/dcsport/accueil"
+                        src="partenariats/2e9911da.jpg"
+                    />
                 </div>
                 <div className="copyright separator">
                     <div>© 2024 Julien Coindet</div>

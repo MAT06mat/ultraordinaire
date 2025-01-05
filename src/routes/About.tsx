@@ -138,7 +138,9 @@ function About() {
                     </div>
                     <div>
                         <img src="/images/mobile.svg" alt="" />
-                        <h3 className="center">Envie de discuter ?</h3>
+                        <h3 className="center">
+                            Intéressé par mes aventures ou mes actions ?
+                        </h3>
                         <button className="margin">
                             Contactez moi maintenant
                         </button>

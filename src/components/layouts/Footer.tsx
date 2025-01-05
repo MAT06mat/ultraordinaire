@@ -5,7 +5,7 @@ function Footer() {
         <footer>
             <div className="container">
                 <div className="sponsor">
-                    <div>Sponsor 1</div>
+                    <img src="/images/fc540aad.jpg" />
                     <div>Sponsor 2</div>
                     <div>Sponsor 3</div>
                 </div>

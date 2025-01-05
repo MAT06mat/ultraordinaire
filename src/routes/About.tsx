@@ -138,7 +138,7 @@ function About() {
                     </div>
                     <div>
                         <img src="/images/mobile.svg" alt="" />
-                        <h3 className="center">Vous êtes sur le bon chemin</h3>
+                        <h3 className="center">Envie de discuter ?</h3>
                         <button className="margin">
                             Contactez moi maintenant
                         </button>
@@ -231,6 +231,10 @@ function About() {
                     <LinkImage
                         href="https://www.ma.cuisinella/fr-fr/magasins/cote-d-or/dijon-quetigny"
                         src="partenariats/1b454dfe.jpg"
+                    />
+                    <LinkImage
+                        href="https://www.dijonchauffage.fr/a-propos/"
+                        src="partenariats/a9743777.jpg"
                     />
                     <LinkImage
                         href="https://concessions.peugeot.fr/marsannay-la-cote/nous-contacter/contactez-nous/"

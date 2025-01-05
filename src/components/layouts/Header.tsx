@@ -25,10 +25,12 @@ function Header() {
 
     function handleOpen() {
         setMenuState(true);
+        document.querySelector("body")?.classList.add("stop-scrolling");
     }
 
     function handleClose() {
         setMenuState(false);
+        document.querySelector("body")?.classList.remove("stop-scrolling");
     }
 
     return (
@@ -45,7 +47,7 @@ function Header() {
                     <div className="btn close-btn" onClick={handleClose}>
                         <CloseButton />
                     </div>
-                    <li className="mobile">
+                    <li>
                         <Link to="" onClick={handleClose}>
                             Accueil
                         </Link>

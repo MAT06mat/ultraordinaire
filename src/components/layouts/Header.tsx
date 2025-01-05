@@ -45,6 +45,11 @@ function Header() {
                     <div className="btn close-btn" onClick={handleClose}>
                         <CloseButton />
                     </div>
+                    <li className="mobile">
+                        <Link to="" onClick={handleClose}>
+                            Accueil
+                        </Link>
+                    </li>
                     <li>
                         <Link to="mes-sentiers" onClick={handleClose}>
                             Mes Sentiers

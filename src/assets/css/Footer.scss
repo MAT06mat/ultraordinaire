@@ -9,16 +9,19 @@ footer {
         align-items: center;
         justify-content: center;
 
-        a {
+        div {
             flex: 50%;
             display: flex;
             justify-content: center;
 
-            img {
-                display: block;
-                max-width: min(100%, 12em);
-            }
+            a {
+                width: min(100%, 12em);
 
+                img {
+                    display: block;
+                    max-width: 100%;
+                }
+            }
         }
     }
 

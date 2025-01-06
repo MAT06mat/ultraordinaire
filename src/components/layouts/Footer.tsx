@@ -6,14 +6,18 @@ function Footer() {
         <footer>
             <div className="container">
                 <div className="sponsor">
-                    <LinkImage
-                        href="https://altore.corsica/"
-                        src="fc540aad.jpg"
-                    />
-                    <LinkImage
-                        href="https://naturalorigins.me/"
-                        src="partenariats/1445x.webp"
-                    />
+                    <div>
+                        <LinkImage
+                            href="https://altore.corsica/"
+                            src="fc540aad.jpg"
+                        />
+                    </div>
+                    <div>
+                        <LinkImage
+                            href="https://naturalorigins.me/"
+                            src="partenariats/1445x.webp"
+                        />
+                    </div>
                 </div>
                 <div className="copyright separator">
                     <div>© 2024 Julien Coindet</div>

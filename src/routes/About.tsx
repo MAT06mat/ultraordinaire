@@ -170,6 +170,10 @@ function About() {
                 <h1 className="padding">Partenariats Sportif Annuel</h1>
                 <div className="image-list">
                     <LinkImage
+                        href="https://www.instagram.com/jozbikeandrun?igsh=MW8wNGw2aHBlZWVpdQ=="
+                        src="partenariats/72840987.jpg"
+                    />
+                    <LinkImage
                         href="https://altore.corsica/"
                         src="partenariats/bc4ab58d.jpg"
                     />
@@ -206,6 +210,10 @@ function About() {
                     <LinkImage
                         href="https://www.remarares.re/"
                         src="partenariats/bbc77696.jpg"
+                    />
+                    <LinkImage
+                        href="https://www.prospactive.com/"
+                        src="partenariats/f033cfcc.jpg"
                     />
                 </div>
                 <h3>Financiers</h3>

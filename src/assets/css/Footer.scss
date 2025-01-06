@@ -6,9 +6,8 @@ footer {
         display: flex;
         gap: 2em;
         margin-bottom: 2em;
-        padding: 0 2em;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
         a {
             display: block;
@@ -35,11 +34,5 @@ footer {
         font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui",
             Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji",
             "segoe ui symbol";
-    }
-}
-
-@media screen and (max-width: 768px) {
-    footer .sponsor {
-        padding: 0;
     }
 }

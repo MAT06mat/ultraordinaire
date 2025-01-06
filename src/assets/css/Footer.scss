@@ -7,17 +7,16 @@ footer {
         gap: 2em;
         margin-bottom: 2em;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
 
         a {
-            display: block;
-            max-width: min(12em, 100%);
-            max-height: 6em;
+            flex: 50%;
+            display: flex;
+            justify-content: center;
 
             img {
                 display: block;
-                max-width: min(12em, 100%);
-                max-height: 6em;
+                max-width: min(100%, 12em);
             }
 
         }

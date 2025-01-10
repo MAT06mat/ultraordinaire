@@ -170,10 +170,6 @@ function About() {
                 <h1 className="padding">Partenariats Sportif Annuel</h1>
                 <div className="image-list">
                     <LinkImage
-                        href="https://www.instagram.com/jozbikeandrun?igsh=MW8wNGw2aHBlZWVpdQ=="
-                        src="partenariats/72840987.jpg"
-                    />
-                    <LinkImage
                         href="https://altore.corsica/"
                         src="partenariats/bc4ab58d.jpg"
                     />
@@ -181,16 +177,16 @@ function About() {
                         href="https://naturalorigins.me/"
                         src="partenariats/1445x.webp"
                     />
+                    <LinkImage
+                        href="https://www.instagram.com/jozbikeandrun?igsh=MW8wNGw2aHBlZWVpdQ=="
+                        src="partenariats/72840987.jpg"
+                    />
                 </div>
                 <h1 className="padding">
                     Partenariats Aventures CHAM22 & DIAG23
                 </h1>
                 <h3>Organisationnels</h3>
                 <div className="image-list">
-                    <LinkImage
-                        href="https://fondation-maladiesrares.org/"
-                        src="partenariats/3fcebed0.jpg"
-                    />
                     <LinkImage
                         href="https://urlr.me/VFSgRs"
                         src="partenariats/d3fc26a5.jpg"
@@ -212,19 +208,19 @@ function About() {
                         src="partenariats/bbc77696.jpg"
                     />
                     <LinkImage
-                        href="https://www.prospactive.com/"
-                        src="partenariats/f033cfcc.jpg"
+                        href="https://fondation-maladiesrares.org/"
+                        src="partenariats/3fcebed0.jpg"
                     />
                 </div>
                 <h3>Financiers</h3>
                 <div className="image-list" style={{ margin: 0 }}>
                     <LinkImage
-                        href="https://www.mgen.fr/"
-                        src="partenariats/6fcb7a38.jpg"
-                    />
-                    <LinkImage
                         href="https://www.acef.com/com/page/1460"
                         src="partenariats/84cdc361.png"
+                    />
+                    <LinkImage
+                        href="https://www.mgen.fr/"
+                        src="partenariats/6fcb7a38.jpg"
                     />
                     <LinkImage
                         href="https://www.creditmutuel.fr/fr/caisse/bourgogne-franche-comte/dijon/10278-02568-00"
@@ -269,6 +265,10 @@ function About() {
                     <LinkImage
                         href="https://urlr.me/M4rUuY"
                         src="partenariats/4fbf9530.jpg"
+                    />
+                    <LinkImage
+                        href="https://www.prospactive.com/"
+                        src="partenariats/f033cfcc.jpg"
                     />
                 </div>
             </Section>

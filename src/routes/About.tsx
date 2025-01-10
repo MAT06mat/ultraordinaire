@@ -223,10 +223,6 @@ function About() {
                         src="partenariats/6fcb7a38.jpg"
                     />
                     <LinkImage
-                        href="https://www.creditmutuel.fr/fr/caisse/bourgogne-franche-comte/dijon/10278-02568-00"
-                        src="partenariats/cbnsljfe.svg"
-                    />
-                    <LinkImage
                         href="https://www.mnh.fr/"
                         src="partenariats/9e5171e8.jpg"
                     />

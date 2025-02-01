@@ -132,8 +132,8 @@ function Home() {
                                         Quel que soit son métier et son statut,
                                         développer sa capacité à fédérer des
                                         énergies positives et compétentes est un
-                                        véritable challenge. C'est un atout dans la
-                                        construction collective d’un projet :
+                                        véritable challenge. C'est un atout dans
+                                        la construction collective d’un projet :
                                         savoir donner du sens à son action.
                                     </p>
                                 ),
@@ -143,6 +143,24 @@ function Home() {
                 </TextImage>
             </Section>
             <Action />
+            <Section color="main-2" end>
+                <h1 className="center">Avis</h1>
+                <h3 className="padding">Responsable Relations Santé Social</h3>
+                <p className="padding separator">
+                    Ravi d’avoir collaboré avec Julien Coindet sur « la
+                    diagonale des CHU » pour l’Ultra-trail de la diagonale des
+                    fous à la Réunion.
+                    <br />
+                    J’y ai rencontré une personne « ultraordianaire », dynamique
+                    et pleine d’ambition au service des projets qu’il mène.
+                    <br />
+                    Une force de persévérance, de dépassement de soi et un
+                    engagement permanent pour des projets fédérateurs porteurs
+                    de valeurs fortes qui font sens.
+                    <br />
+                    John Boardman
+                </p>
+            </Section>
             <Section>
                 <TextImage source="e9ae3025.jpg" proportion={40} reverse>
                     <h1>Une vie singulière</h1>

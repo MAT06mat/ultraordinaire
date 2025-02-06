@@ -215,11 +215,11 @@ function About() {
                 <h3>Financiers</h3>
                 <div className="image-list" style={{ margin: 0 }}>
                     <LinkImage
-                        href="https://www.acef.com/com/page/1460"
+                        href="https://www.mgen.fr/"
                         src="partenariats/84cdc361.png"
                     />
                     <LinkImage
-                        href="https://www.mgen.fr/"
+                        href="https://www.acef.com/com/page/1460"
                         src="partenariats/6fcb7a38.jpg"
                     />
                     <LinkImage

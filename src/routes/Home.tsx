@@ -3,6 +3,7 @@ import Section from "../components/layouts/Section";
 import TextDropList from "../components/ui/TextDropList";
 import TextImage from "../components/layouts/TextImage";
 import Action from "../components/layouts/Action";
+import LinkImage from "../components/ui/LinkImage";
 
 function Home() {
     return (
@@ -145,7 +146,13 @@ function Home() {
             <Action />
             <Section color="main-2" end>
                 <h1 className="center">Avis</h1>
-                <h3 className="padding">Responsable Relations Santé Social</h3>
+                <div className="profile-image">
+                    <LinkImage
+                        href="https://www.mgen.fr/"
+                        src="partenariats/84cdc362.png"
+                    />
+                    <h3 className="padding">Responsable Relations Santé Social</h3>
+                </div>
                 <p className="padding separator">
                     Ravi d’avoir collaboré avec Julien Coindet sur « la
                     diagonale des CHU » pour l’Ultra-trail de la diagonale des

@@ -14,11 +14,10 @@ export default function ErrorPage() {
                 <div>
                     <h1>Oups!</h1>
                     <p>Désolé, une erreur inattendue s'est produite...</p>
-                    <p>Le site web est temporairement off</p>
                 </div>
-                {/* <Link className="link" to={"/"}>
+                <Link className="link" to={"/"}>
                     Accueil
-                </Link> */}
+                </Link>
             </div>
         </>
     );

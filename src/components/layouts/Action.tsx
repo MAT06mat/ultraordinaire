@@ -2,6 +2,11 @@ import Section from "./Section";
 import "../../assets/css/Action.scss";
 
 function Action() {
+    function handleClick() {
+        window.open(
+            "mailto:julien.coindet21@icloud.com?subject=Mail%20depuis%20ultraordinaire.fr"
+        );
+    }
     return (
         <Section color="secondary">
             <div className="cols action">
@@ -27,7 +32,9 @@ function Action() {
                 <div>
                     <img src="/images/mobile.svg" alt="" />
                     <h3 className="center">Vous êtes sur le bon chemin</h3>
-                    <button className="margin">Contactez moi maintenant</button>
+                    <button className="margin" onClick={handleClick}>
+                        Contactez moi maintenant
+                    </button>
                 </div>
             </div>
         </Section>

@@ -314,14 +314,6 @@ ul.list {
                 stroke: none;
                 fill: var(--main);
             }
-
-            &:hover {
-                transform: scale(1.2);
-
-                path {
-                    fill: var(--complementary-2);
-                }
-            }
         }
     }
 }

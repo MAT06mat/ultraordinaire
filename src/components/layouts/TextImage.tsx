@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import ImageVideo from "../ui/ImageVideo";
+import { motion } from "motion/react";
 
 interface Props {
     children: ReactNode;
@@ -19,7 +20,17 @@ function TextImage({
     alt = "Photo de Julien",
 }: Props) {
     return (
-        <div className={reverse ? "cols reverse" : "cols"}>
+        <motion.div
+            className={reverse ? "cols reverse" : "cols"}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.3 }}
+            variants={{
+                visible: { opacity: 1, scale: 1 },
+                hidden: { opacity: 0, scale: 0.95 },
+            }}
+        >
             <div
                 className="text"
                 style={{ width: (100 - proportion).toString() + "%" }}
@@ -37,7 +48,7 @@ function TextImage({
             {source && videoLink ? (
                 <ImageVideo src={source} link={videoLink} />
             ) : null}
-        </div>
+        </motion.div>
     );
 }
 

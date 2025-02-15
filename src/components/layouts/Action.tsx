@@ -1,15 +1,22 @@
 import Section from "./Section";
 import "../../assets/css/Action.scss";
+import { motion } from "motion/react";
+import ContactButton from "../ui/ContactButton";
 
 function Action() {
-    function handleClick() {
-        window.open(
-            "mailto:julien.coindet21@icloud.com?subject=Mail%20depuis%20ultraordinaire.fr"
-        );
-    }
     return (
         <Section color="secondary">
-            <div className="cols action">
+            <motion.div
+                className="cols action"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 0.3 }}
+                variants={{
+                    visible: { opacity: 1, scale: 1 },
+                    hidden: { opacity: 0, scale: 0.95 },
+                }}
+            >
                 <div>
                     <h2>COLLABORER AVEC JULIEN COINDET</h2>
                     <h1>
@@ -32,11 +39,9 @@ function Action() {
                 <div>
                     <img src="/images/mobile.svg" alt="" />
                     <h3 className="center">Vous êtes sur le bon chemin</h3>
-                    <button className="margin" onClick={handleClick}>
-                        Contactez moi maintenant
-                    </button>
+                    <ContactButton />
                 </div>
-            </div>
+            </motion.div>
         </Section>
     );
 }

@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 interface Props {
     className?: string;
     href?: string;
@@ -8,9 +10,15 @@ interface Props {
 
 function LinkImage({ className, href, src, alt, _blank = true }: Props) {
     return (
-        <a className={className} href={href} target={_blank ? "_blank" : ""}>
+        <motion.a
+            className={className}
+            href={href}
+            target={_blank ? "_blank" : ""}
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+        >
             <img src={"/images/" + src} alt={alt} />
-        </a>
+        </motion.a>
     );
 }
 

@@ -4,6 +4,7 @@ import List from "../components/ui/List";
 import SocialsMedias from "../assets/images/SocialsMedias";
 import "../assets/css/Action.scss";
 import LinkImage from "../components/ui/LinkImage";
+import ContactButton from "../components/ui/ContactButton";
 
 function About() {
     return (
@@ -141,9 +142,7 @@ function About() {
                         <h3 className="center">
                             Intéressé par mes aventures ou mes actions ?
                         </h3>
-                        <button className="margin">
-                            Contactez moi maintenant
-                        </button>
+                        <ContactButton />
                     </div>
                 </div>
             </Section>

@@ -4,6 +4,7 @@ import TextImage from "../components/layouts/TextImage";
 import Action from "../components/layouts/Action";
 import { Link } from "react-router-dom";
 import PlayButton from "../assets/images/PlayButton";
+import FadeIn from "../components/animations/FadeIn";
 
 function Aventures() {
     return (
@@ -58,7 +59,7 @@ function Aventures() {
                 </TextImage>
             </Section>
             <Section>
-                <div className="cols">
+                <FadeIn className="cols">
                     <div>
                         <h1 className="complementary">TÉMOIGNAGES</h1>
                         <p className="separator padding">
@@ -127,7 +128,7 @@ function Aventures() {
                             la cafétéria du CHU Dijon.
                         </p>
                     </div>
-                </div>
+                </FadeIn>
             </Section>
             <Section color="main-2" start>
                 <TextImage source="chemin.jpg" alt="Le chemin" proportion={20}>

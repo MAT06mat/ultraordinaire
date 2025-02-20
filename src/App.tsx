@@ -15,10 +15,7 @@ import About from "./routes/About";
 const router = createBrowserRouter(
     createRoutesFromElements(
         <>
-            <Route
-                path="/"
-                element={<PageLayout />}
-            >
+            <Route path="/" element={<PageLayout />}>
                 <Route index element={<Home />} />
                 <Route path="mes-sentiers">
                     <Route index element={<Aventures />} />

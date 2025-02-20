@@ -1,10 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import Section from "../components/layouts/Section";
 import List from "../components/ui/List";
-import SocialsMedias from "../assets/images/SocialsMedias";
 import "../assets/css/Action.scss";
 import LinkImage from "../components/ui/LinkImage";
-import ContactButton from "../components/ui/ContactButton";
+import Action from "../components/layouts/Action";
 
 function About() {
     return (
@@ -126,26 +125,7 @@ function About() {
                     />
                 </div>
             </Section>
-            <Section color="secondary">
-                <div className="cols action">
-                    <div>
-                        <h2>SUIVRE MES AVENTURES</h2>
-                        <h1>
-                            Voici les{" "}
-                            <span className="complementary">réseaux</span> de
-                            Julien
-                        </h1>
-                        <SocialsMedias />
-                    </div>
-                    <div>
-                        <img src="/images/mobile.svg" alt="" />
-                        <h3 className="center">
-                            Intéressé par mes aventures ou mes actions ?
-                        </h3>
-                        <ContactButton />
-                    </div>
-                </div>
-            </Section>
+            <Action socialsMedias />
             <Section>
                 <h1>Partenariats Réseau Entreprise</h1>
                 <div className="image-list">

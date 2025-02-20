@@ -1,5 +1,5 @@
-import { motion } from "motion/react";
 import "../../assets/css/ContactButton.scss";
+import Bounce from "../animations/Bounce";
 
 function ContactButton() {
     function handleClick() {
@@ -8,14 +8,9 @@ function ContactButton() {
         );
     }
     return (
-        <motion.div
-            className="contact-button margin"
-            whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.9 }}
-            onClick={handleClick}
-        >
+        <Bounce className="contact-button margin" onClick={handleClick}>
             Contactez moi maintenant
-        </motion.div>
+        </Bounce>
     );
 }
 

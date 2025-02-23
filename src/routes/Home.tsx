@@ -38,18 +38,18 @@ function Home() {
                         Une vie en mouvement ultra ordinaire
                     </h1>
                     <p>
-                        Julien Coindet vous invite à explorer le chemin de son
-                        univers.
+                        <b>Julien Coindet</b> vous invite à explorer le chemin
+                        de son univers.
                         <br />
-                        Ultra-traileur aguerri, il a initié deux projets
+                        <b>Ultra-traileur aguerri</b>, il a initié deux projets
                         sportifs solidaires et interprofessionnels en soutien à
-                        la Fondation Maladies Rares. Le premier, au sein du pôle
-                        personnes âgées du CHU de Dijon, l’a conduit à
-                        participer à l’UTMB (Ultra-Trail du Mont-Blanc). Le
-                        second a relié symboliquement deux CHU distants de
+                        la <b>Fondation Maladies Rares</b>. Le premier, au sein
+                        du pôle personnes âgées du CHU de Dijon, l’a conduit à
+                        participer à l’<b>UTMB (Ultra-Trail du Mont-Blanc)</b>.
+                        Le second a relié symboliquement deux CHU distants de
                         milliers de kilomètres, Dijon et La Réunion, à travers
-                        le Grand Raid de La Réunion, aussi appelé “la Diagonale
-                        des Fous”.
+                        le <b>Grand Raid de La Réunion</b>, aussi appelé “la
+                        Diagonale des Fous”.
                         <br />
                         Porté par l’enthousiasme de ses collègues, des
                         résidents, des familles, du personnel hospitalier et de
@@ -61,8 +61,8 @@ function Home() {
                         15 ans, Julien se lance aujourd’hui dans
                         l’auto-entrepreneuriat. Il propose de partager son
                         expérience à travers des témoignages et conférences,
-                        établissant des parallèles entre l’ultra-trail et le
-                        monde de l’entreprise.
+                        établissant des parallèles entre l’
+                        <b>ultra-trail et le monde de l’entreprise</b>.
                     </p>
                 </TextImage>
             </Section>
@@ -75,12 +75,13 @@ function Home() {
                         santé actif et passionné
                     </h1>
                     <p>
-                        En 2021, il décide de combiner sa passion pour
-                        l’ultra-endurance avec son environnement
-                        socio-professionnel en mettant l’accent sur deux axes :
-                        le sport au service de la santé et la santé par le
-                        sport.
+                        En <b>2021</b>, il décide de combiner sa passion pour l’
+                        <b>ultra-endurance</b> avec son environnement
+                        socio-professionnel en mettant l’accent sur deux axes :{" "}
+                        <b>le sport au service de la santé</b> et{" "}
+                        <b>la santé par le sport</b>.
                     </p>
+
                     <TextDropList
                         list={[
                             {
@@ -88,25 +89,31 @@ function Home() {
                                 content: (
                                     <p>
                                         Lorsqu’une idée émerge, elle se heurte
-                                        souvent à des obstacles : des pensées
-                                        limitantes, parfois dévalorisantes, ou
-                                        encore un environnement
-                                        socioprofessionnel sceptique et freiné
-                                        par le système.
+                                        souvent à des obstacles : des{" "}
+                                        <b>pensées limitantes</b>, parfois
+                                        dévalorisantes, ou encore un{" "}
+                                        <b>
+                                            environnement socioprofessionnel
+                                            sceptique
+                                        </b>{" "}
+                                        et freiné par le système.
                                         <br />
-                                        Être proactif implique un engagement
-                                        fort et un travail basé sur de
-                                        nombreuses inconnues. Cette démarche
-                                        repose sur une conviction profonde quant
-                                        à la pertinence de l’idée et du projet.
+                                        Être <b>proactif</b> implique un
+                                        engagement fort et un travail basé sur
+                                        de nombreuses inconnues. Cette démarche
+                                        repose sur une{" "}
+                                        <b>conviction profonde</b> quant à la
+                                        pertinence de l’idée et du projet.
                                         <br />
-                                        Pour transformer une simple idée en un
-                                        projet collectif, il est essentiel de
-                                        créer des espaces de rencontre où chaque
-                                        acteur y trouve un bénéfice, même si
-                                        leurs intérêts diffèrent. La motivation
-                                        de chacun alimente alors une dynamique
-                                        collective, facteur clé de la réussite.
+                                        Pour transformer une simple idée en un{" "}
+                                        <b>projet collectif</b>, il est
+                                        essentiel de créer des espaces de
+                                        rencontre où chaque acteur y trouve un
+                                        bénéfice, même si leurs intérêts
+                                        diffèrent. La motivation de chacun
+                                        alimente alors une{" "}
+                                        <b>dynamique collective</b>, facteur clé
+                                        de la réussite.
                                     </p>
                                 ),
                             },
@@ -114,16 +121,20 @@ function Home() {
                                 title: "JULIEN COINDET, PASSIONNÉ ET ENTRAÎNANT",
                                 content: (
                                     <p>
-                                        Depuis mon plus jeune âge, le sport,
-                                        qu’il soit individuel ou collectif, en
-                                        intérieur ou en extérieur, a toujours
-                                        été au cœur de ma vie. Ces multiples
-                                        expériences, tant sur le plan moteur que
-                                        social, ont façonné le sportif, le
-                                        professionnel et l’homme que je suis
-                                        aujourd’hui. Mon parcours, à la fois
-                                        ordinaire et accompli, s’inscrit dans
-                                        une quête constante d’amélioration,
+                                        Depuis mon plus jeune âge, le{" "}
+                                        <b>sport</b>, qu’il soit individuel ou
+                                        collectif, en intérieur ou en extérieur,
+                                        a toujours été au cœur de ma vie. Ces
+                                        multiples expériences, tant sur le plan{" "}
+                                        <b>moteur</b> que <b>social</b>, ont
+                                        façonné le{" "}
+                                        <b>
+                                            sportif, le professionnel et l’homme
+                                        </b>{" "}
+                                        que je suis aujourd’hui. Mon parcours, à
+                                        la fois ordinaire et accompli, s’inscrit
+                                        dans une{" "}
+                                        <b>quête constante d’amélioration</b>,
                                         cherchant à devenir la meilleure version
                                         de moi-même à travers chaque nouvelle
                                         expérience.
@@ -135,13 +146,15 @@ function Home() {
                                 content: (
                                     <p>
                                         Peu importe son métier ou son statut, la
-                                        capacité à rassembler des énergies
-                                        positives et des compétences est un
-                                        véritable défi, mais aussi un atout
-                                        essentiel pour bâtir un projet
-                                        collectif. Il s’agit avant tout de
-                                        donner du sens à son action et
-                                        d’insuffler une dynamique commune.
+                                        capacité à{" "}
+                                        <b>rassembler des énergies positives</b>{" "}
+                                        et des <b>compétences</b> est un
+                                        véritable défi, mais aussi un{" "}
+                                        <b>atout essentiel</b> pour bâtir un
+                                        projet collectif. Il s’agit avant tout
+                                        de <b>donner du sens</b> à son action et
+                                        d’insuffler une <b>dynamique commune</b>
+                                        .
                                     </p>
                                 ),
                             },
@@ -183,49 +196,57 @@ function Home() {
                 <TextImage source="e9ae3025.jpg" proportion={40} reverse>
                     <h1>Une vie singulière</h1>
                     <p className="padding separator">
-                        Ce site est le reflet d’un parcours de vie unique,
-                        façonné par des expériences intenses et marquantes :
+                        Ce site est le reflet d’un <b>parcours de vie unique</b>
+                        , façonné par des{" "}
+                        <b>expériences intenses et marquantes</b> :
                         <ul className="list list-gap">
                             <li>
-                                Celui d’un enfant débordant d’énergie, passionné
-                                de sport, mais confronté aux défis de la gestion
-                                du stress et des émotions (certaines raquettes
-                                de tennis en portent encore les traces).
+                                Celui d’un <b>enfant débordant d’énergie</b>,
+                                passionné de sport, mais confronté aux défis de
+                                la gestion du stress et des émotions (certaines
+                                raquettes de tennis en portent encore les
+                                traces).
                             </li>
                             <li>
-                                Celui d’une mère bienveillante et d’un père
-                                inspirant, dont la passion pour la nature et la
-                                montagne, héritée de son passé d’alpiniste, a
-                                laissé une empreinte profonde.
+                                Celui d’une <b>mère bienveillante</b> et d’un{" "}
+                                <b>père inspirant</b>, dont la passion pour la
+                                nature et la montagne, héritée de son passé
+                                d’alpiniste, a laissé une empreinte profonde.
                             </li>
                             <li>
-                                Celui d’un adolescent en quête perpétuelle
-                                d’expériences sportives, malgré une croissance
-                                qui l’éloignait des standards de son âge.
+                                Celui d’un{" "}
+                                <b>
+                                    adolescent en quête perpétuelle
+                                    d’expériences sportives
+                                </b>
+                                , malgré une croissance qui l’éloignait des
+                                standards de son âge.
                             </li>
                             <li>
-                                Celui d’un homme poursuivant la performance pour
+                                Celui d’un{" "}
+                                <b>homme poursuivant la performance</b> pour
                                 exploiter pleinement ses capacités, apprenant
-                                peu à peu à transformer le stress en un moteur
-                                essentiel à la réussite.
+                                peu à peu à transformer le stress en un{" "}
+                                <b>moteur essentiel à la réussite</b>.
                             </li>
                             <li>
-                                Celui d’un homme pour qui les relations humaines
-                                sincères et profondes prennent une place
-                                centrale.
+                                Celui d’un homme pour qui les{" "}
+                                <b>relations humaines sincères et profondes</b>{" "}
+                                prennent une place centrale.
                             </li>
                             <li>
-                                Celui d’un père de deux merveilleuses
-                                princesses, dont l’énergie s’est démultipliée
-                                pour déplacer des montagnes, soutenu par leur
-                                maman.
+                                Celui d’un{" "}
+                                <b>père de deux merveilleuses princesses</b>,
+                                dont l’énergie s’est démultipliée pour déplacer
+                                des montagnes, soutenu par leur maman.
                             </li>
                         </ul>
-                        Ce site est la synthèse d’un chemin de vie singulier, où
-                        chacun oscille entre joie et douleur, marqué par la
-                        perte, la séparation et les blessures. Des épreuves qui
-                        nous confrontent à un choix : sombrer dans la
-                        victimisation ou embrasser la résilience.
+                        Ce site est la synthèse d’un{" "}
+                        <b>chemin de vie singulier</b>, où chacun oscille entre
+                        joie et douleur, marqué par la perte, la séparation et
+                        les blessures. Des épreuves qui nous confrontent à un
+                        choix : <b>sombrer dans la victimisation</b> ou{" "}
+                        <b>embrasser la résilience</b>.
                     </p>
                 </TextImage>
             </Section>

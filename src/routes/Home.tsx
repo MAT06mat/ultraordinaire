@@ -38,29 +38,31 @@ function Home() {
                         Une vie en mouvement ultra ordinaire
                     </h1>
                     <p>
-                        <b>Julien Coindet</b> vous invite à le suivre sur les
-                        sentiers <b>de son univers</b>.<br />
-                        Ultra traileur confirmé, il a construit 2 projets{" "}
-                        <b>sportifs</b>, <b>solidaires</b> et de{" "}
-                        <b>cohésions interprofessionnels</b> en faveur de la
-                        fondation maladies rares au sein du pôle personnes âgées
-                        du CHU Dijon (UTMB ultra trail mont blanc ) puis entre
-                        deux CHU (Dijon et La réunion) éloignés par des{" "}
-                        <b>milliers de kilomètres</b> (Grand Raid de la Réunion
-                        « la diagonale des fous »).
+                        Julien Coindet vous invite à explorer le chemin de son
+                        univers.
                         <br />
-                        Un <b>mouvement fédérateur</b> s’est mis en marche grâce
-                        au soutien et à l’enthousiasme de ses collègues, des
-                        résidents, des familles, de l’ensemble du personnel
-                        hospitalier sans oublier les indispensables partenaires.
+                        Ultra-traileur aguerri, il a initié deux projets
+                        sportifs solidaires et interprofessionnels en soutien à
+                        la Fondation Maladies Rares. Le premier, au sein du pôle
+                        personnes âgées du CHU de Dijon, l’a conduit à
+                        participer à l’UTMB (Ultra-Trail du Mont-Blanc). Le
+                        second a relié symboliquement deux CHU distants de
+                        milliers de kilomètres, Dijon et La Réunion, à travers
+                        le Grand Raid de La Réunion, aussi appelé “la Diagonale
+                        des Fous”.
                         <br />
-                        Professionnel APA <b>depuis 15 ans</b>, il s’engage sur
-                        le chemin de l’auto-entreprise, dans le domaine du
-                        conseil & développement offrant un{" "}
-                        <b>accompagnement individuel</b> vers une pratique du{" "}
-                        <b>sport en santé</b> et dans la mise en place de
-                        dispositif prévention/action de la{" "}
-                        <b>santé par le sport</b>.
+                        Porté par l’enthousiasme de ses collègues, des
+                        résidents, des familles, du personnel hospitalier et de
+                        précieux partenaires, un véritable élan fédérateur a vu
+                        le jour.
+                        <br />
+                        Professionnel en Activité Physique Adaptée dans le
+                        secteur du handicap et du vieillissement depuis plus de
+                        15 ans, Julien se lance aujourd’hui dans
+                        l’auto-entrepreneuriat. Il propose de partager son
+                        expérience à travers des témoignages et conférences,
+                        établissant des parallèles entre l’ultra-trail et le
+                        monde de l’entreprise.
                     </p>
                 </TextImage>
             </Section>
@@ -73,11 +75,11 @@ function Home() {
                         santé actif et passionné
                     </h1>
                     <p>
-                        En 2021, il décide d’associer{" "}
-                        <b>sa passion de l’ultra endurance</b> avec son
-                        environnement socioprofessionnel autour de deux
-                        thématiques: Le <b>sport en santé</b> et la{" "}
-                        <b>santé par le sport</b>.
+                        En 2021, il décide de combiner sa passion pour
+                        l’ultra-endurance avec son environnement
+                        socio-professionnel en mettant l’accent sur deux axes :
+                        le sport au service de la santé et la santé par le
+                        sport.
                     </p>
                     <TextDropList
                         list={[
@@ -85,27 +87,26 @@ function Home() {
                                 title: "PROACTIF, GAGNANT - GAGNANT",
                                 content: (
                                     <p>
-                                        Au démarrage d’une idée, on est
-                                        confronté au « c'est compliqué » soit
-                                        par ses propres pensées limitantes,
-                                        parfois dévalorisantes ou par un
-                                        environnement socioprofessionnel
-                                        septique et inhibé par le système. La
-                                        proactivité demande de l’engagement et
-                                        du travail basée sur une grande part
-                                        d'inconnues. Elle est guidée par une
-                                        forte conviction sur la pertinence de
-                                        son idée, de son projet. Une des
-                                        solutions pour basculer d'une idée à
-                                        l'état de projet collectif est de
-                                        trouver des espaces de rencontre «
-                                        gagnant - gagnant » entre les acteurs de
-                                        ce projet dont les niveaux d'intérêt
-                                        seront, certes différents, mais dirigés
-                                        vers cet objectif commun. La motivation
-                                        de chacun va venir remplir la jauge de
-                                        l’émulation collective déterminante dans
-                                        la réussite du projet.
+                                        Lorsqu’une idée émerge, elle se heurte
+                                        souvent à des obstacles : des pensées
+                                        limitantes, parfois dévalorisantes, ou
+                                        encore un environnement
+                                        socioprofessionnel sceptique et freiné
+                                        par le système.
+                                        <br />
+                                        Être proactif implique un engagement
+                                        fort et un travail basé sur de
+                                        nombreuses inconnues. Cette démarche
+                                        repose sur une conviction profonde quant
+                                        à la pertinence de l’idée et du projet.
+                                        <br />
+                                        Pour transformer une simple idée en un
+                                        projet collectif, il est essentiel de
+                                        créer des espaces de rencontre où chaque
+                                        acteur y trouve un bénéfice, même si
+                                        leurs intérêts diffèrent. La motivation
+                                        de chacun alimente alors une dynamique
+                                        collective, facteur clé de la réussite.
                                     </p>
                                 ),
                             },
@@ -113,17 +114,19 @@ function Home() {
                                 title: "JULIEN COINDET, PASSIONNÉ ET ENTRAÎNANT",
                                 content: (
                                     <p>
-                                        La passion du sport individuel-collectif
-                                        et indoor-outdoor a rythmé ma vie,
-                                        depuis le plus jeune âge. Toutes ces
-                                        expériences motrices et sociales ont
-                                        participé à la construction du sportif,
-                                        du professionnel et de l’homme que je
-                                        suis aujourd’hui: un parcours sportif
-                                        ordinaire et confirmé dans une recherche
-                                        permanente d'être la meilleure version
-                                        de soi-même sur chaque nouvelle
-                                        expérience initiée.
+                                        Depuis mon plus jeune âge, le sport,
+                                        qu’il soit individuel ou collectif, en
+                                        intérieur ou en extérieur, a toujours
+                                        été au cœur de ma vie. Ces multiples
+                                        expériences, tant sur le plan moteur que
+                                        social, ont façonné le sportif, le
+                                        professionnel et l’homme que je suis
+                                        aujourd’hui. Mon parcours, à la fois
+                                        ordinaire et accompli, s’inscrit dans
+                                        une quête constante d’amélioration,
+                                        cherchant à devenir la meilleure version
+                                        de moi-même à travers chaque nouvelle
+                                        expérience.
                                     </p>
                                 ),
                             },
@@ -131,12 +134,14 @@ function Home() {
                                 title: "FÉDÉRER ÉNERGIES & COMPÉTENCES",
                                 content: (
                                     <p>
-                                        Quel que soit son métier et son statut,
-                                        développer sa capacité à fédérer des
-                                        énergies positives et compétentes est un
-                                        véritable challenge. C'est un atout dans
-                                        la construction collective d’un projet :
-                                        savoir donner du sens à son action.
+                                        Peu importe son métier ou son statut, la
+                                        capacité à rassembler des énergies
+                                        positives et des compétences est un
+                                        véritable défi, mais aussi un atout
+                                        essentiel pour bâtir un projet
+                                        collectif. Il s’agit avant tout de
+                                        donner du sens à son action et
+                                        d’insuffler une dynamique commune.
                                     </p>
                                 ),
                             },
@@ -178,46 +183,49 @@ function Home() {
                 <TextImage source="e9ae3025.jpg" proportion={40} reverse>
                     <h1>Une vie singulière</h1>
                     <p className="padding separator">
-                        Ce site est le combo d’une vie
-                        <br />
-                        <br />
-                        d’un enfant pratiquant de multiples activités sportives
-                        avec une énergie débordante mais en difficulté dans la
-                        gestion du stress (peur de mal faire) et des émotions
-                        (certaines raquettes de tennis s'en rappellent encore),
-                        <br />
-                        <br />
-                        d’une mère bienveillante et d’un père inspirant de part
-                        ses connaissances et sa passion pour la nature,
-                        notamment la montagne à travers son passé d’alpiniste;
-                        <br />
-                        <br />
-                        d’une jeunesse en quête perpétuelle d’expériences
-                        sportives malgré une croissance complexante en décalage
-                        avec les jeunes de son âge ;
-                        <br />
-                        <br />
-                        d’un homme rêvant de performance dans l’idée d’atteindre
-                        le maximum de ses capacités exploitables et acceptant,
-                        finalement, le stress comme un élément moteur
-                        indispensable à la réussite d’une action;
-                        <br />
-                        <br />
-                        d’un homme où les relations humaines fortes et sincères
-                        s’installent dans sa vie;
-                        <br />
-                        <br />
-                        d’un homme devenu papa de deux magnifiques princesses
-                        décuplant cette énergie originelle pour déplacer des
-                        montagnes grâce, notamment au soutien de leur maman;
-                        <br />
-                        <br />
-                        Ce site est une synthèse d’un chemin singulier où l’être
-                        unique, que nous sommes, chemine entre joie et douleur
-                        avec, malheureusement , la perte de proches, la
-                        séparation, les blessures qui nous font basculer soit
-                        dans le monde de la victimisation ou alors dans celui de
-                        la résilience.
+                        Ce site est le reflet d’un parcours de vie unique,
+                        façonné par des expériences intenses et marquantes :
+                        <ul className="list list-gap">
+                            <li>
+                                Celui d’un enfant débordant d’énergie, passionné
+                                de sport, mais confronté aux défis de la gestion
+                                du stress et des émotions (certaines raquettes
+                                de tennis en portent encore les traces).
+                            </li>
+                            <li>
+                                Celui d’une mère bienveillante et d’un père
+                                inspirant, dont la passion pour la nature et la
+                                montagne, héritée de son passé d’alpiniste, a
+                                laissé une empreinte profonde.
+                            </li>
+                            <li>
+                                Celui d’un adolescent en quête perpétuelle
+                                d’expériences sportives, malgré une croissance
+                                qui l’éloignait des standards de son âge.
+                            </li>
+                            <li>
+                                Celui d’un homme poursuivant la performance pour
+                                exploiter pleinement ses capacités, apprenant
+                                peu à peu à transformer le stress en un moteur
+                                essentiel à la réussite.
+                            </li>
+                            <li>
+                                Celui d’un homme pour qui les relations humaines
+                                sincères et profondes prennent une place
+                                centrale.
+                            </li>
+                            <li>
+                                Celui d’un père de deux merveilleuses
+                                princesses, dont l’énergie s’est démultipliée
+                                pour déplacer des montagnes, soutenu par leur
+                                maman.
+                            </li>
+                        </ul>
+                        Ce site est la synthèse d’un chemin de vie singulier, où
+                        chacun oscille entre joie et douleur, marqué par la
+                        perte, la séparation et les blessures. Des épreuves qui
+                        nous confrontent à un choix : sombrer dans la
+                        victimisation ou embrasser la résilience.
                     </p>
                 </TextImage>
             </Section>

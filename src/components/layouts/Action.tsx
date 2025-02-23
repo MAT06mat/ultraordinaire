@@ -26,7 +26,7 @@ function Action({ socialsMedias }: Props) {
                         <div>
                             <img src="/images/mobile.svg" alt="" />
                             <h3 className="center">
-                                Intéressé par mes aventures ou mes actions ?
+                                Intéressé pour échanger ?
                             </h3>
                             <ContactButton />
                         </div>

@@ -40,21 +40,16 @@ function Aventures() {
                         <b>pourquoi</b>. Pourquoi souffrir pour une course ?
                         Pourquoi faire ce métier ? Pourquoi je n'arrive plus à
                         me motiver ? Pourquoi, pourquoi, pourquoi… <br />
-                        L'ultra trail n'est évidemment pas la solution magique
-                        mais en tout cas{" "}
-                        <b>
-                            son univers nous amène à un questionnement
-                            introspectif
-                        </b>{" "}
-                        en interaction permanente avec son environnement pour
-                        atteindre un objectif fixé au départ. Intéressant non ?
-                        Et en entreprise, le processus n'est-il pas le même ?{" "}
-                        <br />
-                        Imaginez le nombre de pistes de travail que{" "}
-                        <b>nous pouvons activer ensemble</b> autour des
-                        parallèles possibles entre ces 2 univers. <br />
-                        Ce qui nous intéresse, ce n'est pas tant le résultat de
-                        ces réponses mais <b>le chemin pour y parvenir</b>.
+                        L’ultra-trail n’est pas une solution miracle, mais il
+                        nous plonge dans une réflexion introspective constante,
+                        en interaction avec notre environnement, pour atteindre
+                        un objectif fixé. Intriguant, non ? Et si en entreprise,
+                        le processus était le même ?<br />
+                        Imaginez toutes les pistes de réflexion que nous
+                        pourrions explorer ensemble en établissant des
+                        parallèles entre ces deux mondes. Ce qui importe, ce
+                        n’est pas tant la réponse en elle-même, mais le chemin
+                        pour y parvenir.
                     </p>
                 </TextImage>
             </Section>
@@ -63,15 +58,13 @@ function Aventures() {
                     <div>
                         <h1 className="complementary">TÉMOIGNAGES</h1>
                         <p className="separator padding">
-                            Les projets de Julien s'appuient sur{" "}
-                            <b>l’intelligence collective</b> et l’importance de
-                            la solidarité pour une cause commune :{" "}
-                            <b>
-                                la collecte de fonds pour la Fondation Maladies
-                                Rares
-                            </b>
-                            . S’engager et s’identifier, dans un but commun,
-                            maximise les chances de succès.
+                            Inspirant et motivant dans un esprit de partage et
+                            d’échange ! Les projets de Julien reposent sur
+                            l’intelligence collective et la force de la
+                            solidarité au service d’une cause commune : la
+                            collecte de fonds pour la Fondation Maladies Rares.
+                            S’engager ensemble et partager un objectif commun
+                            décuplent les chances de réussite.
                         </p>
                         <div className="infos padding">
                             <a
@@ -85,13 +78,14 @@ function Aventures() {
                             <div className="info">35h - 427ème/1789</div>
                         </div>
                         <p>
-                            Au centre gériatrique <b>Champmaillot</b> à Dijon,
-                            200 personnes se sont mobilisées et mis en mouvement
-                            dans <b>un esprit Téléthon</b> (rameur, vélo,
-                            parcours extérieur), en continu jour et nuit pendant
-                            les 35h de course de Julien Coindet à l’UTMB dont le
-                            départ et l’arrivée est à <b>Chamonix</b>.
-                            <br />
+                            Au centre gériatrique Champmaillot à Dijon, 200
+                            personnes se sont mobilisées dans un véritable
+                            esprit Téléthon, en participant à diverses activités
+                            (rameur, vélo, parcours extérieur). Pendant 35
+                            heures, jour et nuit, elles ont accompagné
+                            symboliquement la course de Julien Coindet à l’UTMB,
+                            reliant virtuellement ainsi Dijon à Chamonix, du
+                            départ à l’arrivée.
                         </p>
                     </div>
                     <div>
@@ -112,20 +106,23 @@ function Aventures() {
                             </Link>
                             <br />
                             <br />
-                            Sur 2 jours de course, <b>300 personnes</b> se sont
-                            rassemblées dans un esprit de partage, d’expériences
-                            motrices et sensorielles sur des ateliers tels que
-                            le tir à l’arc, les casques de réalité virtuelle,
-                            tir à la carabine laser, rameurs, ergocycles,
-                            expositions de contenus réalisés par les résidents
-                            sur l’île de la réunion, etc. Durant{" "}
-                            <b>le trail du chu</b> créé à cette occasion,{" "}
-                            <b>100 personnes</b> sont partis simultanément au
-                            départ en direct de la Réunion transmis sur un écran
-                            géant. Les cuisines du CHU ont également travaillé
-                            leurs menus en version réunionnais pour tous les
-                            résidents du centre gériatrique de Champmaillot et à
-                            la cafétéria du CHU Dijon.
+                            La Diagonale des CHU (CHU Dijon – CHU La Réunion) a
+                            rassemblé, sur deux jours, 300 personnes autour d’un
+                            esprit de partage et de découverte à travers des
+                            ateliers variés : tir à l’arc, réalité virtuelle,
+                            tir à la carabine laser, rameurs, ergocycles, et
+                            expositions réalisées par des résidents de l’île de
+                            La Réunion. Lors du Trail du CHU, créé spécialement
+                            pour l’événement (dont la 3ᵉ édition aura lieu en
+                            2025), 100 participants ont pris le départ
+                            simultanément avec celui du Grand Raid de La
+                            Réunion, retransmis sur écran géant. En parallèle,
+                            les cuisines du CHU ont adapté leurs menus en
+                            version réunionnaise, permettant aux résidents du
+                            centre gériatrique Champmaillot et aux visiteurs de
+                            la cafétéria du CHU Dijon de vivre cette immersion,
+                            touchant ainsi des centaines de personnes au cours
+                            de ces deux journées.
                         </p>
                     </div>
                 </FadeIn>
@@ -135,15 +132,16 @@ function Aventures() {
                     <blockquote>
                         <h3 className="padding">Le chemin, le processus</h3>
                         <p>
-                            Un projet commence, la plupart du temps, d'une page
-                            blanche d’où émerge une idée au stylo noir avec une
-                            forte volonté d’entreprendre. On emprunte un chemin
-                            mais parfois on s’égare. On s’arrête, on repère
-                            l’objectif à atteindre sur la carte. On demande,
-                            parfois, autour de nous le chemin à prendre. Le
-                            chemin retrouvé, on repart avec un niveau de
-                            vigilance et d'attention accru pour ne plus
-                            s’éloigner de l’objectif.
+                            Tout projet débute souvent par une page blanche, sur
+                            laquelle une idée prend forme, tracée à l’encre de
+                            la volonté d’entreprendre. On se lance sur un
+                            chemin, mais il arrive de s’égarer. Alors, on
+                            s’arrête, on réévalue la direction à suivre, on
+                            consulte la carte, et parfois, on sollicite les
+                            conseils de ceux qui nous entourent. Une fois
+                            l’itinéraire retrouvé, on repart avec plus de
+                            vigilance et d’attention, déterminé à ne plus perdre
+                            de vue l’objectif.
                         </p>
                     </blockquote>
                 </TextImage>
@@ -161,29 +159,26 @@ function Aventures() {
                         <span className="complementary">CAPITAL SANTÉ</span>
                     </h1>
                     <p className="separator padding">
-                        Nous sommes tous des <b>êtres uniques</b> avec sous nos
-                        yeux, énormément d’informations sur le corps et
-                        l’esprit, de témoignage, d’éléments de recherche,
-                        d'expérience sur les différentes ressources à mobiliser
-                        pour <b>construire</b> et <b>optimiser</b> son{" "}
-                        <b>capital santé</b>. Pourtant, il est tellement{" "}
-                        <b>difficile</b> de rester sur le chemin d’une pratique
-                        sportive en <b>bonne santé</b> et ne pas se{" "}
-                        <b>perdre</b>.
+                        Nous sommes tous uniques et entourés d’une multitude
+                        d’informations sur le corps, l’esprit, les témoignages,
+                        la recherche et l’expérience. Autant de ressources
+                        précieuses pour bâtir et optimiser notre capital santé.
                         <br />
                         <br />
-                        Cela exige de trouver un <b>équilibre complexe</b> entre
-                        6 ressources qui sera constamment questionné et perturbé
-                        demandant un ajustement systématique tout au long de sa
-                        vie.
+                        Pourtant, il est souvent difficile de rester sur le bon
+                        chemin, de pratiquer une activité sportive tout en
+                        préservant sa santé, sans se perdre en route. Trouver
+                        l’équilibre est un défi permanent, un ajustement
+                        constant entre six ressources essentielles, toutes
+                        interdépendantes et en perpétuelle évolution :
                     </p>
                     <ul className="list">
-                        <li>Ressource entraînement physique & mental</li>
-                        <li>Ressource nutrition / hydratation</li>
-                        <li>Ressource expérience</li>
-                        <li>Ressource vie personnelle</li>
-                        <li>Ressource travail</li>
-                        <li>Ressource vie sociale</li>
+                        <li>Entraînement physique & mental</li>
+                        <li>Nutrition & hydratation</li>
+                        <li>Expérience</li>
+                        <li>Famille</li>
+                        <li>Travail</li>
+                        <li>Vie sociale</li>
                     </ul>
                 </TextImage>
             </Section>
@@ -191,18 +186,16 @@ function Aventures() {
                 <TextImage source="16d71a61.jpg" alt="Nuit étoilé">
                     <h1>INTERROGER SON MINDSET</h1>
                     <p className="separator padding">
-                        Parfois sur ce <b>chemin</b>, on pense n’avoir besoin de
-                        personne. On se sent fort physiquement, mentalement,
-                        émotionnellement jusqu’au moment où un des 6 éléments se
-                        met à vaciller{" "}
-                        <b>remettant en question notre pourquoi</b>.<br />
-                        Là, on commence à <b>quitter</b> doucement{" "}
-                        <b>ce chemin</b>.<br />
-                        Le questionnement s’invite dans notre tête laissant
-                        entrer le doute et un changement de son état d’esprit{" "}
-                        <b>qu'on pensait inébranlable</b>.<br />
-                        Il est temps de demander son chemin autour de soi et de
-                        se faire accompagner.
+                        Sur ce chemin, on peut croire n’avoir besoin de
+                        personne. On se sent fort, physiquement, mentalement et
+                        émotionnellement… jusqu’au jour où l’une de ces six
+                        ressources vacille, ébranlant notre pourquoi.
+                        <br />
+                        C’est à ce moment que l’on commence, sans même s’en
+                        rendre compte, à s’éloigner du chemin. Le doute
+                        s’installe, le questionnement devient omniprésent et
+                        notre état d’esprit, que l’on croyait inébranlable, se
+                        transforme.
                     </p>
                 </TextImage>
             </Section>

@@ -38,8 +38,8 @@ function Home() {
                         Une vie en mouvement ultra ordinaire
                     </h1>
                     <p>
-                        <b>Julien Coindet</b> vous invite à explorer le chemin
-                        de son univers.
+                        <b>Julien Coindet</b> vous invite à explorer les
+                        sentiers de son univers.
                         <br />
                         <b>Ultra-traileur aguerri</b>, il a initié deux projets
                         sportifs solidaires et interprofessionnels en soutien à

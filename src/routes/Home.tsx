@@ -180,7 +180,7 @@ function Home() {
                         diagonale des CHU » pour l’Ultra-trail de la diagonale
                         des fous à la Réunion.
                         <br />
-                        J’y ai rencontré une personne « ultraordianaire »,
+                        J’y ai rencontré une personne « ultraordinaire »,
                         dynamique et pleine d’ambition au service des projets
                         qu’il mène.
                         <br />

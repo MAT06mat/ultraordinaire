@@ -1,0 +1,1 @@
+import{P as s,u as n,j as r}from"./chunk-198e9d58.js";i.propTypes={className:s.string,href:s.string.isRequired};function i(e){const a=n(),t=[e.className,a.urlPathname===e.href&&"is-active"].filter(Boolean).join(" ");return r.jsx("a",{...e,className:t})}export{i as L};

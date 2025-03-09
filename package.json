@@ -2,7 +2,7 @@
     "name": "ultraordinaire",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://mat06mat.github.io/ultraordinaire",
+    "homepage": "https://ultraordinaire.fr",
     "type": "module",
     "scripts": {
         "dev": "vite",

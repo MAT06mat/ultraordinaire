@@ -28,7 +28,9 @@
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     -webkit-tap-highlight-color: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui", Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui",
+        Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji",
+        "segoe ui symbol";
 }
 
 body {
@@ -37,20 +39,27 @@ body {
 
 /* latin-ext */
 @font-face {
-    font-family: 'Bebas Neue';
+    font-family: "Bebas Neue";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2) format('woff2');
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2)
+        format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+        U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F,
+        U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+        U+A720-A7FF;
 }
 
 /* latin */
 @font-face {
-    font-family: 'Bebas Neue';
+    font-family: "Bebas Neue";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2)
+        format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+        U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 .padding {
@@ -63,14 +72,14 @@ h1 {
     line-height: 1em;
 
     &,
-    &>span {
+    & > span {
         font-family: "Bebas Neue", sans-serif;
     }
 }
 
 h2 {
     padding: 0 0 16px 0;
-    font-size: .8em;
+    font-size: 0.8em;
     font-weight: 700;
     color: var(--complementary) !important;
 }
@@ -114,7 +123,7 @@ path {
 }
 
 img {
-    border-radius: .5em;
+    border-radius: 0.5em;
     object-fit: contain;
 
     &.shadow {
@@ -136,10 +145,10 @@ img {
     gap: 1.5em;
 
     &.reverse {
-        flex-direction: row-reverse
+        flex-direction: row-reverse;
     }
 
-    &>* {
+    & > * {
         width: 50%;
     }
 }
@@ -246,13 +255,13 @@ blockquote:after {
         width: fit-content;
         font-size: 16px;
         background-color: var(--main-2);
-        padding: .5em 1em;
+        padding: 0.5em 1em;
         border-radius: 2em;
     }
 }
 
 ul.list {
-    padding-top: .75em;
+    padding-top: 0.75em;
     padding-left: 1.5em;
 
     a:hover {
@@ -272,7 +281,7 @@ ul.list-gap {
 
     path {
         fill: var(--secondary);
-        transition: fill ease-in-out .1s;
+        transition: fill ease-in-out 0.1s;
         stroke-width: 0;
     }
 }
@@ -280,7 +289,7 @@ ul.list-gap {
 .video-link {
     display: flex;
     align-items: center;
-    gap: .5em;
+    gap: 0.5em;
 
     h3 {
         padding-top: 1px;
@@ -361,11 +370,15 @@ ul.list-gap {
     }
 }
 
+.avis {
+    text-align: left;
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;
 
-        &>* {
+        & > * {
             width: 100% !important;
         }
     }
@@ -401,6 +414,10 @@ ul.list-gap {
             height: 4rem;
             width: 4rem;
         }
+    }
+
+    .avis {
+        width: 100%;
     }
 
     .image-list {

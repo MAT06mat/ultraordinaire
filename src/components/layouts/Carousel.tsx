@@ -42,12 +42,12 @@ function Carousel({ list }: Props) {
                             }
                             key={index}
                         >
-                            {element}
+                            <div className="item-container">{element}</div>
                         </div>
                     );
                 })}
             </div>
-            <div className="controles">
+            <div className="controls">
                 <svg
                     onClick={before}
                     viewBox="0 0 40 40"

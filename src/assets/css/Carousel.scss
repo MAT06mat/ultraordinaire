@@ -11,15 +11,19 @@
         flex-wrap: nowrap;
         width: 100%;
         height: max-content;
-        transition: .5s ease-in-out;
+        transition: 0.5s ease-in-out;
 
         .item {
             flex: 0 0 100%;
             height: 100%;
+            .item-container {
+                width: calc(100% - 8em);
+                margin: 0 auto;
+            }
         }
     }
 
-    .controles {
+    .controls {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -36,6 +40,18 @@
             path {
                 stroke: none;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        .wrapper .item .item-container {
+            width: 100%;
+        }
+        .controls {
+            padding-top: 1em;
+            position: relative;
         }
     }
 }

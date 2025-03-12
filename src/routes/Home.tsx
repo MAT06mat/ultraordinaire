@@ -3,8 +3,9 @@ import Section from "../components/layouts/Section";
 import TextDropList from "../components/ui/TextDropList";
 import TextImage from "../components/layouts/TextImage";
 import Action from "../components/layouts/Action";
-import LinkImage from "../components/ui/LinkImage";
 import FadeIn from "../components/animations/FadeIn";
+import Carousel from "../components/layouts/Carousel";
+import AvisList from "../components/ui/Avis";
 
 function Home() {
     return (
@@ -166,30 +167,7 @@ function Home() {
             <Section color="main-2" end>
                 <FadeIn>
                     <h1 className="center">Avis</h1>
-                    <div className="profile-image">
-                        <LinkImage
-                            href="https://www.mgen.fr/"
-                            src="partenariats/84cdc362.png"
-                        />
-                        <h3 className="padding">
-                            Responsable Relations Santé Social
-                        </h3>
-                    </div>
-                    <p className="padding separator">
-                        Ravi d’avoir collaboré avec Julien Coindet sur « la
-                        diagonale des CHU » pour l’Ultra-trail de la diagonale
-                        des fous à la Réunion.
-                        <br />
-                        J’y ai rencontré une personne « ultraordinaire »,
-                        dynamique et pleine d’ambition au service des projets
-                        qu’il mène.
-                        <br />
-                        Une force de persévérance, de dépassement de soi et un
-                        engagement permanent pour des projets fédérateurs
-                        porteurs de valeurs fortes qui font sens.
-                        <br />
-                        John Boardman
-                    </p>
+                    <Carousel list={AvisList} />
                 </FadeIn>
             </Section>
             <Section>

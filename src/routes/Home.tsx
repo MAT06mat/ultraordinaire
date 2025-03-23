@@ -176,49 +176,49 @@ function Home() {
                     <p className="padding separator">
                         Ce site est le reflet d’un <b>parcours de vie unique</b>
                         , façonné par des{" "}
-                        <b>expériences intenses et marquantes</b> :
-                        <ul className="list list-gap">
-                            <li>
-                                Celui d’un <b>enfant débordant d’énergie</b>,
-                                passionné de sport, mais confronté aux défis de
-                                la gestion du stress et des émotions (certaines
-                                raquettes de tennis en portent encore les
-                                traces).
-                            </li>
-                            <li>
-                                Celui d’une <b>mère bienveillante</b> et d’un{" "}
-                                <b>père inspirant</b>, dont la passion pour la
-                                nature et la montagne, héritée de son passé
-                                d’alpiniste, a laissé une empreinte profonde.
-                            </li>
-                            <li>
-                                Celui d’un{" "}
-                                <b>
-                                    adolescent en quête perpétuelle
-                                    d’expériences sportives
-                                </b>
-                                , malgré une croissance qui l’éloignait des
-                                standards de son âge.
-                            </li>
-                            <li>
-                                Celui d’un{" "}
-                                <b>homme poursuivant la performance</b> pour
-                                exploiter pleinement ses capacités, apprenant
-                                peu à peu à transformer le stress en un{" "}
-                                <b>moteur essentiel à la réussite</b>.
-                            </li>
-                            <li>
-                                Celui d’un homme pour qui les{" "}
-                                <b>relations humaines sincères et profondes</b>{" "}
-                                prennent une place centrale.
-                            </li>
-                            <li>
-                                Celui d’un{" "}
-                                <b>père de deux merveilleuses princesses</b>,
-                                dont l’énergie s’est démultipliée pour déplacer
-                                des montagnes, soutenu par leur maman.
-                            </li>
-                        </ul>
+                        <b>expériences intenses et marquantes</b> :{" "}
+                    </p>
+                    <ul className="list list-gap">
+                        <li>
+                            Celui d’un <b>enfant débordant d’énergie</b>,
+                            passionné de sport, mais confronté aux défis de la
+                            gestion du stress et des émotions (certaines
+                            raquettes de tennis en portent encore les traces).
+                        </li>
+                        <li>
+                            Celui d’une <b>mère bienveillante</b> et d’un{" "}
+                            <b>père inspirant</b>, dont la passion pour la
+                            nature et la montagne, héritée de son passé
+                            d’alpiniste, a laissé une empreinte profonde.
+                        </li>
+                        <li>
+                            Celui d’un{" "}
+                            <b>
+                                adolescent en quête perpétuelle d’expériences
+                                sportives
+                            </b>
+                            , malgré une croissance qui l’éloignait des
+                            standards de son âge.
+                        </li>
+                        <li>
+                            Celui d’un <b>homme poursuivant la performance</b>{" "}
+                            pour exploiter pleinement ses capacités, apprenant
+                            peu à peu à transformer le stress en un{" "}
+                            <b>moteur essentiel à la réussite</b>.
+                        </li>
+                        <li>
+                            Celui d’un homme pour qui les{" "}
+                            <b>relations humaines sincères et profondes</b>{" "}
+                            prennent une place centrale.
+                        </li>
+                        <li>
+                            Celui d’un{" "}
+                            <b>père de deux merveilleuses princesses</b>, dont
+                            l’énergie s’est démultipliée pour déplacer des
+                            montagnes, soutenu par leur maman.
+                        </li>
+                    </ul>{" "}
+                    <p>
                         Ce site est la synthèse d’un{" "}
                         <b>chemin de vie singulier</b>, où chacun oscille entre
                         joie et douleur, marqué par la perte, la séparation et

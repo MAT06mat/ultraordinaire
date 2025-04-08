@@ -12,12 +12,12 @@ interface Props {
 function TextDropItem({ title, content, active = false, onClick }: Props) {
     return (
         <div className={active ? "text-drop active" : "text-drop"}>
-            <div className="drop-button" onClick={onClick}>
+            <div className="drop-button v2" onClick={onClick}>
                 <div className="title">{title}</div>
-                <div className="btn open">
+                <div className="btn v2 open">
                     <PlusButton />
                 </div>
-                <div className="btn close">
+                <div className="btn v2 close">
                     <MinusButton />
                 </div>
             </div>

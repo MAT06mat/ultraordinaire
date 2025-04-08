@@ -1,7 +1,7 @@
 .text-drop-list {
     display: flex;
     flex-direction: column;
-    gap: .5em;
+    gap: 0.5em;
 
     .text-drop {
         .drop-button {
@@ -16,14 +16,8 @@
             font-size: 20px;
             cursor: pointer;
 
-            &:hover {
-                .btn {
-                    background-color: var(--main-4);
-
-                    path {
-                        stroke: var(--complementary);
-                    }
-                }
+            &.v2 {
+                background-color: var(--main-3);
             }
 
             .title {
@@ -39,7 +33,11 @@
                 height: 2em;
                 width: 2em;
                 border-radius: 20px;
-                transition: all .2s ease;
+                transition: all 0.2s ease;
+
+                &.v2 {
+                    background-color: var(--main-3);
+                }
 
                 &.close {
                     display: none;
@@ -50,12 +48,22 @@
                     height: 40%;
                 }
             }
+
+            &:hover {
+                .btn {
+                    background-color: var(--main-4);
+
+                    path {
+                        stroke: var(--complementary);
+                    }
+                }
+            }
         }
 
         .text-wrapper {
             display: grid;
             grid-template-rows: 0fr;
-            transition: all .5s ease;
+            transition: all 0.5s ease;
             padding: 0 1em;
 
             .text {

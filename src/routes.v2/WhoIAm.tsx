@@ -79,59 +79,42 @@ function WhoIAm() {
             <Section>
                 <TextImage source="e9ae3025.jpg" proportion={40} reverse>
                     <h1>Une vie singulière</h1>
-                    <p className="padding separator">
-                        Ce site est le reflet d’un <b>parcours de vie unique</b>
-                        , façonné par des{" "}
-                        <b>expériences intenses et marquantes</b> :{" "}
-                    </p>
-                    <ul className="list list-gap">
+                    <ul className="separator list list-gap">
                         <li>
-                            Celui d’un <b>enfant débordant d’énergie</b>,
-                            passionné de sport, mais confronté aux défis de la
-                            gestion du stress et des émotions (certaines
-                            raquettes de tennis en portent encore les traces).
+                            d’un enfant débordant d’énergie, passionné de sport,
+                            mais confronté à un stress inhibant et des émotions
+                            difficiles à canaliser par moment (certaines
+                            raquettes de tennis en portent encore les stigmates)
                         </li>
                         <li>
-                            Celui d’une <b>mère bienveillante</b> et d’un{" "}
-                            <b>père inspirant</b>, dont la passion pour la
-                            nature et la montagne, héritée de son passé
-                            d’alpiniste, a laissé une empreinte profonde.
+                            d’un adolescent en quête perpétuelle d’expériences
+                            sportives avec une croissance qui a pris son temps.
                         </li>
                         <li>
-                            Celui d’un{" "}
-                            <b>
-                                adolescent en quête perpétuelle d’expériences
-                                sportives
-                            </b>
-                            , malgré une croissance qui l’éloignait des
-                            standards de son âge.
+                            d’un homme animé par l’envie de performer apprenant
+                            peu à peu à transformer ce stress en une force
+                            essentielle pour atteindre ses objectifs.
                         </li>
                         <li>
-                            Celui d’un <b>homme poursuivant la performance</b>{" "}
-                            pour exploiter pleinement ses capacités, apprenant
-                            peu à peu à transformer le stress en un{" "}
-                            <b>moteur essentiel à la réussite</b>.
+                            d’un homme pour qui les relations humaines sincères
+                            et profondes prennent une place centrale.
                         </li>
                         <li>
-                            Celui d’un homme pour qui les{" "}
-                            <b>relations humaines sincères et profondes</b>{" "}
-                            prennent une place centrale.
+                            entouré d’une mère bienveillante et d’un père
+                            alpiniste inspirant, dont la passion et l’amour pour
+                            la montagne a éveillé le désir de découvrir cet
+                            univers.
                         </li>
                         <li>
-                            Celui d’un{" "}
-                            <b>père de deux merveilleuses princesses</b>, dont
-                            l’énergie s’est démultipliée pour déplacer des
-                            montagnes, soutenu par leur maman.
+                            d’un homme devenu papa de deux merveilleuses
+                            princesses, décuplant son énergie pour traverser des
+                            îles et des montagnes
                         </li>
-                    </ul>{" "}
-                    <p>
-                        Ce site est la synthèse d’un{" "}
-                        <b>chemin de vie singulier</b>, où chacun oscille entre
-                        joie et douleur, marqué par la perte, la séparation et
-                        les blessures. Des épreuves qui nous confrontent à un
-                        choix : <b>sombrer dans la victimisation</b> ou{" "}
-                        <b>embrasser la résilience</b>.
-                    </p>
+                        <li>
+                            d’un professionnel du secteur du handicap et de la
+                            dépendance passionné d’ultra trail…
+                        </li>
+                    </ul>
                 </TextImage>
             </Section>
         </>

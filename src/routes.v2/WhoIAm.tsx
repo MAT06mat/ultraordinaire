@@ -75,7 +75,7 @@ function WhoIAm() {
                     />
                 </TextImage>
             </Section>
-            <Action />
+            <Action socialsMedias />
             <Section>
                 <TextImage source="e9ae3025.jpg" proportion={40} reverse>
                     <h1>Une vie singulière</h1>

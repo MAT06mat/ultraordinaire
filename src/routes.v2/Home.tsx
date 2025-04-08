@@ -3,6 +3,7 @@ import Section from "../components.v2/layouts/Section";
 import TextImage from "../components.v2/layouts/TextImage";
 import FadeIn from "../components.v2/animations/FadeIn";
 import AvisList from "../components.v2/ui/Avis";
+import Action from "../components/layouts/Action";
 
 function Home() {
     return (
@@ -25,7 +26,7 @@ function Home() {
                     </blockquote>
                 </div>
             </Section>
-            <Section>
+            <Section color="main-2" end>
                 <TextImage source="766f77b3.jpg" reverse>
                     <h2>
                         PASSIONNÉ D’ULTRA TRAIL, PROFESSIONNEL DANS LE SECTEUR
@@ -61,7 +62,7 @@ function Home() {
                     </p>
                 </TextImage>
             </Section>
-            <Section color="main-2" start end>
+            <Section>
                 <TextImage source="764e2476.jpg" proportion={30}>
                     <h2>Conférence</h2>
                     <h1 className="separator padding">
@@ -89,6 +90,7 @@ function Home() {
                     </p>
                 </TextImage>
             </Section>
+            <Action />
             <Section>
                 <FadeIn>
                     <h1 className="center">Avis</h1>

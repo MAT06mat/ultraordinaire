@@ -4,6 +4,7 @@ import TextImage from "../components.v2/layouts/TextImage";
 import FadeIn from "../components.v2/animations/FadeIn";
 import AvisList from "../components.v2/ui/Avis";
 import Action from "../components/layouts/Action";
+import Counter from "../components.v2/animations/Counter";
 
 function Home() {
     return (
@@ -63,6 +64,27 @@ function Home() {
                 </TextImage>
             </Section>
             <Section>
+                <div className="counter-container">
+                    <Counter target={8}>
+                        courses 100K
+                        <br />
+                        (km)
+                    </Counter>
+                    <Counter className="bottom" target={5}>
+                        courses 100M
+                        <br />
+                        (miles)
+                    </Counter>
+                    <Counter target={1083}>km parcouru</Counter>
+                    <Counter className="bottom" target={80} extraText="+">
+                        spectateurs
+                        <br />
+                        en conférence
+                    </Counter>
+                </div>
+            </Section>
+            <Action />
+            <Section color="main-2" end>
                 <TextImage source="764e2476.jpg" proportion={30}>
                     <h2>Conférence</h2>
                     <h1 className="separator padding">
@@ -90,7 +112,6 @@ function Home() {
                     </p>
                 </TextImage>
             </Section>
-            <Action />
             <Section>
                 <FadeIn>
                     <h1 className="center">Avis</h1>

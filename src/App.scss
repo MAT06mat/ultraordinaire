@@ -384,6 +384,39 @@ ul.list-gap {
     text-align: left;
 }
 
+.counter-container {
+    display: flex;
+
+    .bottom {
+        margin-top: 18em;
+    }
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 14em;
+    height: 14em;
+    border: var(--main-3) dotted 0.5em;
+    border-radius: 14em;
+
+    .counter-number {
+        font-size: xxx-large;
+
+        pre {
+            display: inline-block;
+        }
+    }
+
+    .counter-text {
+        font-size: larger;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;

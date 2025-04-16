@@ -77,7 +77,12 @@ function WhoIAm() {
             </Section>
             <Action socialsMedias />
             <Section>
-                <TextImage source="e9ae3025.jpg" proportion={40} reverse>
+                <TextImage
+                    source="e9ae3025.jpg"
+                    proportion={40}
+                    alt="Photo d'un lac en montagne"
+                    reverse
+                >
                     <h1>Une vie singulière</h1>
                     <ul className="separator list list-gap">
                         <li>

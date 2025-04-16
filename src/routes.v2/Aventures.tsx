@@ -115,7 +115,11 @@ function Aventures() {
                 </FadeIn>
             </Section>
             <Section color="main-2" start>
-                <TextImage source="chemin.jpg" alt="Le chemin" proportion={20}>
+                <TextImage
+                    source="chemin.jpg"
+                    alt="Le chemin, le processus"
+                    proportion={20}
+                >
                     <blockquote>
                         <h3 className="padding">Le chemin, le processus</h3>
                         <p>
@@ -137,7 +141,11 @@ function Aventures() {
                 </div>
             </Section>
             <Section color="main-2" end noPadding>
-                <TextImage source="8a3a2c9f.jpg" alt="Paysage" reverse>
+                <TextImage
+                    source="8a3a2c9f.jpg"
+                    alt="Paysage montagneux"
+                    reverse
+                >
                     <h1 className="">
                         CONSTRUIRE & OPTIMISER SON{" "}
                         <span className="complementary">CAPITAL SANTÉ</span>

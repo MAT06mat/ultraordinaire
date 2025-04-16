@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import LinkImage from "./LinkImage";
+import FadeIn from "../animations/FadeIn";
 
 interface Props {
     href: string;
@@ -10,13 +11,15 @@ interface Props {
 
 function Avis({ href, src, name, children }: Props) {
     return (
-        <div className="avis">
-            <div className="profile-image">
-                <LinkImage href={href} src={src} />
-                <h3 className="padding">{name}</h3>
+        <FadeIn>
+            <div className="avis">
+                <div className="profile-image">
+                    <LinkImage href={href} src={src} />
+                    <h3 className="padding">{name}</h3>
+                </div>
+                <p className="padding separator avis-text">{children}</p>
             </div>
-            <p className="padding separator avis-text">{children}</p>
-        </div>
+        </FadeIn>
     );
 }
 

@@ -39,10 +39,32 @@ function WhoIAm() {
                                 title: "PROACTIVITÉ",
                                 content: (
                                     <p>
-                                        Un engagement et une conviction profonde
-                                        pour affronter les pensées limitantes et
-                                        parfois le scepticisme de
-                                        l’environnement socioprofessionnel.
+                                        Lorsqu’une idée émerge, elle se heurte
+                                        souvent à des obstacles : des{" "}
+                                        <b>pensées limitantes</b>, parfois
+                                        dévalorisantes, ou encore un{" "}
+                                        <b>
+                                            environnement socioprofessionnel
+                                            sceptique
+                                        </b>{" "}
+                                        et freiné par le système.
+                                        <br />
+                                        Être <b>proactif</b> implique un
+                                        engagement fort et un travail basé sur
+                                        de nombreuses inconnues. Cette démarche
+                                        repose sur une{" "}
+                                        <b>conviction profonde</b> quant à la
+                                        pertinence de l’idée et du projet.
+                                        <br />
+                                        Pour transformer une simple idée en un{" "}
+                                        <b>projet collectif</b>, il est
+                                        essentiel de créer des espaces de
+                                        rencontre où chaque acteur y trouve un
+                                        bénéfice, même si leurs intérêts
+                                        diffèrent. La motivation de chacun
+                                        alimente alors une{" "}
+                                        <b>dynamique collective</b>, facteur clé
+                                        de la réussite.
                                     </p>
                                 ),
                             },
@@ -50,14 +72,23 @@ function WhoIAm() {
                                 title: "JULIEN COINDET, PASSIONNÉ ET ENTRAÎNANT",
                                 content: (
                                     <p>
-                                        Sport et Nature comme boussole depuis
-                                        son plus jeune âge. Une envie d’explorer
-                                        au maximum ses capacités physiques et
-                                        mentales Devenir la meilleure version de
-                                        soi-même Convaincu par la citation du
-                                        chanteur Grand Corps Malade « Tout seul
-                                        je vais vite, Ensemble on va loin
-                                        L’esprit d’équipe, Comme un besoin »
+                                        Depuis mon plus jeune âge, le{" "}
+                                        <b>sport</b>, qu’il soit individuel ou
+                                        collectif, en intérieur ou en extérieur,
+                                        a toujours été au cœur de ma vie. Ces
+                                        multiples expériences, tant sur le plan{" "}
+                                        <b>moteur</b> que <b>social</b>, ont
+                                        façonné le{" "}
+                                        <b>
+                                            sportif, le professionnel et l’homme
+                                        </b>{" "}
+                                        que je suis aujourd’hui. Mon parcours, à
+                                        la fois ordinaire et accompli, s’inscrit
+                                        dans une{" "}
+                                        <b>quête constante d’amélioration</b>,
+                                        cherchant à devenir la meilleure version
+                                        de moi-même à travers chaque nouvelle
+                                        expérience.
                                     </p>
                                 ),
                             },
@@ -65,9 +96,16 @@ function WhoIAm() {
                                 title: "FÉDÉRER ÉNERGIES & COMPÉTENCES",
                                 content: (
                                     <p>
-                                        En donnant du sens à son action pour
-                                        enclencher une dynamique collective vers
-                                        un but commun.
+                                        Peu importe son métier ou son statut, la
+                                        capacité à{" "}
+                                        <b>rassembler des énergies positives</b>{" "}
+                                        et des <b>compétences</b> est un
+                                        véritable défi, mais aussi un{" "}
+                                        <b>atout essentiel</b> pour bâtir un
+                                        projet collectif. Il s’agit avant tout
+                                        de <b>donner du sens</b> à son action et
+                                        d’insuffler une <b>dynamique commune</b>
+                                        .
                                     </p>
                                 ),
                             },

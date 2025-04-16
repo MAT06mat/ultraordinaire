@@ -41,13 +41,25 @@ function Aventures() {
                         </Link>
                         <br />
                         <br />
-                        Le POURQUOI s'invite régulièrement dans nos vies.
+                        On s'interroge tous les jours sur ce fameux{" "}
+                        <b>pourquoi</b>. Pourquoi souffrir pour une course ?
+                        Pourquoi faire ce métier ? Pourquoi je n'arrive plus à
+                        me motiver ? Pourquoi, pourquoi, pourquoi…
                         <br />
-                        Pourquoi souffrir pour une course ? Pourquoi faire ce
-                        métier ? Pourquoi je n'arrive plus à me motiver ?…
                         <br />
-                        Le monde de l’ultra trail m'a ouvert le champ des
-                        possibles.
+                        L’<b>ultra-trail</b> n’est pas une solution miracle,
+                        mais il nous plonge dans une{" "}
+                        <b>réflexion introspective constante</b>, en interaction
+                        avec notre environnement, pour atteindre un objectif
+                        fixé. Intriguant, non ? Et si en entreprise, le
+                        processus était le même ?
+                        <br />
+                        <br />
+                        Imaginez toutes les <b>pistes de réflexion</b> que nous
+                        pourrions explorer ensemble en établissant des
+                        parallèles entre ces deux mondes. Ce qui importe, ce
+                        n’est pas tant la réponse en elle-même, mais{" "}
+                        <b>le chemin pour y parvenir</b>.
                     </p>
                 </TextImage>
             </Section>

@@ -86,10 +86,12 @@ function Home() {
             </Section>
             <Section color="main-2" start>
                 <TextImage videoLink="24378b25.mp4">
-                    <h2>CONFÉRENCES DE JULIEN</h2>
+                    <h2>
+                        QUAND UN MEC ORDINAIRE RENCONTRE L'ULTRA-TRAIL ET LE
+                        MONDE DE L'ENTREPRISE
+                    </h2>
                     <h1 className="separator padding">
-                        Quand un mec ordinaire rencontre l’Ultra-trail et le
-                        Monde de l’Entreprise
+                        Conférence FREE Mobile 2025
                     </h1>
                     <p>
                         Conférence du séminaire FREE MOBILE 2025 auprès des
@@ -116,9 +118,9 @@ function Home() {
             <Section>
                 <FadeIn>
                     <h1 className="center">Témoignages de nos partenaires</h1>
-                    <Space value="3em" />
-                    <div className="avis-list">{AvisList}</div>
                 </FadeIn>
+                <Space value="3em" />
+                <div className="avis-list">{AvisList}</div>
             </Section>
         </>
     );

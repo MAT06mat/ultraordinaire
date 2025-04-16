@@ -165,7 +165,15 @@ function About() {
             <Section>
                 <FadeIn>
                     <h1 className="complementary">Sources et Infos</h1>
-                    <div className="cols no-align">
+                    <b>Images : </b>
+                    <a
+                        href="https://www.instagram.com/salto.ch?igsh=N2V5ZW9hZ2p0ZWN1"
+                        className="discret-link"
+                        target="_blank"
+                    >
+                        Marc Coindet
+                    </a>
+                    <div className="cols no-align padding">
                         <List
                             title="Podcasts :"
                             items={[

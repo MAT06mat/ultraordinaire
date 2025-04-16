@@ -128,7 +128,7 @@ path {
 
 img,
 video {
-    border-radius: 0.5em;
+    border-radius: 0.4em;
     object-fit: contain;
 
     &.shadow {
@@ -233,6 +233,11 @@ blockquote:after {
     &:hover {
         color: var(--complementary);
     }
+}
+
+.discret-link:hover {
+    color: var(--complementary);
+    text-decoration: underline;
 }
 
 .images-container {

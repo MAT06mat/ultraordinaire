@@ -26,6 +26,31 @@ function Avis({ href, src, name, children }: Props) {
 const AvisList = (
     <>
         <Avis
+            href="https://mobile.free.fr/"
+            src="partenariats/c1e3d233.jpg"
+            name="Responsable Déploiement Free Mobile"
+        >
+            <>
+                Très belle expérience
+                <br />
+                <br />
+                Julien a su transmettre avec authenticité les exigences mentales
+                et physiques de cette discipline extrême qui est l’ultra trail.
+                <br />
+                Au-delà de la performance sportive, il a mis en lumière des
+                valeurs clés telles que la resilience, le dépassement et
+                l’écoute de soi, et surtout la capacité d’adaptation en
+                environnement incertain, autant de qualités directement
+                transposables au monde professionnel.
+                <br />
+                Les équipes ont adhéré et je remercie Julien pour sa grande
+                humilité et son sérieux.
+                <br />
+                <br />
+                Florian Garbino
+            </>
+        </Avis>
+        <Avis
             href="https://www.mgen.fr/"
             src="partenariats/84cdc362.png"
             name="Responsable Relations Santé Social"
@@ -78,31 +103,6 @@ const AvisList = (
                 <br />
                 <br />
                 Étienne Piton
-            </>
-        </Avis>
-        <Avis
-            href="https://mobile.free.fr/"
-            src="partenariats/c1e3d233.jpg"
-            name="Responsable Déploiement Free Mobile"
-        >
-            <>
-                Très belle expérience
-                <br />
-                <br />
-                Julien a su transmettre avec authenticité les exigences mentales
-                et physiques de cette discipline extrême qui est l’ultra trail.
-                <br />
-                Au-delà de la performance sportive, il a mis en lumière des
-                valeurs clés telles que la resilience, le dépassement et
-                l’écoute de soi, et surtout la capacité d’adaptation en
-                environnement incertain, autant de qualités directement
-                transposables au monde professionnel.
-                <br />
-                Les équipes ont adhéré et je remercie Julien pour sa grande
-                humilité et son sérieux.
-                <br />
-                <br />
-                Florian Garbino
             </>
         </Avis>
     </>

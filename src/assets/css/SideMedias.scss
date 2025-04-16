@@ -11,15 +11,13 @@
 
         div,
         a {
-
             height: 2rem;
             width: 2rem;
 
             path {
                 fill: var(--secondary);
-                transition: fill ease-in-out .25s;
+                transition: fill ease-in-out 0.25s;
             }
-
 
             &:hover {
                 path {
@@ -29,7 +27,6 @@
         }
     }
 }
-
 
 @media screen and (max-width: 1425px) {
     .side-medias {

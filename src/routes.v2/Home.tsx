@@ -84,10 +84,7 @@ function Home() {
                 </div>
             </Section>
             <Section color="main-2" start>
-                <TextImage
-                    videoLink="24378b25.mp4"
-                    alt="Vidéo de Julien, de ses trails et de ses conférences"
-                >
+                <TextImage videoLink="24378b25.mp4">
                     <h2>Conférence</h2>
                     <h1 className="separator padding">
                         Quand un mec ordinaire rencontre l’Ultra-trail et le

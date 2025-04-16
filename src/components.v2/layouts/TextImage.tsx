@@ -36,7 +36,7 @@ function TextImage({
                 />
             ) : null}
             {source && videoLink ? (
-                <ImageVideo src={source} link={videoLink} />
+                <ImageVideo src={source} link={videoLink} alt={alt} />
             ) : null}
             {!source && videoLink ? (
                 <video

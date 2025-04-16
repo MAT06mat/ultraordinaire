@@ -5,6 +5,7 @@ import FadeIn from "../components.v2/animations/FadeIn";
 import AvisList from "../components.v2/ui/Avis";
 import Action from "../components/layouts/Action";
 import Counter from "../components.v2/animations/Counter";
+import Space from "../components.v2/ui/Space";
 
 function Home() {
     return (
@@ -85,7 +86,7 @@ function Home() {
             </Section>
             <Section color="main-2" start>
                 <TextImage videoLink="24378b25.mp4">
-                    <h2>Conférence</h2>
+                    <h2>CONFÉRENCES DE JULIEN</h2>
                     <h1 className="separator padding">
                         Quand un mec ordinaire rencontre l’Ultra-trail et le
                         Monde de l’Entreprise
@@ -115,7 +116,8 @@ function Home() {
             <Section>
                 <FadeIn>
                     <h1 className="center">Témoignages de nos partenaires</h1>
-                    <div className="avis-list padding">{AvisList}</div>
+                    <Space value="3em" />
+                    <div className="avis-list">{AvisList}</div>
                 </FadeIn>
             </Section>
         </>

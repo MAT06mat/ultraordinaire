@@ -83,8 +83,7 @@ function Home() {
                     </Counter>
                 </div>
             </Section>
-            <Action />
-            <Section color="main-2" end>
+            <Section color="main-2" start>
                 <TextImage source="764e2476.jpg" proportion={30}>
                     <h2>Conférence</h2>
                     <h1 className="separator padding">
@@ -112,9 +111,10 @@ function Home() {
                     </p>
                 </TextImage>
             </Section>
+            <Action />
             <Section>
                 <FadeIn>
-                    <h1 className="center">Avis</h1>
+                    <h1 className="center">Témoignages de nos partenaires</h1>
                     <div className="avis-list padding">{AvisList}</div>
                 </FadeIn>
             </Section>

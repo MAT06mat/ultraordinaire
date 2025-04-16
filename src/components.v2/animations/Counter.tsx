@@ -1,5 +1,11 @@
-import { useMotionValue, motion, animate, useTransform } from "motion/react";
-import { ReactNode } from "react";
+import {
+    useMotionValue,
+    motion,
+    animate,
+    useTransform,
+    useInView,
+} from "motion/react";
+import { ReactNode, useEffect, useRef } from "react";
 
 interface Props {
     className?: string;
@@ -9,23 +15,25 @@ interface Props {
 }
 
 function Counter({ className, target, extraText, children }: Props) {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { amount: 0.5, once: true });
     const count = useMotionValue(0);
     const rounded = useTransform(() => Math.round(count.get()));
 
-    function startCounter() {
-        setTimeout(() => {
+    useEffect(() => {
+        if (isInView) {
             animate(count, target, { duration: 2 });
-        }, 1000);
-    }
+        }
+    });
 
     return (
         <motion.div
+            ref={ref}
             className={"counter " + className}
             initial="hidden"
-            whileInView="visible"
+            animate={isInView ? "visible" : "hidden"}
             viewport={{ once: true }}
             transition={{
-                delay: 0.8,
                 duration: 0.5,
             }}
             variants={{
@@ -36,9 +44,7 @@ function Counter({ className, target, extraText, children }: Props) {
         >
             <div className="counter-number">
                 <b>
-                    <motion.pre onViewportEnter={startCounter}>
-                        {rounded}
-                    </motion.pre>
+                    <motion.pre>{rounded}</motion.pre>
                     {extraText}
                 </b>
             </div>

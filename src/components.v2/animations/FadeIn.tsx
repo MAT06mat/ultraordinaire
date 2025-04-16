@@ -1,20 +1,23 @@
-import { HTMLMotionProps, motion } from "motion/react";
+import { HTMLMotionProps, motion, useInView } from "motion/react";
+import { useRef } from "react";
 
 interface Props extends HTMLMotionProps<"div"> {
     children: React.ReactNode;
 }
 
 function FadeIn({ children, ...props }: Props) {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { amount: 0.3, once: true });
     return (
         <motion.div
             {...props}
+            ref={ref}
             initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.3 }}
+            animate={isInView ? "visible" : "hidden"}
+            transition={{ duration: 0.5 }}
             variants={{
                 visible: { opacity: 1, scale: 1 },
-                hidden: { opacity: 0, scale: 0.95 },
+                hidden: { opacity: 0, scale: 0.9 },
             }}
         >
             {children}

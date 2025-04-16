@@ -14,7 +14,7 @@ function PageLayout() {
                     padding: "1em 2em",
                 }}
             >
-                Ceci est la V2 du site, elle est encore en dévellopement
+                Ceci est la V2 du site, elle est encore en développement
             </div>
             <Header />
             <Outlet />

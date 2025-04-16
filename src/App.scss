@@ -471,4 +471,30 @@ ul.list-gap {
             max-width: 8rem;
         }
     }
+
+    .counter-container {
+        flex-direction: column;
+
+        .bottom {
+            margin-top: 0;
+            margin-left: 10%;
+            margin-right: 0;
+        }
+    }
+
+    .counter {
+        margin-right: 10%;
+        width: 10em;
+        height: 10em;
+        border: var(--main-3) dotted 0.4em;
+        border-radius: 10em;
+
+        .counter-number {
+            font-size: xx-large;
+        }
+
+        .counter-text {
+            font-size: large;
+        }
+    }
 }

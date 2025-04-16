@@ -44,7 +44,7 @@ const AvisList = (
             </>
         </Avis>
         <Avis
-            href=""
+            href="https://www.acef.com/com/homepage"
             src="partenariats/6fcb7a38.jpg"
             name="ACEF Bourgogne Franche comté"
         >
@@ -75,6 +75,31 @@ const AvisList = (
                 <br />
                 <br />
                 Étienne Piton
+            </>
+        </Avis>
+        <Avis
+            href="https://mobile.free.fr/"
+            src="partenariats/c1e3d233.jpg"
+            name="Responsable Déploiement Free Mobile"
+        >
+            <>
+                Très belle expérience
+                <br />
+                <br />
+                Julien a su transmettre avec authenticité les exigences mentales
+                et physiques de cette discipline extrême qui est l’ultra trail.
+                <br />
+                Au-delà de la performance sportive, il a mis en lumière des
+                valeurs clés telles que la resilience, le dépassement et
+                l’écoute de soi, et surtout la capacité d’adaptation en
+                environnement incertain, autant de qualités directement
+                transposables au monde professionnel.
+                <br />
+                Les équipes ont adhéré et je remercie Julien pour sa grande
+                humilité et son sérieux.
+                <br />
+                <br />
+                Florian Garbino
             </>
         </Avis>
     </>

@@ -34,7 +34,10 @@ function Home() {
                         PASSIONNÉ D’ULTRA TRAIL, PROFESSIONNEL DANS LE SECTEUR
                         DU HANDICAP ET DE LA DÉPENDANCE
                     </h2>
-                    <h1 className="separator padding">Une vie en mouvement</h1>
+                    <h1 className="separator padding">
+                        Une vie en{" "}
+                        <span className="complementary">mouvement</span>
+                    </h1>
                     <p>
                         Plongez dans une ambiance où la passion de l’ultra trail
                         et le milieu professionnel se rencontrent. A travers ce
@@ -85,13 +88,14 @@ function Home() {
                 </div>
             </Section>
             <Section color="main-2" start>
-                <TextImage videoLink="efae0e11.mp4">
+                <TextImage videoLink="3af2e85a.mp4">
                     <h2>
                         QUAND UN MEC ORDINAIRE RENCONTRE L'ULTRA-TRAIL ET LE
                         MONDE DE L'ENTREPRISE
                     </h2>
                     <h1 className="separator padding">
-                        Conférence FREE Mobile 2025
+                        Conférence{" "}
+                        <span className="complementary">FREE Mobile</span> 2025
                     </h1>
                     <p>
                         Conférence du séminaire FREE MOBILE 2025 auprès des

@@ -36,6 +36,112 @@ function About() {
             </Section>
             <Section color="main-2">
                 <FadeIn>
+                    <h1 className="complementary">Sources et Infos</h1>
+                    <b>Images : </b>
+                    <a
+                        href="https://www.instagram.com/salto.ch?igsh=N2V5ZW9hZ2p0ZWN1"
+                        className="discret-link"
+                        target="_blank"
+                    >
+                        Marc Coindet
+                    </a>
+                    <div className="cols no-align padding">
+                        <List
+                            title="Podcasts :"
+                            items={[
+                                <a
+                                    href="https://youtube.com/@danslateteduncoureur?si=Eb9kxNFBNjon61Y9"
+                                    target="_blank"
+                                >
+                                    Dans la tête d’un coureur
+                                </a>,
+                                <a
+                                    href="https://youtube.com/playlist?list=PLpBiTQ0HpFBdz5soA5TndcxvU9v0_k0M9&si=tAwzereimIBkX3ie"
+                                    target="_blank"
+                                >
+                                    La bande à Distance +
+                                </a>,
+                                <a
+                                    href="https://youtube.com/@courseepique?si=SQ-Ns4adIu6o0yIC"
+                                    target="_blank"
+                                >
+                                    Course épique
+                                </a>,
+                                <a
+                                    href="https://open.spotify.com/show/3KsNbDdbkrtqH7USQOhT8t?si=ddQo75lpSjeUDuTNfYN7gA"
+                                    target="_blank"
+                                >
+                                    Dans mon bain de Mathieu Blanchard sur
+                                    spotify
+                                </a>,
+                                <a
+                                    href="https://youtube.com/playlist?list=PLPISp8WxBuwUcpCRyGTmQKUEoU7A_2W8Q&si=ATVLpooWmJuawbys"
+                                    target="_blank"
+                                >
+                                    Secret d’endurance Eric Lacroix et Hugo
+                                    Ferrari
+                                </a>,
+                            ]}
+                        />
+                        <List
+                            title="Chaînes Youtube :"
+                            items={[
+                                <a
+                                    href="https://youtube.com/@mikehornexplorer?si=srLa1F6c89zxVJAc"
+                                    target="_blank"
+                                >
+                                    Mike Horne
+                                </a>,
+                                <a
+                                    href="https://youtube.com/channel/UCC6dDz3eOnTbqVDHW_Qd0Fg?si=OnJb3q1nUGcNzD7Z"
+                                    target="_blank"
+                                >
+                                    François d’haene
+                                </a>,
+                                <a
+                                    href="https://youtube.com/@kilianjornet?si=K3yiiCfFWESexIh5"
+                                    target="_blank"
+                                >
+                                    Kilian Jornet
+                                </a>,
+                                <a
+                                    href="https://youtube.com/@mathieu_blanchard?si=IsyokF5kw3R6ET40"
+                                    target="_blank"
+                                >
+                                    Mathieu Blanchard
+                                </a>,
+                                <a
+                                    href="https://youtu.be/NEg_p1Lw2l4?si=BLftpZ1FUT_Syv2b"
+                                    target="_blank"
+                                >
+                                    Courtney Dauwalter
+                                </a>,
+                                <a
+                                    href="https://youtu.be/NvsySSlx0HQ?si=V-KRFQWwGtJqGvgR"
+                                    target="_blank"
+                                >
+                                    Sissi Cussot
+                                </a>,
+                            ]}
+                        />
+                        <List
+                            title="Livres & articles :"
+                            items={[
+                                <>Kilian jornet</>,
+                                <>Mathieu Blanchard</>,
+                                <>La préparation physique</>,
+                                <>Eric Lacroix</>,
+                                <>La clinique du coureur</>,
+                                <>Le Grand Raid de Eric Lacroix</>,
+                                <>Moins courir Mieux courir</>,
+                            ]}
+                        />
+                    </div>
+                </FadeIn>
+            </Section>
+            <Action socialsMedias />
+            <Section>
+                <FadeIn>
                     <h1>Partenariats Réseau Entreprise</h1>
                     <div className="image-list">
                         <LinkImage
@@ -157,112 +263,6 @@ function About() {
                         <LinkImage
                             href="https://www.prospactive.com/"
                             src="partenariats/f033cfcc.jpg"
-                        />
-                    </div>
-                </FadeIn>
-            </Section>
-            <Action socialsMedias />
-            <Section>
-                <FadeIn>
-                    <h1 className="complementary">Sources et Infos</h1>
-                    <b>Images : </b>
-                    <a
-                        href="https://www.instagram.com/salto.ch?igsh=N2V5ZW9hZ2p0ZWN1"
-                        className="discret-link"
-                        target="_blank"
-                    >
-                        Marc Coindet
-                    </a>
-                    <div className="cols no-align padding">
-                        <List
-                            title="Podcasts :"
-                            items={[
-                                <a
-                                    href="https://youtube.com/@danslateteduncoureur?si=Eb9kxNFBNjon61Y9"
-                                    target="_blank"
-                                >
-                                    Dans la tête d’un coureur
-                                </a>,
-                                <a
-                                    href="https://youtube.com/playlist?list=PLpBiTQ0HpFBdz5soA5TndcxvU9v0_k0M9&si=tAwzereimIBkX3ie"
-                                    target="_blank"
-                                >
-                                    La bande à Distance +
-                                </a>,
-                                <a
-                                    href="https://youtube.com/@courseepique?si=SQ-Ns4adIu6o0yIC"
-                                    target="_blank"
-                                >
-                                    Course épique
-                                </a>,
-                                <a
-                                    href="https://open.spotify.com/show/3KsNbDdbkrtqH7USQOhT8t?si=ddQo75lpSjeUDuTNfYN7gA"
-                                    target="_blank"
-                                >
-                                    Dans mon bain de Mathieu Blanchard sur
-                                    spotify
-                                </a>,
-                                <a
-                                    href="https://youtube.com/playlist?list=PLPISp8WxBuwUcpCRyGTmQKUEoU7A_2W8Q&si=ATVLpooWmJuawbys"
-                                    target="_blank"
-                                >
-                                    Secret d’endurance Eric Lacroix et Hugo
-                                    Ferrari
-                                </a>,
-                            ]}
-                        />
-                        <List
-                            title="Chaînes Youtube :"
-                            items={[
-                                <a
-                                    href="https://youtube.com/@mikehornexplorer?si=srLa1F6c89zxVJAc"
-                                    target="_blank"
-                                >
-                                    Mike Horne
-                                </a>,
-                                <a
-                                    href="https://youtube.com/channel/UCC6dDz3eOnTbqVDHW_Qd0Fg?si=OnJb3q1nUGcNzD7Z"
-                                    target="_blank"
-                                >
-                                    François d’haene
-                                </a>,
-                                <a
-                                    href="https://youtube.com/@kilianjornet?si=K3yiiCfFWESexIh5"
-                                    target="_blank"
-                                >
-                                    Kilian Jornet
-                                </a>,
-                                <a
-                                    href="https://youtube.com/@mathieu_blanchard?si=IsyokF5kw3R6ET40"
-                                    target="_blank"
-                                >
-                                    Mathieu Blanchard
-                                </a>,
-                                <a
-                                    href="https://youtu.be/NEg_p1Lw2l4?si=BLftpZ1FUT_Syv2b"
-                                    target="_blank"
-                                >
-                                    Courtney Dauwalter
-                                </a>,
-                                <a
-                                    href="https://youtu.be/NvsySSlx0HQ?si=V-KRFQWwGtJqGvgR"
-                                    target="_blank"
-                                >
-                                    Sissi Cussot
-                                </a>,
-                            ]}
-                        />
-                        <List
-                            title="Livres & articles :"
-                            items={[
-                                <>Kilian jornet</>,
-                                <>Mathieu Blanchard</>,
-                                <>La préparation physique</>,
-                                <>Eric Lacroix</>,
-                                <>La clinique du coureur</>,
-                                <>Le Grand Raid de Eric Lacroix</>,
-                                <>Moins courir Mieux courir</>,
-                            ]}
                         />
                     </div>
                 </FadeIn>

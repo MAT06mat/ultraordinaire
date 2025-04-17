@@ -14,7 +14,7 @@ import About from "./routes/About";
 
 import { Home as HomeV2 } from "./routes.v2/Home";
 import { PageLayout as PageLayoutV2 } from "./components.v2/layouts/PageLayout";
-import { Aventures as AventuresV2 } from "./routes.v2/Aventures";
+import { Aventures as AventuresV2 } from "./routes.v2/MyPath";
 import { Diag23 as Diag23V2 } from "./routes.v2/Diag23";
 import { About as AboutV2 } from "./routes.v2/About";
 import WhoIAm from "./routes.v2/WhoIAm";

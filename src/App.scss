@@ -428,6 +428,33 @@ ul.list-gap {
     }
 }
 
+@keyframes pulse {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    30% {
+        opacity: 1;
+        scale: (0.3);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+#pulse {
+    fill: var(--secondary-2);
+    animation: infinite pulse 2s linear;
+}
+
 @media screen and (max-width: 768px) {
     .cols {
         flex-direction: column !important;

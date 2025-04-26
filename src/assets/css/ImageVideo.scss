@@ -1,5 +1,5 @@
 .image-video {
-    border-radius: .5em;
+    border-radius: 0.5em;
     box-shadow: 0 0 10px 1px #65656520;
     position: relative;
 
@@ -22,7 +22,6 @@
 
         svg {
             height: 6em;
-            opacity: 80%;
             transition: all 0.2s ease-in-out;
 
             path {
@@ -38,7 +37,7 @@
         top: 0;
         right: 0;
         width: 100%;
-        border-radius: .5em;
+        border-radius: 0.5em;
         border: none;
         height: 100%;
     }
@@ -50,6 +49,11 @@
 
             path {
                 fill: var(--complementary);
+            }
+
+            #pulse {
+                animation: none;
+                scale: 0;
             }
         }
     }

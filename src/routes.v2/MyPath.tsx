@@ -3,8 +3,8 @@ import Section from "../components.v2/layouts/Section";
 import TextImage from "../components.v2/layouts/TextImage";
 import Action from "../components.v2/layouts/Action";
 import { Link } from "react-router-dom";
-import PlayButton from "../assets/images/PlayButton";
 import FadeIn from "../components.v2/animations/FadeIn";
+import Medias from "../assets/images/MediasSVG";
 
 function Aventures() {
     return (
@@ -80,7 +80,7 @@ function Aventures() {
                                 target="_blank"
                                 className="video-link"
                             >
-                                <PlayButton />
+                                {Medias.facebook}
                                 <h3>Projet 1 - Cham 22</h3>
                             </a>
                             <div className="info">35h - 427ème/1789</div>
@@ -92,7 +92,14 @@ function Aventures() {
                             activités (rameur, vélo, parcours extérieur).
                             Pendant 35 heures, jour et nuit, ils ont accompagné
                             symboliquement la course de Julien Coindet à l’UTMB
-                            (<b>Cham</b>onix)
+                            (<b>Cham</b>onix).{" "}
+                            <a
+                                href="https://www.facebook.com/reel/3537453623207227"
+                                target="_blank"
+                                className="link"
+                            >
+                                Voir la vidéo
+                            </a>
                         </p>
                     </div>
                     <div>
@@ -102,7 +109,7 @@ function Aventures() {
                                 target="_blank"
                                 className="video-link"
                             >
-                                <PlayButton />
+                                {Medias.youtube}
                                 <h3>Projet 2 - Diag 23</h3>
                             </a>
                             <div className="info">41h45 - 393ème/2047</div>{" "}
@@ -121,7 +128,14 @@ function Aventures() {
                             CHU se sont mis aux couleurs de la Réunion en
                             adaptant les menus pour les patients et résidents.
                             Des aventures sportives, solidaires, collectives et
-                            de cohésion !
+                            de cohésion !{" "}
+                            <a
+                                href="https://www.youtube.com/watch?v=gk1McQvHeD8"
+                                target="_blank"
+                                className="link"
+                            >
+                                Voir la vidéo
+                            </a>
                         </p>
                     </div>
                 </FadeIn>

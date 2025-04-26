@@ -286,16 +286,6 @@ ul.list-gap {
     }
 }
 
-.play-icon {
-    height: 1.5em;
-
-    path {
-        fill: var(--secondary);
-        transition: fill ease-in-out 0.1s;
-        stroke-width: 0;
-    }
-}
-
 .video-link {
     display: flex;
     align-items: center;
@@ -305,12 +295,21 @@ ul.list-gap {
         padding-top: 1px;
     }
 
+    .medias-svg {
+        height: 1.5em;
+
+        path {
+            fill: var(--secondary);
+            transition: fill ease-in-out 0.2s;
+        }
+    }
+
     &:hover {
         h3 {
             text-decoration: underline;
         }
 
-        .play-icon path {
+        .medias-svg path {
             fill: var(--complementary);
         }
     }
@@ -331,16 +330,16 @@ ul.list-gap {
     a {
         height: 6rem;
         width: 6rem;
+    }
+}
 
-        svg {
-            transition: transform 0.2s ease-out;
+.medias-svg {
+    transition: transform 0.2s ease-out;
 
-            path {
-                transition: fill 0.2s ease;
-                stroke: none;
-                fill: var(--main);
-            }
-        }
+    path {
+        transition: fill 0.2s ease;
+        stroke: none;
+        fill: var(--main);
     }
 }
 

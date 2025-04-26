@@ -67,7 +67,7 @@ function Home() {
                     </p>
                 </TextImage>
             </Section>
-            <Section>
+            <Section noPadding>
                 <div className="counter-container">
                     <Counter target={8}>
                         courses 100K

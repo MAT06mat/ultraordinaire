@@ -8,6 +8,7 @@
     --complementary: #b80d0d;
     --complementary-2: #ffcfd8;
     --complementary-3: #fff9f9;
+    --link-visible: #b84f0d;
 }
 
 ::selection {
@@ -229,6 +230,10 @@ blockquote:after {
 
 .link {
     text-decoration: underline;
+
+    &.visible {
+        color: var(--link-visible);
+    }
 
     &:hover {
         color: var(--complementary);

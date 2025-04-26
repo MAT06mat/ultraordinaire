@@ -36,11 +36,6 @@ function Aventures() {
                         <span className="complementary">L’ENTREPRISE</span>
                     </h1>
                     <p>
-                        <Link to="diag23" className="link">
-                            La Diagonale des CHU (CHU Dijon –CHU La Réunion)
-                        </Link>
-                        <br />
-                        <br />
                         On s'interroge tous les jours sur ce fameux{" "}
                         <b>pourquoi</b>. Pourquoi souffrir pour une course ?
                         Pourquoi faire ce métier ? Pourquoi je n'arrive plus à
@@ -60,6 +55,11 @@ function Aventures() {
                         parallèles entre ces deux mondes. Ce qui importe, ce
                         n’est pas tant la réponse en elle-même, mais{" "}
                         <b>le chemin pour y parvenir</b>.
+                        <br />
+                        <br />
+                        <Link to="diag23" className="link visible">
+                            La Diagonale des CHU (CHU Dijon –CHU La Réunion)
+                        </Link>
                     </p>
                 </TextImage>
             </Section>

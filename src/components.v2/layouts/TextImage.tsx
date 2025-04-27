@@ -43,6 +43,7 @@ function TextImage({
                     autoPlay
                     loop
                     muted
+                    playsInline
                     className="shadow"
                     style={{ width: proportion.toString() + "%" }}
                 >

@@ -31,7 +31,7 @@ function Aventures() {
                     <h2>LE MONDE DE JULIEN</h2>
                     <h1 className="separator padding">
                         LE MONDE DE{" "}
-                        <span className="complementary">L’ULTRATRAIL</span> ET
+                        <span className="complementary">L’ULTRA-TRAIL</span> ET
                         LE MONDE DE{" "}
                         <span className="complementary">L’ENTREPRISE</span>
                     </h1>

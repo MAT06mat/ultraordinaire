@@ -150,10 +150,11 @@ function WhoIAm() {
                         </li>
                         <li>
                             d’un homme devenu papa de deux magnifiques
-                            princesses, dont la force s’est multipliée grâce à
-                            elles et également au soutien constant de leur maman
-                            durant de nombreuses années, pour relever les défis,
-                            des îles aux montagnes.
+                            princesses, qui, porté par leur amour et le soutien
+                            constant de leur maman durant plusieurs années, a
+                            trouvé la force et l’élan pour relever les défis,
+                            traversant îles et montagnes avec une énergie
+                            décuplée.
                         </li>
                         <li>
                             d’un professionnel du secteur du handicap et de la

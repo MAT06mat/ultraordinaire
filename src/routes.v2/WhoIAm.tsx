@@ -149,9 +149,11 @@ function WhoIAm() {
                             univers.
                         </li>
                         <li>
-                            d’un homme devenu papa de deux merveilleuses
-                            princesses, décuplant son énergie pour traverser des
-                            îles et des montagnes
+                            d’un homme devenu papa de deux magnifiques
+                            princesses, dont la force s’est multipliée grâce à
+                            elles et également au soutien constant de leur maman
+                            durant de nombreuses années, pour relever les défis,
+                            des îles aux montagnes.
                         </li>
                         <li>
                             d’un professionnel du secteur du handicap et de la

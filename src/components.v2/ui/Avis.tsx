@@ -26,6 +26,39 @@ function Avis({ href, src, name, children }: Props) {
 const AvisList = (
     <>
         <Avis
+            href="https://fondation-maladiesrares.org/"
+            src="partenariats/3fcebed0.jpg"
+            name="Responsable philanthropie de la Fondation Maladies Rares"
+        >
+            <>
+                Julien s’est engagé à nos côtés comme coureur solidaire lors de
+                deux épreuves de trail parmi les plus mythiques : l’UTMB et le
+                Grand Raid de La Réunion. Mais au-delà de la performance
+                sportive, c’est son engagement humain qui m'a profondément
+                touché.
+                <br />
+                À La Réunion, il ne s’est pas contenté de courir : il a formé
+                une belle équipe avec une collaboratrice du CHU local pour
+                porter haut les couleurs des maladies rares et collecter des
+                fonds pour cette cause. Un geste fort, généreux, et profondément
+                symbolique.
+                <br />
+                Et ce n’est pas tout ! En parallèle, Julien a eu l’idée et
+                l’énergie de lancer "La Diagonale du CHU" au CHU de Dijon. Ce
+                jour-là, ses collaborateurs ont enfilé leurs baskets pour courir
+                eux aussi en solidarité, dans une belle ambiance collective et
+                engagée.
+                <br />
+                Julien incarne avec sincérité les valeurs de solidarité,
+                d’engagement et d’initiative que nous portons à la Fondation.
+                Son enthousiasme, sa bienveillance et sa capacité à fédérer
+                autour de lui sont tout simplement inspirants.
+                <br />
+                <br />
+                Pascale Milani
+            </>
+        </Avis>
+        <Avis
             href="https://mobile.free.fr/"
             src="partenariats/c1e3d233.jpg"
             name="Responsable Déploiement Free Mobile"

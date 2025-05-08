@@ -21,7 +21,7 @@ function SocialsMedias() {
     return (
         <div className="socials-medias">
             <SocialMedia
-                url="https://www.youtube.com/@juliencoindetaltore"
+                url="https://www.youtube.com/@ultraordinaire"
                 svg={Medias.youtube}
             />
             <SocialMedia url="https://urlr.me/mjhRuP" svg={Medias.facebook} />

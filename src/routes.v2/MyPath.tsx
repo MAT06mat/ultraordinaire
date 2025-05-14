@@ -68,8 +68,8 @@ function Aventures() {
                     <div>
                         <h1 className="complementary">TÉMOIGNAGES</h1>
                         <p className="separator padding">
-                            <b>Inspirant et motivant</b> dans un esprit de
-                            partage et d’échange !Les projets de Julien
+                            <b>Inspirant et motivant</b> dans un esprit de{" "}
+                            <b>partage et d’échange</b> ! Les projets de Julien
                             reposent, entre autres, sur l’intelligence
                             collective en faveur d’une cause solidaire : la
                             collecte de fonds pour la Fondation Maladies Rares.
@@ -88,11 +88,11 @@ function Aventures() {
                         <p>
                             Au Pôle Personne Âgée (<b>Cham</b>pmaillot) du CHU
                             Dijon, 200 participants se sont mobilisés dans un
-                            véritable esprit téléthon, en participant à diverses
-                            activités (rameur, vélo, parcours extérieur).
-                            Pendant 35 heures, jour et nuit, ils ont accompagné
-                            symboliquement la course de Julien Coindet à l’UTMB
-                            (<b>Cham</b>onix).{" "}
+                            véritable <b>esprit téléthon</b>, en participant à
+                            diverses activités (rameur, vélo, parcours
+                            extérieur). Pendant 35 heures, <b>jour et nuit</b>,
+                            ils ont accompagné symboliquement la course de
+                            Julien Coindet à l’UTMB (<b>Cham</b>onix).{" "}
                             <a
                                 href="https://www.facebook.com/reel/3537453623207227"
                                 target="_blank"
@@ -115,20 +115,21 @@ function Aventures() {
                             <div className="info">41h45 - 393ème/2047</div>{" "}
                         </div>
                         <p>
-                            La <b>Diag</b>onale des CHU (CHU Dijon –CHU La
+                            La <b>Diag</b>onale des CHU (CHU Dijon – CHU La
                             Réunion) a rassemblé, sur deux jours, 300 personnes
-                            autour d’un esprit de partage et de découverte à
-                            travers des ateliers variés : tir à l’arc, réalité
-                            virtuelle, tir à la carabine laser, rameurs,
-                            ergocycles... Un Trail Urbain Solidaire CHU Dijon,
-                            créé spécialement pour l’événement, a permis à une
+                            autour d’un <b>esprit de partage</b> et de
+                            découverte à travers des ateliers variés : tir à
+                            l’arc, réalité virtuelle, tir à la carabine laser,
+                            rameurs, ergocycles... Un{" "}
+                            <b>Trail Urbain Solidaire</b> CHU Dijon, créé
+                            spécialement pour l’événement, a permis à une
                             centaine de participants de prendre le départ
                             simultanément avec celui du Grand Raid de La Réunion
-                            retransmis en direct . En parallèle, les cuisines du
-                            CHU se sont mis aux couleurs de la Réunion en
-                            adaptant les menus pour les patients et résidents.
-                            Des aventures sportives, solidaires, collectives et
-                            de cohésion !{" "}
+                            retransmis en direct. En parallèle, les{" "}
+                            <b>cuisines du CHU</b> se sont mises aux couleurs de
+                            la Réunion en adaptant les menus pour les patients
+                            et résidents. Des <b>aventures sportives</b>,{" "}
+                            solidaires, collectives et de cohésion !{" "}
                             <a
                                 href="https://www.youtube.com/watch?v=gk1McQvHeD8"
                                 target="_blank"
@@ -149,7 +150,7 @@ function Aventures() {
                     <blockquote>
                         <h3 className="padding">Le chemin, le processus</h3>
                         <p>
-                            Tout projet débute par une idée un peu flou animée
+                            Tout projet débute par une idée un peu floue animée
                             par une volonté d’entreprendre et de convaincre. On
                             se lance alors sur un chemin mais, parfois, on
                             s’égare. On s'arrête, on consulte la carte, on
@@ -222,12 +223,5 @@ function Aventures() {
         </>
     );
 }
-
-/*
-<Route path="ultra-trail" />
-<Route path="temoignages" />
-<Route path="capital-sante" />
-<Route path="dynamique-collective" />
-*/
 
 export { Aventures };

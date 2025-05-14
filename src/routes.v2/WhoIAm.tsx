@@ -29,8 +29,9 @@ function WhoIAm() {
                         santé actif et passionné
                     </h1>
                     <p>
-                        En 2022, il décide de lier sa passion de l’ultra-trail
-                        avec son environnement socio-professionnel.
+                        En 2022, il décide de lier sa{" "}
+                        <b>passion de l’ultra-trail</b> avec son environnement
+                        socio-professionnel.
                     </p>
 
                     <TextDropList
@@ -124,41 +125,44 @@ function WhoIAm() {
                     <h1>Une vie singulière</h1>
                     <ul className="separator list list-gap">
                         <li>
-                            d’un enfant débordant d’énergie, passionné de sport,
-                            mais confronté à un stress inhibant et des émotions
-                            difficiles à canaliser par moment (certaines
-                            raquettes de tennis en portent encore les stigmates)
+                            d’un enfant <b>débordant d’énergie</b>, passionné de
+                            sport, mais confronté à un <b>stress inhibant</b> et
+                            des émotions <b>difficiles à canaliser</b> par
+                            moment (certaines raquettes de tennis en portent
+                            encore les stigmates)
                         </li>
                         <li>
-                            d’un adolescent en quête perpétuelle d’expériences
-                            sportives avec une croissance qui a pris son temps.
+                            d’un adolescent en <b>quête perpétuelle</b>{" "}
+                            d’expériences sportives avec une croissance qui a
+                            pris son temps.
                         </li>
                         <li>
-                            d’un homme animé par l’envie de performer apprenant
-                            peu à peu à transformer ce stress en une force
-                            essentielle pour atteindre ses objectifs.
+                            d’un homme animé par <b>l’envie de performer</b>{" "}
+                            apprenant peu à peu à transformer ce <b>stress</b>{" "}
+                            en une <b>force essentielle</b>
+                            pour atteindre ses objectifs.
                         </li>
                         <li>
-                            d’un homme pour qui les relations humaines sincères
-                            et profondes prennent une place centrale.
+                            d’un homme pour qui les <b>relations humaines</b>{" "}
+                            sincères et profondes prennent une place centrale.
                         </li>
                         <li>
-                            entouré d’une mère bienveillante et d’un père
-                            alpiniste inspirant, dont la passion et l’amour pour
-                            la montagne a éveillé le désir de découvrir cet
-                            univers.
+                            entouré d’une <b>mère bienveillante</b> et d’un père{" "}
+                            <b>alpiniste inspirant</b>, dont la passion et
+                            l’amour pour la montagne a éveillé le désir de
+                            découvrir cet univers.
                         </li>
                         <li>
-                            d’un homme devenu papa de deux magnifiques
-                            princesses, qui, porté par leur amour et le soutien
-                            constant de leur maman durant plusieurs années, a
-                            trouvé la force et l’élan pour relever les défis,
-                            traversant îles et montagnes avec une énergie
-                            décuplée.
+                            d’un homme devenu papa de deux{" "}
+                            <b>magnifiques princesses</b>, qui, porté par leur
+                            amour et le <b>soutien constant</b> de leur maman
+                            durant plusieurs années, a trouvé la force et l’élan
+                            pour <b>relever les défis</b>, traversant îles et
+                            montagnes avec une <b>énergie décuplée</b>.
                         </li>
                         <li>
-                            d’un professionnel du secteur du handicap et de la
-                            dépendance passionné d’ultra trail…
+                            d’un <b>professionnel du secteur</b> du handicap et
+                            de la dépendance passionné d’<b>ultra trail</b>…
                         </li>
                     </ul>
                 </TextImage>

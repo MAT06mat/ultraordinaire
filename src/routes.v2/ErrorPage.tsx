@@ -7,7 +7,7 @@ export default function ErrorPage() {
         <>
             <Helmet>
                 <title>Oups...</title>
-                <meta name="description" content="Page d'erreur" />
+                <meta name="description" content="Page d'erreur (404)" />
                 <link rel="canonical" href="/404" />
             </Helmet>
             <div id="error-page">

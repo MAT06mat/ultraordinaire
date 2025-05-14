@@ -3,7 +3,7 @@ import Section from "../components.v2/layouts/Section";
 import TextImage from "../components.v2/layouts/TextImage";
 import FadeIn from "../components.v2/animations/FadeIn";
 import AvisList from "../components.v2/ui/Avis";
-import Action from "../components/layouts/Action";
+import Action from "../components.v2/layouts/Action";
 import Counter from "../components.v2/animations/Counter";
 import Space from "../components.v2/ui/Space";
 
@@ -11,7 +11,7 @@ function Home() {
     return (
         <>
             <Helmet>
-                <title>Ultraordinaire</title>
+                <title>Accueil</title>
                 <meta
                     name="description"
                     content="Page d'accueil de Julien Coindet de son site web ultraordinaire.fr"
@@ -39,31 +39,32 @@ function Home() {
                         <span className="complementary">mouvement</span>
                     </h1>
                     <p>
-                        Plongez dans une ambiance où la passion de l’ultra trail
-                        et le milieu professionnel se rencontrent. A travers ce
-                        chemin, Julien Coindet vous invite à faire quelques pas
-                        avec lui.
+                        Plongez dans une ambiance où la <b>passion</b> de
+                        l’ultra trail et le <b>milieu professionnel</b> se
+                        rencontrent. À travers ce chemin, Julien Coindet vous
+                        invite à faire quelques pas avec lui.
                         <br />
                         La rencontre entre sa passion de l’ultra-trail et son
-                        domaine professionnel en Activité Physique Adaptée a
-                        permis d’initier 2 grands projets sportifs solidaires et
-                        de cohésion au sein du CHU Dijon en faveur de la
-                        Fondation Maladies Rares autour des plus grandes courses
-                        d’ultra-distance mondialement connues.
+                        domaine professionnel en{" "}
+                        <b>Activité Physique Adaptée</b> a permis d’initier 2
+                        grands projets <b>sportifs solidaires</b> et de cohésion
+                        au sein du CHU Dijon en faveur de la Fondation Maladies
+                        Rares autour des plus grandes courses d’ultra-distance
+                        mondialement connues.
                         <br />
-                        L’ UTMB (Ultra-Trail du Mont-Blanc) 171 km 10 000
-                        Dénivelé +
+                        L’<b>UTMB</b> (Ultra-Trail du Mont-Blanc) 171 km 10 000
+                        Dénivelé
                         <br />
-                        Le Grand Raid de La Réunion “la Diagonale des Fous” 175
-                        km 10 500 Dénivelé +
+                        Le <b>Grand Raid de La Réunion</b> “la Diagonale des
+                        Fous” 175 km 10 500 Dénivelé
                         <br />
                         Un véritable élan fédérateur a vu le jour grâce à
                         l’enthousiasme des patients, des résidents, des
-                        familles, du personnel hospitalier et des indispensables
-                        partenaires prives.
+                        familles, du personnel hospitalier et des{" "}
+                        <b>partenaires privés</b>.
                         <br />
-                        L’envie de partager ces expériences ULTRAordinaires est
-                        une suite logique !
+                        L’envie de partager ces expériences{" "}
+                        <b>ULTRAordinaires</b> est une suite logique !
                     </p>
                 </TextImage>
             </Section>
@@ -98,23 +99,22 @@ function Home() {
                         <span className="complementary">FREE Mobile</span> 2025
                     </h1>
                     <p>
-                        Conférence du séminaire FREE MOBILE 2025 auprès des
-                        équipes de la zone Centre-Est (Radio, négociation,
+                        Conférence du séminaire <b>FREE MOBILE 2025</b> auprès
+                        des équipes de la zone Centre-Est (Radio, négociation,
                         travaux, RH)
                         <br />
-                        Au CityWork - CoWorking à Lyon en février 2025,
+                        Au <b>CityWork - CoWorking</b> à Lyon en février 2025,
                         <br />
                         <br />
                         Dans l’ultra-trail comme dans l’entreprise, la réussite
-                        repose sur des valeurs communes: la préparation, la
-                        résilience, la gestion de l’effort et l’adaptabilité.
+                        repose sur des <b>valeurs communes</b> : la préparation,
+                        la résilience, la gestion de l’effort et l’adaptabilité.
+                        <br />
+                        Au cœur des <b>parallèles</b> entre ces deux univers
+                        exigeants !
                         <br />
                         <br />
-                        Au cœur des parallèles entre ces deux univers exigeants
-                        !
-                        <br />
-                        <br />
-                        Une conférence dynamique et motivante
+                        Une conférence <b>dynamique et motivante</b>
                     </p>
                 </TextImage>
             </Section>

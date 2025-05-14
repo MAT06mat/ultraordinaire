@@ -4,10 +4,24 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://ultraordinaire.fr/</loc>
-  <lastmod>2025-02-26T17:25:06+00:00</lastmod>
-</url>
-
+  <url>
+    <loc>https://ultraordinaire.fr/</loc>
+    <lastmod>2025-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://ultraordinaire.fr/?/mon-chemin</loc>
+    <lastmod>2025-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://ultraordinaire.fr/?/mon-chemin/diag23</loc>
+    <lastmod>2025-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://ultraordinaire.fr/?/qui-je-suis</loc>
+    <lastmod>2025-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://ultraordinaire.fr/?/à-propos</loc>
+    <lastmod>2025-05-14</lastmod>
+  </url>
 </urlset>

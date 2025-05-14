@@ -1,17 +1,17 @@
 import { Helmet } from "react-helmet-async";
 import Section from "../components/layouts/Section";
-import TextDropList from "../components/ui/TextDropList";
 import TextImage from "../components/layouts/TextImage";
-import Action from "../components/layouts/Action";
 import FadeIn from "../components/animations/FadeIn";
-import Carousel from "../components/layouts/Carousel";
 import AvisList from "../components/ui/Avis";
+import Action from "../components/layouts/Action";
+import Counter from "../components/animations/Counter";
+import Space from "../components/ui/Space";
 
 function Home() {
     return (
         <>
             <Helmet>
-                <title>Ultraordinaire</title>
+                <title>Accueil</title>
                 <meta
                     name="description"
                     content="Page d'accueil de Julien Coindet de son site web ultraordinaire.fr"
@@ -24,209 +24,107 @@ function Home() {
                         Bienvenue sur les sentiers de Julien Coindet
                     </h1>
                     <blockquote className="center">
-                        Tout seul je vais vite, Ensemble on va loin <br />
-                        L’esprit d’équipe, Comme un besoin
+                        Un mec ULTRAordinaire
                     </blockquote>
                 </div>
             </Section>
             <Section color="main-2" end>
                 <TextImage source="766f77b3.jpg" reverse>
                     <h2>
-                        PASSIONNÉ D’ULTRA TRAIL, PROFESSIONNEL SPORT SANTÉ,
-                        FONDATEUR ASSOCIATION CPHD
+                        PASSIONNÉ D’ULTRA TRAIL, PROFESSIONNEL DANS LE SECTEUR
+                        DU HANDICAP ET DE LA DÉPENDANCE
                     </h2>
                     <h1 className="separator padding">
-                        Une vie en mouvement ultra ordinaire
+                        Une vie en{" "}
+                        <span className="complementary">mouvement</span>
                     </h1>
                     <p>
-                        <b>Julien Coindet</b> vous invite à explorer les
-                        sentiers de son univers.
+                        Plongez dans une ambiance où la <b>passion</b> de
+                        l’ultra trail et le <b>milieu professionnel</b> se
+                        rencontrent. À travers ce chemin, Julien Coindet vous
+                        invite à faire quelques pas avec lui.
                         <br />
-                        <b>Ultra-traileur aguerri</b>, il a initié deux projets
-                        sportifs solidaires et interprofessionnels en soutien à
-                        la <b>Fondation Maladies Rares</b>. Le premier, au sein
-                        du pôle personnes âgées du CHU de Dijon, l’a conduit à
-                        participer à l’<b>UTMB (Ultra-Trail du Mont-Blanc)</b>.
-                        Le second a relié symboliquement deux CHU distants de
-                        milliers de kilomètres, Dijon et La Réunion, à travers
-                        le <b>Grand Raid de La Réunion</b>, aussi appelé “la
-                        Diagonale des Fous”.
+                        La rencontre entre sa passion de l’ultra-trail et son
+                        domaine professionnel en{" "}
+                        <b>Activité Physique Adaptée</b> a permis d’initier 2
+                        grands projets <b>sportifs solidaires</b> et de cohésion
+                        au sein du CHU Dijon en faveur de la Fondation Maladies
+                        Rares autour des plus grandes courses d’ultra-distance
+                        mondialement connues.
                         <br />
-                        Porté par l’enthousiasme de ses collègues, des
-                        résidents, des familles, du personnel hospitalier et de
-                        précieux partenaires, un véritable élan fédérateur a vu
-                        le jour.
+                        L’<b>UTMB</b> (Ultra-Trail du Mont-Blanc) 171 km 10 000
+                        Dénivelé
                         <br />
-                        Professionnel en Activité Physique Adaptée dans le
-                        secteur du handicap et du vieillissement depuis plus de
-                        15 ans, Julien se lance aujourd’hui dans
-                        l’auto-entrepreneuriat. Il propose de partager son
-                        expérience à travers des témoignages et conférences,
-                        établissant des parallèles entre l’
-                        <b>ultra-trail et le monde de l’entreprise</b>.
+                        Le <b>Grand Raid de La Réunion</b> “la Diagonale des
+                        Fous” 175 km 10 500 Dénivelé
+                        <br />
+                        Un véritable élan fédérateur a vu le jour grâce à
+                        l’enthousiasme des patients, des résidents, des
+                        familles, du personnel hospitalier et des{" "}
+                        <b>partenaires privés</b>.
+                        <br />
+                        L’envie de partager ces expériences{" "}
+                        <b>ULTRAordinaires</b> est une suite logique !
                     </p>
                 </TextImage>
             </Section>
-            <Section>
-                <TextImage source="3782cdfc.jpg">
-                    <h2>JULIEN COINDET</h2>
+            <Section noPadding>
+                <div className="counter-container">
+                    <Counter target={8}>
+                        courses 100K
+                        <br />
+                        (km)
+                    </Counter>
+                    <Counter className="bottom" target={5}>
+                        courses 100M
+                        <br />
+                        (miles)
+                    </Counter>
+                    <Counter target={1083}>km parcouru</Counter>
+                    <Counter className="bottom" target={80} extraText="+">
+                        spectateurs
+                        <br />
+                        en conférence
+                    </Counter>
+                </div>
+            </Section>
+            <Section color="main-2" start>
+                <TextImage videoLink="3af2e85a.mp4">
+                    <h2>
+                        QUAND UN MEC ORDINAIRE RENCONTRE L'ULTRA-TRAIL ET LE
+                        MONDE DE L'ENTREPRISE
+                    </h2>
                     <h1 className="separator padding">
-                        Portrait d’un{" "}
-                        <span className="complementary">professionnel</span> de
-                        santé actif et passionné
+                        Conférence{" "}
+                        <span className="complementary">FREE Mobile</span> 2025
                     </h1>
                     <p>
-                        En <b>2021</b>, il décide de combiner sa passion pour l’
-                        <b>ultra-endurance</b> avec son environnement
-                        socio-professionnel en mettant l’accent sur deux axes :{" "}
-                        <b>le sport au service de la santé</b> et{" "}
-                        <b>la santé par le sport</b>.
+                        Conférence du séminaire <b>FREE MOBILE 2025</b> auprès
+                        des équipes de la zone Centre-Est (Radio, négociation,
+                        travaux, RH)
+                        <br />
+                        Au <b>CityWork - CoWorking</b> à Lyon en février 2025,
+                        <br />
+                        <br />
+                        Dans l’ultra-trail comme dans l’entreprise, la réussite
+                        repose sur des <b>valeurs communes</b> : la préparation,
+                        la résilience, la gestion de l’effort et l’adaptabilité.
+                        <br />
+                        Au cœur des <b>parallèles</b> entre ces deux univers
+                        exigeants !
+                        <br />
+                        <br />
+                        Une conférence <b>dynamique et motivante</b>
                     </p>
-
-                    <TextDropList
-                        list={[
-                            {
-                                title: "PROACTIF, GAGNANT - GAGNANT",
-                                content: (
-                                    <p>
-                                        Lorsqu’une idée émerge, elle se heurte
-                                        souvent à des obstacles : des{" "}
-                                        <b>pensées limitantes</b>, parfois
-                                        dévalorisantes, ou encore un{" "}
-                                        <b>
-                                            environnement socioprofessionnel
-                                            sceptique
-                                        </b>{" "}
-                                        et freiné par le système.
-                                        <br />
-                                        Être <b>proactif</b> implique un
-                                        engagement fort et un travail basé sur
-                                        de nombreuses inconnues. Cette démarche
-                                        repose sur une{" "}
-                                        <b>conviction profonde</b> quant à la
-                                        pertinence de l’idée et du projet.
-                                        <br />
-                                        Pour transformer une simple idée en un{" "}
-                                        <b>projet collectif</b>, il est
-                                        essentiel de créer des espaces de
-                                        rencontre où chaque acteur y trouve un
-                                        bénéfice, même si leurs intérêts
-                                        diffèrent. La motivation de chacun
-                                        alimente alors une{" "}
-                                        <b>dynamique collective</b>, facteur clé
-                                        de la réussite.
-                                    </p>
-                                ),
-                            },
-                            {
-                                title: "JULIEN COINDET, PASSIONNÉ ET ENTRAÎNANT",
-                                content: (
-                                    <p>
-                                        Depuis mon plus jeune âge, le{" "}
-                                        <b>sport</b>, qu’il soit individuel ou
-                                        collectif, en intérieur ou en extérieur,
-                                        a toujours été au cœur de ma vie. Ces
-                                        multiples expériences, tant sur le plan{" "}
-                                        <b>moteur</b> que <b>social</b>, ont
-                                        façonné le{" "}
-                                        <b>
-                                            sportif, le professionnel et l’homme
-                                        </b>{" "}
-                                        que je suis aujourd’hui. Mon parcours, à
-                                        la fois ordinaire et accompli, s’inscrit
-                                        dans une{" "}
-                                        <b>quête constante d’amélioration</b>,
-                                        cherchant à devenir la meilleure version
-                                        de moi-même à travers chaque nouvelle
-                                        expérience.
-                                    </p>
-                                ),
-                            },
-                            {
-                                title: "FÉDÉRER ÉNERGIES & COMPÉTENCES",
-                                content: (
-                                    <p>
-                                        Peu importe son métier ou son statut, la
-                                        capacité à{" "}
-                                        <b>rassembler des énergies positives</b>{" "}
-                                        et des <b>compétences</b> est un
-                                        véritable défi, mais aussi un{" "}
-                                        <b>atout essentiel</b> pour bâtir un
-                                        projet collectif. Il s’agit avant tout
-                                        de <b>donner du sens</b> à son action et
-                                        d’insuffler une <b>dynamique commune</b>
-                                        .
-                                    </p>
-                                ),
-                            },
-                        ]}
-                    />
                 </TextImage>
             </Section>
             <Action />
-            <Section color="main-2" end>
-                <FadeIn>
-                    <h1 className="center">Avis</h1>
-                    <Carousel list={AvisList} />
-                </FadeIn>
-            </Section>
             <Section>
-                <TextImage source="e9ae3025.jpg" proportion={40} reverse>
-                    <h1>Une vie singulière</h1>
-                    <p className="padding separator">
-                        Ce site est le reflet d’un <b>parcours de vie unique</b>
-                        , façonné par des{" "}
-                        <b>expériences intenses et marquantes</b> :{" "}
-                    </p>
-                    <ul className="list list-gap">
-                        <li>
-                            Celui d’un <b>enfant débordant d’énergie</b>,
-                            passionné de sport, mais confronté aux défis de la
-                            gestion du stress et des émotions (certaines
-                            raquettes de tennis en portent encore les traces).
-                        </li>
-                        <li>
-                            Celui d’une <b>mère bienveillante</b> et d’un{" "}
-                            <b>père inspirant</b>, dont la passion pour la
-                            nature et la montagne, héritée de son passé
-                            d’alpiniste, a laissé une empreinte profonde.
-                        </li>
-                        <li>
-                            Celui d’un{" "}
-                            <b>
-                                adolescent en quête perpétuelle d’expériences
-                                sportives
-                            </b>
-                            , malgré une croissance qui l’éloignait des
-                            standards de son âge.
-                        </li>
-                        <li>
-                            Celui d’un <b>homme poursuivant la performance</b>{" "}
-                            pour exploiter pleinement ses capacités, apprenant
-                            peu à peu à transformer le stress en un{" "}
-                            <b>moteur essentiel à la réussite</b>.
-                        </li>
-                        <li>
-                            Celui d’un homme pour qui les{" "}
-                            <b>relations humaines sincères et profondes</b>{" "}
-                            prennent une place centrale.
-                        </li>
-                        <li>
-                            Celui d’un{" "}
-                            <b>père de deux merveilleuses princesses</b>, dont
-                            l’énergie s’est démultipliée pour déplacer des
-                            montagnes, soutenu par leur maman.
-                        </li>
-                    </ul>{" "}
-                    <p>
-                        Ce site est la synthèse d’un{" "}
-                        <b>chemin de vie singulier</b>, où chacun oscille entre
-                        joie et douleur, marqué par la perte, la séparation et
-                        les blessures. Des épreuves qui nous confrontent à un
-                        choix : <b>sombrer dans la victimisation</b> ou{" "}
-                        <b>embrasser la résilience</b>.
-                    </p>
-                </TextImage>
+                <FadeIn>
+                    <h1 className="center">Témoignages de nos partenaires</h1>
+                </FadeIn>
+                <Space value="3em" />
+                <div className="avis-list">{AvisList}</div>
             </Section>
         </>
     );

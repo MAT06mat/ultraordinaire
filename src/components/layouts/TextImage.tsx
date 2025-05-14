@@ -36,7 +36,19 @@ function TextImage({
                 />
             ) : null}
             {source && videoLink ? (
-                <ImageVideo src={source} link={videoLink} />
+                <ImageVideo src={source} link={videoLink} alt={alt} />
+            ) : null}
+            {!source && videoLink ? (
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="shadow"
+                    style={{ width: proportion.toString() + "%" }}
+                >
+                    <source src={"/videos/" + videoLink} type="video/mp4" />
+                </video>
             ) : null}
         </FadeIn>
     );

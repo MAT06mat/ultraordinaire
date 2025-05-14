@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
-import Section from "../components.v2/layouts/Section";
-import TextImage from "../components.v2/layouts/TextImage";
-import TextDropList from "../components.v2/ui/TextDropList";
+import Section from "../components/layouts/Section";
+import TextImage from "../components/layouts/TextImage";
+import TextDropList from "../components/ui/TextDropList";
 import Action from "../components/layouts/Action";
 
 function WhoIAm() {

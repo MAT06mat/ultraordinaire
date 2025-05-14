@@ -13,9 +13,9 @@ function About() {
                 <title>À Propos</title>
                 <meta
                     name="description"
-                    content="Page d'accueil de Julien Coindet de son site web ultraordinaire.fr"
+                    content='Page "à propos" du site web ultraordinaire.fr'
                 />
-                <link rel="canonical" href="" />
+                <link rel="canonical" href="/à-propos" />
             </Helmet>
             <Section color="main-3" end>
                 <div className="center padding">
@@ -25,6 +25,7 @@ function About() {
                         réalisé par{" "}
                         <a
                             href="https://mat06mat.github.io/MAT06mat"
+                            className="link"
                             target="_blank"
                         >
                             MAT06mat
@@ -33,10 +34,18 @@ function About() {
                     </p>
                 </div>
             </Section>
-            <Section color="main-2" noPadding>
+            <Section color="main-2">
                 <FadeIn>
                     <h1 className="complementary">Sources et Infos</h1>
-                    <div className="cols no-align">
+                    <b>Images : </b>
+                    <a
+                        href="https://www.instagram.com/salto.ch?igsh=N2V5ZW9hZ2p0ZWN1"
+                        className="discret-link"
+                        target="_blank"
+                    >
+                        Marc Coindet
+                    </a>
+                    <div className="cols no-align padding">
                         <List
                             title="Podcasts :"
                             items={[

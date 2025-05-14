@@ -53,12 +53,17 @@ function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="mes-sentiers" onClick={handleClose}>
-                            Mes Sentiers
+                        <Link to="mon-chemin" onClick={handleClose}>
+                            Mon chemin
                         </Link>
                     </li>
                     <li>
-                        <Link to="about" onClick={handleClose}>
+                        <Link to="qui-je-suis" onClick={handleClose}>
+                            Qui je suis ?
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="à-propos" onClick={handleClose}>
                             À Propos
                         </Link>
                     </li>

@@ -43,14 +43,10 @@ function Action({ socialsMedias }: Props) {
                                 de Julien
                             </h1>
                             <p>
-                                Vous êtes à la recherche d’un
-                                intervenant-conférencier ?<br />
-                                Quelque soit vos <b>besoins</b>, entreprise,
-                                établissement public ou privé, association ou
-                                fondation , nous pouvons, peut être, faire
-                                quelques pas ensemble autour de{" "}
-                                <b>leviers de discussion</b> qui feront écho
-                                auprès de vos équipes ou pour vous même ?
+                                Vous êtes une entreprise, un organisme privé ou
+                                public à la recherche d’une conférence, d’un
+                                témoignage d’un mec ULTRAordinaire pour vos
+                                séminaires, vos conférences ?
                             </p>
                         </div>
                         <div>

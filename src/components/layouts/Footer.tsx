@@ -15,7 +15,7 @@ function Footer() {
                     <div>
                         <LinkImage
                             href="https://dcsportdeveloppement.my.canva.site/david-clerget-dcsport/"
-                            src="partenariats/45adcc5a.png"
+                            src="partenariats/2e9911da.jpg"
                         />
                     </div>
                     <div>

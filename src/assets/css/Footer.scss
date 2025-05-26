@@ -7,20 +7,17 @@ footer {
         gap: 2em;
         margin-bottom: 2em;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
 
         div {
-            flex: 50%;
             display: flex;
             justify-content: center;
 
-            a {
-                width: min(100%, 12em);
-
-                img {
-                    display: block;
-                    max-width: 100%;
-                }
+            img {
+                display: block;
+                max-width: min(100%, 12em);
+                max-height: 5em;
+                aspect-ratio: 20 / 9;
             }
         }
     }

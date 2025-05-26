@@ -149,7 +149,7 @@ function About() {
                             src="partenariats/ncjclxomd.avif"
                         />
                         <LinkImage
-                            href="https://sites.google.com/view/dcsport/accueil"
+                            href="https://dcsportdeveloppement.my.canva.site/david-clerget-dcsport/"
                             src="partenariats/2e9911da.jpg"
                         />
                         <LinkImage

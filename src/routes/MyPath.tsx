@@ -189,16 +189,20 @@ function Aventures() {
                         chemin, de pratiquer une activité sportive tout en
                         préservant sa santé, sans se perdre en route. Trouver l’
                         <b>équilibre</b> est un défi permanent, un ajustement
-                        constant entre six ressources essentielles, toutes
+                        constant entre huit ressources essentielles, toutes
                         interdépendantes et en perpétuelle évolution :
                     </p>
 
                     <ul className="list">
-                        <li>Entraînement physique & mental</li>
+                        <li>
+                            Entretien ou amélioration de la condition physique
+                        </li>
+                        <li>Préparation mentale</li>
+                        <li>Sommeil</li>
                         <li>Nutrition & hydratation</li>
-                        <li>Expérience</li>
-                        <li>Famille</li>
-                        <li>Travail</li>
+                        <li>Expériences</li>
+                        <li>Vie de famille</li>
+                        <li>Vie professionnelle</li>
                         <li>Vie sociale</li>
                     </ul>
                 </TextImage>
